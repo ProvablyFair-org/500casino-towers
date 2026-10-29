@@ -1,0 +1,168 @@
+Browser tab: 3, Title: "What is the house edge on 500 Casino? | Welcome to 500 Casino Knowledge Base", URL: "https://web.archive.org/web/20230925094024/https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino".
+1 AXWebArea What is the house edge on 500 Casino? | Welcome to 500 Casino Knowledge Base, URL: web.archive.org/web/20230925094024/https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino
+	2 container
+		3 container
+			4 link Description: Welcome to 500 Casino Knowledge Base, Value: web.archive.org/web/20230925094024/https://help.500.casino/en/
+			5 container
+				6 link Description: Go to 500 Casino, Value: web.archive.org/web/20230925094024/https://500.casino/
+				7 pop up button (collapsed, settable) Value: English, Secondary Actions: Expand
+					8 menu
+						9 (selected) English
+						10 text ;
+				11 image locale-picker-globe
+				12 text English
+				13 image locale-picker-arrow
+			14 container
+				15 text field (settable)
+				16 image
+		17 container
+			18 link Description: All Collections, Value: web.archive.org/web/20230925094024/https://help.500.casino/en/
+			19 image
+			20 link Description: Casino & Classics, Value: web.archive.org/web/20230925094024/https://help.500.casino/en/collections/3318233-casino-classics
+			21 image
+			22 text What is the house edge on 500 Casino? What is the house edge on 500 Casino?
+			23 image NSGDX avatar
+			24 container
+				25 text Written by  NSGDX
+			26 text Updated over a week ago
+			27 text The house edge is a common mathematical advantage that our games have in order to remain profitable in the long run.
+			28 heading Wheel of Fortune, Value: 1, ID: h_19e4928931
+				29 text Wheel of Fortune
+			30 heading Value: 2, ID: h_266785daa9, Every color has an individual house edge. The weighted average house edge for the Wheel of Fortune is ~5.01%.
+				31 text Every color has an individual house edge.
+				32 text The weighted average house edge for the Wheel of Fortune is 
+				33 text ~
+				34 text 5.01%.
+			35 content list
+				36 container
+					37 AXListMarker • 
+					38 text Gray has 26 out of the 54 spots available on the Wheel. Probability is 
+					39 text ~
+					40 text 48.15%. House edge is 
+					41 text ~
+					42 text 3.7%.
+				43 container
+					44 AXListMarker • 
+					45 text Red has 17 out of the 54 spots available on the Wheel. Probability is 
+					46 text ~
+					47 text 31.48%. House edge is 
+					48 text ~
+					49 text 5.5%
+				50 container
+					51 AXListMarker • 
+					52 text Blue has 10 out of the 54 spots available on the Wheel. Probability is 
+					53 text ~
+					54 text 18.51%. House edge is 
+					55 text ~
+					56 text 7.4%
+				57 container
+					58 AXListMarker • 
+					59 text Gold has 1 out of the 54 spots available on the Wheel. Probability is 
+					60 text ~
+					61 text 1.85%. House edge is 
+					62 text ~
+					63 text 7.4%
+			64 heading Roulette, Value: 1, ID: h_828600c4c1
+				65 text Roulette
+			66 container
+				67 text Every color has an individual house edge.
+				68 text The weighted average house edge for Roulette is  ~ 6.66%.
+			69 content list
+				70 container
+					71 AXListMarker • 
+					72 text Black has 7 out of the 15 spots available on the reel. Probability is 
+					73 text ~
+					74 text 46.66%. House edge is 
+					75 text ~
+					76 text 6.66%
+				77 container
+					78 AXListMarker • 
+					79 text Red has 7 out of the 15 spots available on the reel. Probability is 
+					80 text ~
+					81 text 46.66%. House edge is 
+					82 text ~
+					83 text 6.66%
+				84 container
+					85 AXListMarker • 
+					86 text Green has 1 out of the 15 spots available on the reel. Probability is 
+					87 text ~
+					88 text 6.66%. House edge is 
+					89 text ~
+					90 text 6.66%
+			91 heading Duels, Value: 1, ID: h_f28be1e80d
+				92 text Duels
+			93 container
+				94 text Duels don't have a "house edge". Instead,  500 Casino takes a fixed 5% rake for every played duel.
+			95 heading Crash, Value: 1, ID: h_159d19bce7
+				96 text Crash
+			97 text Crash doesn't technically have a "house edge". We pre-generated 10 million Crash rounds and we used a coefficient to statistically determine that 6% of the rounds instantly crash at 1x.
+			98 heading Plinko, Value: 1, ID: h_a9ed74dfce
+				99 text Plinko
+			100 text Every board was manually adjusted so that the house edge over 10 million simulated rounds is roughly equal to 4%, respectively 8% for the extreme mode.
+			101 heading  Dice, Value: 1, ID: h_e5bf99e61f
+				102 text Dice
+			103 text The Dice house edge is just 1%, making it the highest RTP of all the Classic games we're offering.
+			104 heading Towers, Value: 1, ID: h_a5b149a67f
+				105 text Towers
+			106 text The house edge on Towers functions similar to as of Duels' and is set at 5%.
+			107 heading Sportsbook, Value: 1, ID: h_9fdbfdb7e2
+				108 text Sportsbook
+			109 container
+				110 text For Sportsbook, our provider is using a dynamic house edge. For our fixed calculations, we are reporting a  house edge of 3%.
+			111 heading  Casino, Value: 1, ID: h_4fe896060a
+				112 text Casino
+			113 container
+				114 text Casino games rely on a coefficient called "RTP" (Return to Player) which is the statistical average of payouts over billions of rounds.  Every game has a different RTP. They can vary from 92% to 99.65% , depending on provider and other factors. We are displaying the game's RTP in the bottom right corner of the screen if it's available when you play.
+			115 heading  Other important things to consider:, Value: 2, ID: h_05263d0741
+				116 text Other important things to consider:
+			117 container
+				118 text With the calculations above, the average house edge of 500 Casino is around 5% .
+			119 container
+				120 text It's not a big number, but it's not extremely small either.
+				121 text Having a house edge allows us to remain profitable, provide great service to our users and it also allows us to offer certain benefits to players.
+			122 content list
+				123 container
+					124 AXListMarker • 
+					125 text ~
+					126 text 30% of the house edge is returned in affiliate revenue
+				127 container
+					128 AXListMarker • 
+					129 text 5-20% of the house edge is returned in rakebacks
+				130 container
+					131 AXListMarker • 
+					132 text Welcome package bonuses and free spins
+				133 container
+					134 AXListMarker • 
+					135 text VIP-related bonuses
+				136 container
+					137 AXListMarker • 
+					138 text Jackpots
+				139 container
+					140 AXListMarker • 
+					141 text Vouchers and giveaways
+				142 container
+					143 AXListMarker • 
+					144 text Lossbacks and other bonuses
+				145 container
+					146 AXListMarker • 
+					147 text Special events, raffles, scavenger hunts
+				148 container
+					149 AXListMarker • 
+					150 text ... and many more
+			151 text By removing all of these benefits from the equation, it becomes obvious that the house edge of our games is actually much smaller.
+			152 text Did this answer your question?
+			153 checkbox Description: Disappointed Reaction, Value: 0
+				154 text 😞
+			155 checkbox Description: Neutral Reaction, Value: 0
+				156 text 😐
+			157 checkbox Description: Smiley Reaction, Value: 0
+				158 text 😃
+		159 container footer
+			160 link Description: Welcome to 500 Casino Knowledge Base, Value: web.archive.org/web/20230925094024/https://help.500.casino/en/
+			161 content list custom-links
+				162 link Description: 500 Casino Blog, Value: web.archive.org/web/20230925094024/https://blog.500.casino/
+			163 content list social-links
+				164 link web.archive.org/web/20230925094024/https://www.facebook.com/officialcsgo500
+				165 link web.archive.org/web/20230925094024/https://www.twitter.com/csgo500
+
+The focused UI element is 1 AXWebArea What is the house edge on 500 Casino? | Welcome to 500 Casino Knowledge Base, URL: web.archive.org/web/20230925094024/https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino

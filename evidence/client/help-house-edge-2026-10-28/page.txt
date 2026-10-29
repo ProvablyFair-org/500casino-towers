@@ -1,0 +1,176 @@
+Skip to main content
+Back to 500.Casino
+Search for articles...
+All Collections
+Casino & Classics
+What is the house edge on 500 Casino?
+What is the house edge on 500 Casino?
+June 6, 2026
+
+The house edge is a common mathematical advantage that our games have in order to remain profitable in the long run.
+
+ 
+
+Wheel of Fortune
+Every color has an individual house edge.
+The weighted average house edge for the Wheel of Fortune is ~5.01%.
+
+Gray has 26 out of the 54 spots available on the Wheel. Probability is ~48.15%. House edge is ~3.7%.
+
+Red has 17 out of the 54 spots available on the Wheel. Probability is ~31.48%. House edge is ~5.5%
+
+Blue has 10 out of the 54 spots available on the Wheel. Probability is ~18.51%. House edge is ~7.4%
+
+Gold has 1 out of the 54 spots available on the Wheel. Probability is ~1.85%. House edge is ~7.4%
+
+Roulette
+
+Every color has an individual house edge.
+​The weighted average house edge for Roulette is ~6.66%.
+
+Black has 7 out of the 15 spots available on the reel. Probability is ~46.66%. House edge is ~6.66%
+
+Red has 7 out of the 15 spots available on the reel. Probability is ~46.66%. House edge is ~6.66%
+
+Green has 1 out of the 15 spots available on the reel. Probability is ~6.66%. House edge is ~6.66%
+
+Duels
+
+Duels don't have a "house edge". Instead, 500 Casino takes a fixed 5% rake for every played duel.
+
+ 
+
+Crash
+
+Crash doesn't technically have a "house edge". We pre-generated 10 million Crash rounds and we used a coefficient to statistically determine that 6% of the rounds instantly crash at 1x.
+
+ 
+
+Plinko
+
+Every board was manually adjusted so that the house edge over 10 million simulated rounds is roughly equal to 4%, respectively 8% for the extreme mode.
+
+
+Dice
+
+The Dice house edge is just 1%, making it one of the highest RTP of all the Classic games we're offering.
+
+ 
+
+Towers
+
+The house edge on Towers functions similar to as of Duels' and is set at 5%.
+
+ 
+
+Mines
+
+The Mines house edge is just 1%, making it one of the highest RTP of all the Classic games we're offering.
+​
+
+Keno
+
+The house edge of the game is 2%, making the RTP 98%. 
+
+ 
+
+Limbo
+
+The house edge of the game is 2%, making the RTP 98%. 
+​
+
+Baccarat
+
+The house edge of the game is 1%, making the RTP 99%. 
+​
+
+Trader
+
+The house edge of the game is 2%, making the RTP 98%. 
+​
+
+Cross the road
+
+The house edge of the game is 2%, making the RTP 98%. 
+​
+
+Blackjack
+
+The RTP of the game mode is 99.48%. It's currently the highest RTP game mode available under Originals.
+
+ 
+
+Blitz
+
+The house edge of the game is 2%, making the RTP 98%. 
+
+
+​
+
+Sportsbook
+
+For Sportsbook, our provider is using a dynamic house edge. For our fixed calculations, we are reporting a house edge of 3%.
+​
+
+Cases and Case Battles
+
+For Cases and Case Battles, we are using a standard formula that combines all the item chances and items values in a case, then adds a house edge of 10% on top to determine the final price of a case. 
+
+
+Casino
+
+Casino games rely on a coefficient called "RTP" (Return to Player) which is the statistical average of payouts over billions of rounds. Every game has a different RTP. They can vary from 92% to 99.65%, depending on provider and other factors. We are displaying the game's RTP in the bottom right corner of the screen if it's available when you play.
+
+
+
+Other important things to consider:
+
+ 
+
+With the calculations above, the average house edge of 500 Casino is around 5%.
+
+ 
+
+It's not a big number, but it's not extremely small either.
+Having a house edge allows us to remain profitable, provide great service to our users and it also allows us to offer certain benefits to players.
+
+~30% of the house edge is returned in affiliate revenue
+
+5-20% of the house edge is returned in rakebacks
+
+Welcome package bonuses and free spins
+
+VIP-related bonuses
+
+Jackpots
+
+Vouchers and giveaways
+
+Lossbacks and other bonuses
+
+Special events, raffles, scavenger hunts
+
+... and many more
+
+By removing all of these benefits from the equation, it becomes obvious that the house edge of our games is actually much smaller.
+
+Related Articles
+How can I gain XP and level up?
+How does the affiliate/referrals system work?
+What kind of rewards does 500 Casino offer?
+What are the odds of Mines?
+What are the odds of Hilo?
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+Wheel of Fortune
+Every color has an individual house edge.The weighted average house edge for the Wheel of Fortune is ~5.01%.
+Roulette
+Sportsbook
+Cases and Case Battles
+Casino
+Other important things to consider:

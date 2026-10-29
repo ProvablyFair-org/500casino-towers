@@ -1,0 +1,248 @@
+{
+ "description": "Raw JSON of 500 Casino's share-bet endpoint for 27 Towers games of November 2024, as archived by the Wayback Machine on 2026-10-28 and fetched from the archive the same day (logged out, one request per record, paced). Bodies are byte-identical; response headers are stored with requester and cookie lines removed.",
+ "records": [
+  {
+   "game_id": "672de575e61e8c3513e61b1e",
+   "request_url": "https://web.archive.org/web/20261028085530/https://500.casino/api/share-bet/towers/672de575e61e8c3513e61b1e",
+   "requested_at_utc": "2026-10-28T15:22:06.168984Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:55:30 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/672de575e61e8c3513e61b1e",
+   "body_sha256": "98ce3240c1e57d955d213d6c846598ee8df621f9cc17b193079988834a41e761"
+  },
+  {
+   "game_id": "672de68fefd8eba01b2a8ee6",
+   "request_url": "https://web.archive.org/web/20261028085543/https://500.casino/api/share-bet/towers/672de68fefd8eba01b2a8ee6",
+   "requested_at_utc": "2026-10-28T15:22:10.365461Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:55:43 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/672de68fefd8eba01b2a8ee6",
+   "body_sha256": "ef9a9489639b9ace5d97b52bdbf4c3133d523314e5907d33df44a236648992eb"
+  },
+  {
+   "game_id": "672de699bb5bb935191030e6",
+   "request_url": "https://web.archive.org/web/20261028085556/https://500.casino/api/share-bet/towers/672de699bb5bb935191030e6",
+   "requested_at_utc": "2026-10-28T15:22:15.825339Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:55:56 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/672de699bb5bb935191030e6",
+   "body_sha256": "0d23c0c5dc80d431bd8f833a03368f1847a47b630f0c377fdcc9fcc8e62cf385"
+  },
+  {
+   "game_id": "672de6a7e61e8c3513e664bd",
+   "request_url": "https://web.archive.org/web/20261028085609/https://500.casino/api/share-bet/towers/672de6a7e61e8c3513e664bd",
+   "requested_at_utc": "2026-10-28T15:22:19.815533Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:56:09 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/672de6a7e61e8c3513e664bd",
+   "body_sha256": "f3d1ad8791fa0cf665c4cf8741a4c5191dbf104d95653eee861506ef53595e7d"
+  },
+  {
+   "game_id": "672de6b3bb5bb935191037d7",
+   "request_url": "https://web.archive.org/web/20261028085621/https://500.casino/api/share-bet/towers/672de6b3bb5bb935191037d7",
+   "requested_at_utc": "2026-10-28T15:22:23.881141Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:56:21 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/672de6b3bb5bb935191037d7",
+   "body_sha256": "d3fe00022f7875d59c4473feee028e777d3407c607047cf90700b8ae69502688"
+  },
+  {
+   "game_id": "672de6d8594ca27d1d299dbe",
+   "request_url": "https://web.archive.org/web/20261028085640/https://500.casino/api/share-bet/towers/672de6d8594ca27d1d299dbe",
+   "requested_at_utc": "2026-10-28T15:22:27.896138Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:56:40 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/672de6d8594ca27d1d299dbe",
+   "body_sha256": "42cc86704e51c760d31293b424fc20479ed65cfa18c0dceb87adecb366cb03a2"
+  },
+  {
+   "game_id": "67348be34dc1da9e56358a1f",
+   "request_url": "https://web.archive.org/web/20261028094126/https://500.casino/api/share-bet/towers/67348be34dc1da9e56358a1f",
+   "requested_at_utc": "2026-10-28T15:22:33.576829Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:41:26 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67348be34dc1da9e56358a1f",
+   "body_sha256": "7061dd2d3234f4f1eaa6bc3f709e300fed432a0727b7070a2cc8cbeb2304a3f0"
+  },
+  {
+   "game_id": "6734956902f6eaae6c95e6ef",
+   "request_url": "https://web.archive.org/web/20261028085701/https://500.casino/api/share-bet/towers/6734956902f6eaae6c95e6ef",
+   "requested_at_utc": "2026-10-28T15:22:37.696781Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:57:01 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/6734956902f6eaae6c95e6ef",
+   "body_sha256": "11e00798bcc335eeb942634f55c5437dc8705d2546df66da3122ee85ae8da3da"
+  },
+  {
+   "game_id": "673495751f02b99e3730f003",
+   "request_url": "https://web.archive.org/web/20261028085750/https://500.casino/api/share-bet/towers/673495751f02b99e3730f003",
+   "requested_at_utc": "2026-10-28T15:22:41.920028Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:57:50 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/673495751f02b99e3730f003",
+   "body_sha256": "93e5ba421cd07ca38d989cee73ee7371e6f365a6cd465a658cc624c28534b736"
+  },
+  {
+   "game_id": "67349681ae51670360bc804e",
+   "request_url": "https://web.archive.org/web/20261028085801/https://500.casino/api/share-bet/towers/67349681ae51670360bc804e",
+   "requested_at_utc": "2026-10-28T15:22:45.966646Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:58:01 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349681ae51670360bc804e",
+   "body_sha256": "f336cbd789ae7a39332c86c60da66f9a4fd9d71d29f6773b910fef5bc26e37b8"
+  },
+  {
+   "game_id": "673496b537bae6ae49b5aa2a",
+   "request_url": "https://web.archive.org/web/20261028085922/https://500.casino/api/share-bet/towers/673496b537bae6ae49b5aa2a",
+   "requested_at_utc": "2026-10-28T15:22:50.010313Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:59:22 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/673496b537bae6ae49b5aa2a",
+   "body_sha256": "85687284d5ce569ca7ed9013df4f8fbbb3520e8795cda1f88529928cf864beef"
+  },
+  {
+   "game_id": "673497234cb75d9e38324d00",
+   "request_url": "https://web.archive.org/web/20261028085933/https://500.casino/api/share-bet/towers/673497234cb75d9e38324d00",
+   "requested_at_utc": "2026-10-28T15:22:54.043551Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 08:59:33 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/673497234cb75d9e38324d00",
+   "body_sha256": "b5f0b03265379e9157addb0293fff5fa8d2ffd05b5a4f4b13ef7d65b46c28510"
+  },
+  {
+   "game_id": "673497a937bae6ae49b62668",
+   "request_url": "https://web.archive.org/web/20261028090158/https://500.casino/api/share-bet/towers/673497a937bae6ae49b62668",
+   "requested_at_utc": "2026-10-28T15:22:58.130266Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:01:58 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/673497a937bae6ae49b62668",
+   "body_sha256": "27d003b5c5bdfcec7ea7555363d58d6d89c4ab9992dc45e8c7f291b4d34c048f"
+  },
+  {
+   "game_id": "673497cc37bae6ae49b6384f",
+   "request_url": "https://web.archive.org/web/20261028090136/https://500.casino/api/share-bet/towers/673497cc37bae6ae49b6384f",
+   "requested_at_utc": "2026-10-28T15:23:02.077271Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:01:36 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/673497cc37bae6ae49b6384f",
+   "body_sha256": "b776f5d9152fa0182b227beab93bd5e0c3c9f5e213bcd791c42790d3c96c44ee"
+  },
+  {
+   "game_id": "673497f367b44f9e57abae91",
+   "request_url": "https://web.archive.org/web/20261028090149/https://500.casino/api/share-bet/towers/673497f367b44f9e57abae91",
+   "requested_at_utc": "2026-10-28T15:23:07.150547Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:01:49 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/673497f367b44f9e57abae91",
+   "body_sha256": "38ab8abf518037d1a5d128d0f61bbea590cd11b727091e8febef318d596c79ad"
+  },
+  {
+   "game_id": "6734983e37bae6ae49b66262",
+   "request_url": "https://web.archive.org/web/20261028090201/https://500.casino/api/share-bet/towers/6734983e37bae6ae49b66262",
+   "requested_at_utc": "2026-10-28T15:23:12.359866Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:02:01 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/6734983e37bae6ae49b66262",
+   "body_sha256": "1173fbbabe10da2100d1882e137b40257d409d853e96881bcf87e32939f19d6c"
+  },
+  {
+   "game_id": "673498dd37bae6ae49b68c49",
+   "request_url": "https://web.archive.org/web/20261028090214/https://500.casino/api/share-bet/towers/673498dd37bae6ae49b68c49",
+   "requested_at_utc": "2026-10-28T15:23:16.408294Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:02:14 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/673498dd37bae6ae49b68c49",
+   "body_sha256": "5bfdfc8945efdfa55413f403639b3e47d1d9604be9f027faf358aa60f49ab86b"
+  },
+  {
+   "game_id": "67349c334dc1da9e56390bea",
+   "request_url": "https://web.archive.org/web/20261028090227/https://500.casino/api/share-bet/towers/67349c334dc1da9e56390bea",
+   "requested_at_utc": "2026-10-28T15:23:20.432762Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:02:27 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349c334dc1da9e56390bea",
+   "body_sha256": "1b2f5c487cb71e708a3e4c3362840c486ba7e8b4b6f12f08ff2d4bf14657e114"
+  },
+  {
+   "game_id": "67349c754dc1da9e56391646",
+   "request_url": "https://web.archive.org/web/20261028094203/https://500.casino/api/share-bet/towers/67349c754dc1da9e56391646",
+   "requested_at_utc": "2026-10-28T15:23:24.673900Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:42:03 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349c754dc1da9e56391646",
+   "body_sha256": "d3b67204083ff79c35ff6e917db1d2151e19b7572d766ac0a0f722d91b20fa62"
+  },
+  {
+   "game_id": "67349c7ae685f4ae4acd388a",
+   "request_url": "https://web.archive.org/web/20261028094324/https://500.casino/api/share-bet/towers/67349c7ae685f4ae4acd388a",
+   "requested_at_utc": "2026-10-28T15:23:28.857537Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:43:24 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349c7ae685f4ae4acd388a",
+   "body_sha256": "7d851a74d8b26176967791473ebaf61e57be6aaf41ace826f117809b71c43674"
+  },
+  {
+   "game_id": "67349cb337bae6ae49b7aa5f",
+   "request_url": "https://web.archive.org/web/20261028094451/https://500.casino/api/share-bet/towers/67349cb337bae6ae49b7aa5f",
+   "requested_at_utc": "2026-10-28T15:23:33.633441Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:44:51 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349cb337bae6ae49b7aa5f",
+   "body_sha256": "8d7b8a4cf42be28245b84d33d9a08f17985db33763a4c63cc30f05fdf1bf06d7"
+  },
+  {
+   "game_id": "67349cfa4dc1da9e56393a3d",
+   "request_url": "https://web.archive.org/web/20261028090303/https://500.casino/api/share-bet/towers/67349cfa4dc1da9e56393a3d",
+   "requested_at_utc": "2026-10-28T15:23:37.674516Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:03:03 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349cfa4dc1da9e56393a3d",
+   "body_sha256": "c0fe203b11798537894846fdf51c1aed11e71e2cb7b0b64c5de35b2275160c11"
+  },
+  {
+   "game_id": "67349d04e685f4ae4acd5ad6",
+   "request_url": "https://web.archive.org/web/20261028090316/https://500.casino/api/share-bet/towers/67349d04e685f4ae4acd5ad6",
+   "requested_at_utc": "2026-10-28T15:23:41.779958Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:03:16 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349d04e685f4ae4acd5ad6",
+   "body_sha256": "37f081ee745d39ae03609054b21440f7df59aa603d2637d56da02c6e88fff9ed"
+  },
+  {
+   "game_id": "67349d3937bae6ae49b7d5c2",
+   "request_url": "https://web.archive.org/web/20261028090329/https://500.casino/api/share-bet/towers/67349d3937bae6ae49b7d5c2",
+   "requested_at_utc": "2026-10-28T15:23:45.726258Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:03:29 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349d3937bae6ae49b7d5c2",
+   "body_sha256": "c5a0b22542da73aca2311fae90a95c3c01d4979018aa850577d6f0fcb83fad56"
+  },
+  {
+   "game_id": "67349d40e685f4ae4acd6c17",
+   "request_url": "https://web.archive.org/web/20261028094525/https://500.casino/api/share-bet/towers/67349d40e685f4ae4acd6c17",
+   "requested_at_utc": "2026-10-28T15:23:49.797375Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:45:25 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349d40e685f4ae4acd6c17",
+   "body_sha256": "31f3c780b34780c99b37a2be242e6fdc8f02fb2fb3ec35df7776e85d95693676"
+  },
+  {
+   "game_id": "67349d7637bae6ae49b7e564",
+   "request_url": "https://web.archive.org/web/20261028094602/https://500.casino/api/share-bet/towers/67349d7637bae6ae49b7e564",
+   "requested_at_utc": "2026-10-28T15:23:53.862331Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:46:02 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349d7637bae6ae49b7e564",
+   "body_sha256": "19ba746c0e3a72034e709603b063c2148bd472f831c24b549680182b57da8644"
+  },
+  {
+   "game_id": "67349dae67b44f9e57ad1812",
+   "request_url": "https://web.archive.org/web/20261028094757/https://500.casino/api/share-bet/towers/67349dae67b44f9e57ad1812",
+   "requested_at_utc": "2026-10-28T15:23:58.257701Z",
+   "http_status": 200,
+   "memento_datetime": "Wed, 28 Oct 2026 09:47:57 GMT",
+   "original_url": "https://500.casino/api/share-bet/towers/67349dae67b44f9e57ad1812",
+   "body_sha256": "8d0438c7bafeff9d8fd15fc5284a6e56fd9564b7bad79bda7c03056f0464419c"
+  }
+ ]
+}

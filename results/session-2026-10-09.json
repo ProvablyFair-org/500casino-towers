@@ -1,0 +1,1278 @@
+{
+ "scope": "Outcome replay and balance reconciliation for 33 games on one test account. Does not test RNG uniformity and does not establish backend precision.",
+ "commitments": [
+  {
+   "pair": 1,
+   "sha256_of_revealed": "93cfceb2b5f17ff55b527a960984d1d0e74d671b57789bc7e14d5fd28351c522",
+   "committed": "93cfceb2b5f17ff55b527a960984d1d0e74d671b57789bc7e14d5fd28351c522",
+   "match": true,
+   "screenshot_transcriptions_matching": 1
+  },
+  {
+   "pair": 2,
+   "sha256_of_revealed": "9eeda95c8a580536b9442c39af75872c9ec380b065afe850589c24c739da00ad",
+   "committed": "9eeda95c8a580536b9442c39af75872c9ec380b065afe850589c24c739da00ad",
+   "match": true,
+   "screenshot_transcriptions_matching": 1
+  }
+ ],
+ "chain": [
+  {
+   "n": 0,
+   "observed": "6a9ae61b8fb4004f64eae1e0",
+   "computed": "6a9ae61b8fb4004f64eae1e0",
+   "match": true,
+   "source": "log.redacted.txt verify link A1 game_seed="
+  },
+  {
+   "n": 1,
+   "observed": "89bb2e592ed73bafcf543d02ac723e72b52004fb5d60f24fb9f5f654e009a03a",
+   "computed": "89bb2e592ed73bafcf543d02ac723e72b52004fb5d60f24fb9f5f654e009a03a",
+   "match": true,
+   "source": "log.redacted.txt verify link A2 game_seed="
+  },
+  {
+   "n": 2,
+   "observed": "dcf579506c2552c9db4933e90e3466f3f6e01ac92162939a3882bc5fcf11d5f5",
+   "computed": "dcf579506c2552c9db4933e90e3466f3f6e01ac92162939a3882bc5fcf11d5f5",
+   "match": true,
+   "source": "log.redacted.txt verify link A3 game_seed="
+  },
+  {
+   "n": 3,
+   "observed": "4b6d7ecac5a2a895cca6d52df692b9cc4f3ae76d0c5f4e192476289f3afe06f3",
+   "computed": "4b6d7ecac5a2a895cca6d52df692b9cc4f3ae76d0c5f4e192476289f3afe06f3",
+   "match": true,
+   "source": "log.redacted.txt 12:10:48Z (panel 'hashed 3 times'); shots/A04, A05"
+  },
+  {
+   "n": 32,
+   "observed": "e9e2b67ace637ee3c297b2343531b8a8a07384d0c405a85bf91106cd0796cf03",
+   "computed": "e9e2b67ace637ee3c297b2343531b8a8a07384d0c405a85bf91106cd0796cf03",
+   "match": true,
+   "source": "log.redacted.txt verify link A25 game_seed="
+  },
+  {
+   "n": 33,
+   "observed": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3",
+   "computed": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3",
+   "match": true,
+   "source": "log.redacted.txt 13:12:34Z FINAL ROTATE line (panel 'hashed 33 times'); shots/F01, F02 (visual transcription)"
+  },
+  {
+   "n": 0,
+   "observed": "6a9ae61b8fb4004f64eae1e0",
+   "computed": "6a9ae61b8fb4004f64eae1e0",
+   "match": true,
+   "source": "visual transcription: evidence/session-2026-10-09/shots/S03-mines-seedpair-loads-hashed0.png"
+  },
+  {
+   "n": 3,
+   "observed": "4b6d7ecac5a2a895cca6d52df692b9cc4f3ae76d0c5f4e192476289f3afe06f3",
+   "computed": "4b6d7ecac5a2a895cca6d52df692b9cc4f3ae76d0c5f4e192476289f3afe06f3",
+   "match": true,
+   "source": "visual transcription: evidence/session-2026-10-09/shots/A04-seedpair-before-rotate-hashed3.redacted.png"
+  },
+  {
+   "n": 33,
+   "observed": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3",
+   "computed": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3",
+   "match": true,
+   "source": "visual transcription: evidence/session-2026-10-09/shots/F01-seedpair-before-final-rotate-hashed33.redacted.png"
+  },
+  {
+   "n": 33,
+   "observed": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3",
+   "computed": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3",
+   "match": true,
+   "source": "visual transcription: evidence/session-2026-10-09/shots/F02-seedpair-after-final-rotate.redacted.png"
+  }
+ ],
+ "final_chain_value_full": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3",
+ "replay": [
+  {
+   "n": 0,
+   "label": "A1",
+   "difficulty": "easy",
+   "stake": "0.10",
+   "picks": [
+    0
+   ],
+   "logged": "cash@1",
+   "replayed": "cash@1",
+   "match": true,
+   "game_seed": "6a9ae61b8fb4004f64eae1e0",
+   "server_seed_pair": 1
+  },
+  {
+   "n": 1,
+   "label": "A2",
+   "difficulty": "medium",
+   "stake": "0.10",
+   "picks": [
+    0
+   ],
+   "logged": "cash@1",
+   "replayed": "cash@1",
+   "match": true,
+   "game_seed": "89bb2e592ed73bafcf543d02ac723e72b52004fb5d60f24fb9f5f654e009a03a",
+   "server_seed_pair": 1
+  },
+  {
+   "n": 2,
+   "label": "A3",
+   "difficulty": "hard",
+   "stake": "0.10",
+   "picks": [
+    1
+   ],
+   "logged": "cash@1",
+   "replayed": "cash@1",
+   "match": true,
+   "game_seed": "dcf579506c2552c9db4933e90e3466f3f6e01ac92162939a3882bc5fcf11d5f5",
+   "server_seed_pair": 1
+  },
+  {
+   "n": 3,
+   "label": "P1-1",
+   "difficulty": "easy",
+   "stake": "2.00",
+   "picks": [
+    0
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "4b6d7ecac5a2a895cca6d52df692b9cc4f3ae76d0c5f4e192476289f3afe06f3",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 4,
+   "label": "P1-2",
+   "difficulty": "easy",
+   "stake": "2.00",
+   "picks": [
+    0
+   ],
+   "logged": "cash@1",
+   "replayed": "cash@1",
+   "match": true,
+   "game_seed": "fc3b5baa72152cb8ec484259de38a40fc6e8fc0bdf61b5eb35d59c678fb307c0",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 5,
+   "label": "P1-3",
+   "difficulty": "easy",
+   "stake": "2.00",
+   "picks": [
+    2
+   ],
+   "logged": "cash@1",
+   "replayed": "cash@1",
+   "match": true,
+   "game_seed": "61f787edee641459bc1bd92ce76b19290a0ea508ba0a6d89c78ddb9792a5ce7f",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 6,
+   "label": "P1-4",
+   "difficulty": "easy",
+   "stake": "2.00",
+   "picks": [
+    0
+   ],
+   "logged": "cash@1",
+   "replayed": "cash@1",
+   "match": true,
+   "game_seed": "6bc5b067666aa1a2a6cc592cf53f8e41e638d5e9da6f8ac645dc4b4be90c0a9e",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 7,
+   "label": "P2-1",
+   "difficulty": "easy",
+   "stake": "1.50",
+   "picks": [
+    1,
+    2
+   ],
+   "logged": "cash@2",
+   "replayed": "cash@2",
+   "match": true,
+   "game_seed": "483b1a410229c344f369920552793d24706207a2dd2407dba0aacc2e632cc6f1",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 8,
+   "label": "P2-2",
+   "difficulty": "easy",
+   "stake": "1.50",
+   "picks": [
+    0
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "8e68489ccbb1b989ac58d125b31ccce1e1765136b9a6965a8bea274c1db9c4d2",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 9,
+   "label": "P2-3",
+   "difficulty": "easy",
+   "stake": "1.50",
+   "picks": [
+    0,
+    2
+   ],
+   "logged": "cash@2",
+   "replayed": "cash@2",
+   "match": true,
+   "game_seed": "e54aa6511ecc8831515e5abe3b5d1242fae865298444d79ed8b78588856dc59e",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 10,
+   "label": "P2-4",
+   "difficulty": "easy",
+   "stake": "1.50",
+   "picks": [
+    0,
+    1
+   ],
+   "logged": "cash@2",
+   "replayed": "cash@2",
+   "match": true,
+   "game_seed": "8cffd40318356b537dfd401f0a3cd2749ded189bf8579cd8422befd2b66cb3e2",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 11,
+   "label": "A4",
+   "difficulty": "easy",
+   "stake": "0.33",
+   "picks": [
+    2,
+    1,
+    0
+   ],
+   "logged": "bomb@3",
+   "replayed": "bomb@3",
+   "match": true,
+   "game_seed": "4bdc85a679eb403cd4d606d74579cb29254dc44be2571c87636a38eb9ed3a00a",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 12,
+   "label": "A5",
+   "difficulty": "easy",
+   "stake": "0.11",
+   "picks": [
+    2
+   ],
+   "logged": "cash@1",
+   "replayed": "cash@1",
+   "match": true,
+   "game_seed": "bd38271550e03ab2f27ab25e76a81fe267a576a3d95424f974e238e6b4a6e921",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 13,
+   "label": "A6",
+   "difficulty": "easy",
+   "stake": "0.33",
+   "picks": [
+    1,
+    1,
+    1
+   ],
+   "logged": "cash@3",
+   "replayed": "cash@3",
+   "match": true,
+   "game_seed": "e2884addebe2f7f0e2ea6e669f5d367b3f79648201fcea453eccef371559574a",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 14,
+   "label": "A7",
+   "difficulty": "easy",
+   "stake": "0.11",
+   "picks": [
+    0
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "2fca2eed30963e3de2773f159cd009fdd95815b993d704da665e1d2c2bc71649",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 15,
+   "label": "A8",
+   "difficulty": "hard",
+   "stake": "0.11",
+   "picks": [
+    1
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "62f3944f63f08058ca260fbba70158b04c07f0ca25f0dea44abc26c38853b0a6",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 16,
+   "label": "A9",
+   "difficulty": "medium",
+   "stake": "0.10",
+   "picks": [
+    1
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "62f1c668bd2d0d1f56612ab8dac0a561aa5da1115c43f44faed6ff0c29cb4869",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 17,
+   "label": "A10",
+   "difficulty": "easy",
+   "stake": "0.10",
+   "picks": [
+    2,
+    0,
+    1,
+    1
+   ],
+   "logged": "bomb@4",
+   "replayed": "bomb@4",
+   "match": true,
+   "game_seed": "c2658367be52c737026b0174c2a770eec7fadfc64aae4a9463fb7d8a140daa0e",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 18,
+   "label": "A11",
+   "difficulty": "medium",
+   "stake": "0.11",
+   "picks": [
+    0,
+    1,
+    0
+   ],
+   "logged": "bomb@3",
+   "replayed": "bomb@3",
+   "match": true,
+   "game_seed": "026ff43418ab5e968c53bb8b6f34b6d5550b2c616f6a7860095ea861ba13542a",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 19,
+   "label": "A12",
+   "difficulty": "medium",
+   "stake": "0.10",
+   "picks": [
+    0
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "985783be3259491fe92c9c20f8bc7dc7cf0172d0447e6d99299185c8c47a5c0b",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 20,
+   "label": "A13",
+   "difficulty": "hard",
+   "stake": "0.50",
+   "picks": [
+    0
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "b85655dbf868b5338752a5b0e9d89c842aed6649881f4e1e18fcaf32dec0a9e6",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 21,
+   "label": "A14",
+   "difficulty": "easy",
+   "stake": "0.11",
+   "picks": [
+    1
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "3897e7f205d3225727e9ceddfa0099e328b12c233ae5adc3a26450e32db9d4ef",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 22,
+   "label": "A15",
+   "difficulty": "easy",
+   "stake": "0.10",
+   "picks": [
+    2,
+    1
+   ],
+   "logged": "bomb@2",
+   "replayed": "bomb@2",
+   "match": true,
+   "game_seed": "df5012b072bc77526e7434c1b0a72cc60c36ab11a02b6ef6adac74fde1291b04",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 23,
+   "label": "A16",
+   "difficulty": "medium",
+   "stake": "0.11",
+   "picks": [
+    0,
+    0,
+    1
+   ],
+   "logged": "bomb@3",
+   "replayed": "bomb@3",
+   "match": true,
+   "game_seed": "4d0140d9ea763294db67e670d87f73ebe8ec2cd2cb8a33e689d673a4db1f5af3",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 24,
+   "label": "A17",
+   "difficulty": "hard",
+   "stake": "0.11",
+   "picks": [
+    1
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "4de9e440b4b1f3d2fac08aaf33cfb3dff8847ef286cf00064838a21abd29988a",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 25,
+   "label": "A18",
+   "difficulty": "easy",
+   "stake": "0.10",
+   "picks": [
+    1
+   ],
+   "logged": "cash@1",
+   "replayed": "cash@1",
+   "match": true,
+   "game_seed": "2b6f8365f23ec56fb9e3159c58868a9fd0fcb0df6cc722f9b02ec1badb8ff4e0",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 26,
+   "label": "A19",
+   "difficulty": "medium",
+   "stake": "0.10",
+   "picks": [
+    0
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "eee6e14c0bfe47f62adb9ecd68bcb1cde2d3b24812e2b996ec9a1ccda7e0082c",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 27,
+   "label": "A20",
+   "difficulty": "easy",
+   "stake": "0.10",
+   "picks": [
+    1,
+    0,
+    2
+   ],
+   "logged": "cash@3",
+   "replayed": "cash@3",
+   "match": true,
+   "game_seed": "8b66801510261f03d44b3f71f1443afe0d1e47869c2802b6390729a2a7569313",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 28,
+   "label": "A21",
+   "difficulty": "medium",
+   "stake": "0.33",
+   "picks": [
+    0
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "7c5c0d8191681c99e97436a1a27ff7b5e31969a91171e86984246da21e4ecfcd",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 29,
+   "label": "A22",
+   "difficulty": "hard",
+   "stake": "0.11",
+   "picks": [
+    1,
+    2
+   ],
+   "logged": "bomb@2",
+   "replayed": "bomb@2",
+   "match": true,
+   "game_seed": "b4dcdf688892c40184311bc072403ba247a09a30bfc6f4ded3e58c2d3b2c3792",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 30,
+   "label": "A23",
+   "difficulty": "easy",
+   "stake": "0.11",
+   "picks": [
+    1,
+    2
+   ],
+   "logged": "bomb@2",
+   "replayed": "bomb@2",
+   "match": true,
+   "game_seed": "90775a6c0c6470e07538904260c9dad6a1bd6ec74aede2e3c6bfe39b6b5dbcfb",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 31,
+   "label": "A24",
+   "difficulty": "easy",
+   "stake": "0.50",
+   "picks": [
+    2,
+    0
+   ],
+   "logged": "bomb@2",
+   "replayed": "bomb@2",
+   "match": true,
+   "game_seed": "0f38ccaf6223dae4c82491d3223dbf9279cd54e950a394c093e861b9d5080aa3",
+   "server_seed_pair": 2
+  },
+  {
+   "n": 32,
+   "label": "A25",
+   "difficulty": "medium",
+   "stake": "0.11",
+   "picks": [
+    1
+   ],
+   "logged": "bomb@1",
+   "replayed": "bomb@1",
+   "match": true,
+   "game_seed": "e9e2b67ace637ee3c297b2343531b8a8a07384d0c405a85bf91106cd0796cf03",
+   "server_seed_pair": 2
+  }
+ ],
+ "counts": {
+  "games": 33,
+  "games_matching": 33,
+  "tiles_replayed": 53,
+  "cash_outs": 13,
+  "bombs": 20,
+  "staked": "18.09",
+  "commitments_matching": 2
+ },
+ "screenshot_layouts": [
+  {
+   "n": 0,
+   "row": 1,
+   "screenshot_bombs": [
+    2
+   ],
+   "replayed_bombs": [
+    2
+   ],
+   "match": true,
+   "source": "shots/A01-bet1-details-top.png"
+  },
+  {
+   "n": 0,
+   "row": 2,
+   "screenshot_bombs": [
+    2
+   ],
+   "replayed_bombs": [
+    2
+   ],
+   "match": true,
+   "source": "shots/A01-bet1-details-top.png"
+  },
+  {
+   "n": 0,
+   "row": 3,
+   "screenshot_bombs": [
+    0
+   ],
+   "replayed_bombs": [
+    0
+   ],
+   "match": true,
+   "source": "shots/A01-bet1-details-top.png"
+  },
+  {
+   "n": 0,
+   "row": 4,
+   "screenshot_bombs": [
+    1
+   ],
+   "replayed_bombs": [
+    1
+   ],
+   "match": true,
+   "source": "shots/A01-bet1-details-top.png"
+  },
+  {
+   "n": 0,
+   "row": 5,
+   "screenshot_bombs": [
+    1
+   ],
+   "replayed_bombs": [
+    1
+   ],
+   "match": true,
+   "source": "shots/A01-bet1-details-top.png"
+  },
+  {
+   "n": 1,
+   "row": 1,
+   "screenshot_bombs": [
+    1
+   ],
+   "replayed_bombs": [
+    1
+   ],
+   "match": true,
+   "source": "shots/A02-bet2-medium-cashed-1.89x-badge.jpg (rows 5-6 hidden by the payout popup)"
+  },
+  {
+   "n": 1,
+   "row": 2,
+   "screenshot_bombs": [
+    0
+   ],
+   "replayed_bombs": [
+    0
+   ],
+   "match": true,
+   "source": "shots/A02-bet2-medium-cashed-1.89x-badge.jpg (rows 5-6 hidden by the payout popup)"
+  },
+  {
+   "n": 1,
+   "row": 3,
+   "screenshot_bombs": [
+    1
+   ],
+   "replayed_bombs": [
+    1
+   ],
+   "match": true,
+   "source": "shots/A02-bet2-medium-cashed-1.89x-badge.jpg (rows 5-6 hidden by the payout popup)"
+  },
+  {
+   "n": 1,
+   "row": 4,
+   "screenshot_bombs": [
+    1
+   ],
+   "replayed_bombs": [
+    1
+   ],
+   "match": true,
+   "source": "shots/A02-bet2-medium-cashed-1.89x-badge.jpg (rows 5-6 hidden by the payout popup)"
+  },
+  {
+   "n": 1,
+   "row": 7,
+   "screenshot_bombs": [
+    1
+   ],
+   "replayed_bombs": [
+    1
+   ],
+   "match": true,
+   "source": "shots/A02-bet2-medium-cashed-1.89x-badge.jpg (rows 5-6 hidden by the payout popup)"
+  },
+  {
+   "n": 1,
+   "row": 8,
+   "screenshot_bombs": [
+    1
+   ],
+   "replayed_bombs": [
+    1
+   ],
+   "match": true,
+   "source": "shots/A02-bet2-medium-cashed-1.89x-badge.jpg (rows 5-6 hidden by the payout popup)"
+  },
+  {
+   "n": 1,
+   "row": 9,
+   "screenshot_bombs": [
+    0
+   ],
+   "replayed_bombs": [
+    0
+   ],
+   "match": true,
+   "source": "shots/A02-bet2-medium-cashed-1.89x-badge.jpg (rows 5-6 hidden by the payout popup)"
+  },
+  {
+   "n": 1,
+   "row": 10,
+   "screenshot_bombs": [
+    0
+   ],
+   "replayed_bombs": [
+    0
+   ],
+   "match": true,
+   "source": "shots/A02-bet2-medium-cashed-1.89x-badge.jpg (rows 5-6 hidden by the payout popup)"
+  },
+  {
+   "n": 2,
+   "row": 1,
+   "screenshot_bombs": [
+    0,
+    2
+   ],
+   "replayed_bombs": [
+    0,
+    2
+   ],
+   "match": true,
+   "source": "shots/A03-bet3-details.jpg"
+  },
+  {
+   "n": 2,
+   "row": 2,
+   "screenshot_bombs": [
+    0,
+    1
+   ],
+   "replayed_bombs": [
+    0,
+    1
+   ],
+   "match": true,
+   "source": "shots/A03-bet3-details.jpg"
+  },
+  {
+   "n": 2,
+   "row": 3,
+   "screenshot_bombs": [
+    0,
+    1
+   ],
+   "replayed_bombs": [
+    0,
+    1
+   ],
+   "match": true,
+   "source": "shots/A03-bet3-details.jpg"
+  },
+  {
+   "n": 2,
+   "row": 4,
+   "screenshot_bombs": [
+    1,
+    2
+   ],
+   "replayed_bombs": [
+    1,
+    2
+   ],
+   "match": true,
+   "source": "shots/A03-bet3-details.jpg"
+  },
+  {
+   "n": 2,
+   "row": 5,
+   "screenshot_bombs": [
+    1,
+    2
+   ],
+   "replayed_bombs": [
+    1,
+    2
+   ],
+   "match": true,
+   "source": "shots/A03-bet3-details.jpg"
+  }
+ ],
+ "reconciliation": {
+  "H-3dp": {
+   "credits_total": "19.84574",
+   "final_balance_exact": "102.23574",
+   "final_balance_shown": "102.23",
+   "selected_readings_matched": 10,
+   "per_game": [
+    {
+     "after_game": 0,
+     "credit": "0.1425",
+     "balance_exact": "100.5225",
+     "balance_shown_floor_cent": "100.52",
+     "reading": "100.52",
+     "match": true
+    },
+    {
+     "after_game": 1,
+     "credit": "0.19",
+     "balance_exact": "100.6125",
+     "balance_shown_floor_cent": "100.61",
+     "reading": "100.61",
+     "match": true
+    },
+    {
+     "after_game": 2,
+     "credit": "0.285",
+     "balance_exact": "100.7975",
+     "balance_shown_floor_cent": "100.79",
+     "reading": "100.79",
+     "match": true
+    },
+    {
+     "after_game": 3,
+     "credit": "0",
+     "balance_exact": "98.7975",
+     "balance_shown_floor_cent": "98.79"
+    },
+    {
+     "after_game": 4,
+     "credit": "2.85",
+     "balance_exact": "99.6475",
+     "balance_shown_floor_cent": "99.64",
+     "reading": "99.64",
+     "match": true
+    },
+    {
+     "after_game": 5,
+     "credit": "2.85",
+     "balance_exact": "100.4975",
+     "balance_shown_floor_cent": "100.49",
+     "reading": "100.49",
+     "match": true
+    },
+    {
+     "after_game": 6,
+     "credit": "2.85",
+     "balance_exact": "101.3475",
+     "balance_shown_floor_cent": "101.34",
+     "reading": "101.34",
+     "match": true
+    },
+    {
+     "after_game": 7,
+     "credit": "3.045",
+     "balance_exact": "102.8925",
+     "balance_shown_floor_cent": "102.89",
+     "reading": "102.89",
+     "match": true
+    },
+    {
+     "after_game": 8,
+     "credit": "0",
+     "balance_exact": "101.3925",
+     "balance_shown_floor_cent": "101.39"
+    },
+    {
+     "after_game": 9,
+     "credit": "3.045",
+     "balance_exact": "102.9375",
+     "balance_shown_floor_cent": "102.93",
+     "reading": "102.93",
+     "match": true
+    },
+    {
+     "after_game": 10,
+     "credit": "3.045",
+     "balance_exact": "104.4825",
+     "balance_shown_floor_cent": "104.48",
+     "reading": "104.48",
+     "match": true
+    },
+    {
+     "after_game": 11,
+     "credit": "0",
+     "balance_exact": "104.1525",
+     "balance_shown_floor_cent": "104.15"
+    },
+    {
+     "after_game": 12,
+     "credit": "0.15675",
+     "balance_exact": "104.19925",
+     "balance_shown_floor_cent": "104.19"
+    },
+    {
+     "after_game": 13,
+     "credit": "0.95469",
+     "balance_exact": "104.82394",
+     "balance_shown_floor_cent": "104.82"
+    },
+    {
+     "after_game": 14,
+     "credit": "0",
+     "balance_exact": "104.71394",
+     "balance_shown_floor_cent": "104.71"
+    },
+    {
+     "after_game": 15,
+     "credit": "0",
+     "balance_exact": "104.60394",
+     "balance_shown_floor_cent": "104.60"
+    },
+    {
+     "after_game": 16,
+     "credit": "0",
+     "balance_exact": "104.50394",
+     "balance_shown_floor_cent": "104.50"
+    },
+    {
+     "after_game": 17,
+     "credit": "0",
+     "balance_exact": "104.40394",
+     "balance_shown_floor_cent": "104.40"
+    },
+    {
+     "after_game": 18,
+     "credit": "0",
+     "balance_exact": "104.29394",
+     "balance_shown_floor_cent": "104.29"
+    },
+    {
+     "after_game": 19,
+     "credit": "0",
+     "balance_exact": "104.19394",
+     "balance_shown_floor_cent": "104.19"
+    },
+    {
+     "after_game": 20,
+     "credit": "0",
+     "balance_exact": "103.69394",
+     "balance_shown_floor_cent": "103.69"
+    },
+    {
+     "after_game": 21,
+     "credit": "0",
+     "balance_exact": "103.58394",
+     "balance_shown_floor_cent": "103.58"
+    },
+    {
+     "after_game": 22,
+     "credit": "0",
+     "balance_exact": "103.48394",
+     "balance_shown_floor_cent": "103.48"
+    },
+    {
+     "after_game": 23,
+     "credit": "0",
+     "balance_exact": "103.37394",
+     "balance_shown_floor_cent": "103.37"
+    },
+    {
+     "after_game": 24,
+     "credit": "0",
+     "balance_exact": "103.26394",
+     "balance_shown_floor_cent": "103.26"
+    },
+    {
+     "after_game": 25,
+     "credit": "0.1425",
+     "balance_exact": "103.30644",
+     "balance_shown_floor_cent": "103.30"
+    },
+    {
+     "after_game": 26,
+     "credit": "0",
+     "balance_exact": "103.20644",
+     "balance_shown_floor_cent": "103.20"
+    },
+    {
+     "after_game": 27,
+     "credit": "0.2893",
+     "balance_exact": "103.39574",
+     "balance_shown_floor_cent": "103.39"
+    },
+    {
+     "after_game": 28,
+     "credit": "0",
+     "balance_exact": "103.06574",
+     "balance_shown_floor_cent": "103.06"
+    },
+    {
+     "after_game": 29,
+     "credit": "0",
+     "balance_exact": "102.95574",
+     "balance_shown_floor_cent": "102.95"
+    },
+    {
+     "after_game": 30,
+     "credit": "0",
+     "balance_exact": "102.84574",
+     "balance_shown_floor_cent": "102.84"
+    },
+    {
+     "after_game": 31,
+     "credit": "0",
+     "balance_exact": "102.34574",
+     "balance_shown_floor_cent": "102.34"
+    },
+    {
+     "after_game": 32,
+     "credit": "0",
+     "balance_exact": "102.23574",
+     "balance_shown_floor_cent": "102.23",
+     "reading": "102.23",
+     "match": true
+    }
+   ]
+  },
+  "H-full": {
+   "credits_total": "19.84882796875",
+   "final_balance_exact": "102.23882796875",
+   "final_balance_shown": "102.23",
+   "selected_readings_matched": 10,
+   "per_game": [
+    {
+     "after_game": 0,
+     "credit": "0.1425",
+     "balance_exact": "100.5225",
+     "balance_shown_floor_cent": "100.52",
+     "reading": "100.52",
+     "match": true
+    },
+    {
+     "after_game": 1,
+     "credit": "0.19",
+     "balance_exact": "100.6125",
+     "balance_shown_floor_cent": "100.61",
+     "reading": "100.61",
+     "match": true
+    },
+    {
+     "after_game": 2,
+     "credit": "0.285",
+     "balance_exact": "100.7975",
+     "balance_shown_floor_cent": "100.79",
+     "reading": "100.79",
+     "match": true
+    },
+    {
+     "after_game": 3,
+     "credit": "0",
+     "balance_exact": "98.7975",
+     "balance_shown_floor_cent": "98.79"
+    },
+    {
+     "after_game": 4,
+     "credit": "2.85",
+     "balance_exact": "99.6475",
+     "balance_shown_floor_cent": "99.64",
+     "reading": "99.64",
+     "match": true
+    },
+    {
+     "after_game": 5,
+     "credit": "2.85",
+     "balance_exact": "100.4975",
+     "balance_shown_floor_cent": "100.49",
+     "reading": "100.49",
+     "match": true
+    },
+    {
+     "after_game": 6,
+     "credit": "2.85",
+     "balance_exact": "101.3475",
+     "balance_shown_floor_cent": "101.34",
+     "reading": "101.34",
+     "match": true
+    },
+    {
+     "after_game": 7,
+     "credit": "3.0459375",
+     "balance_exact": "102.8934375",
+     "balance_shown_floor_cent": "102.89",
+     "reading": "102.89",
+     "match": true
+    },
+    {
+     "after_game": 8,
+     "credit": "0",
+     "balance_exact": "101.3934375",
+     "balance_shown_floor_cent": "101.39"
+    },
+    {
+     "after_game": 9,
+     "credit": "3.0459375",
+     "balance_exact": "102.939375",
+     "balance_shown_floor_cent": "102.93",
+     "reading": "102.93",
+     "match": true
+    },
+    {
+     "after_game": 10,
+     "credit": "3.0459375",
+     "balance_exact": "104.4853125",
+     "balance_shown_floor_cent": "104.48",
+     "reading": "104.48",
+     "match": true
+    },
+    {
+     "after_game": 11,
+     "credit": "0",
+     "balance_exact": "104.1553125",
+     "balance_shown_floor_cent": "104.15"
+    },
+    {
+     "after_game": 12,
+     "credit": "0.15675",
+     "balance_exact": "104.2020625",
+     "balance_shown_floor_cent": "104.20"
+    },
+    {
+     "after_game": 13,
+     "credit": "0.95490140625",
+     "balance_exact": "104.82696390625",
+     "balance_shown_floor_cent": "104.82"
+    },
+    {
+     "after_game": 14,
+     "credit": "0",
+     "balance_exact": "104.71696390625",
+     "balance_shown_floor_cent": "104.71"
+    },
+    {
+     "after_game": 15,
+     "credit": "0",
+     "balance_exact": "104.60696390625",
+     "balance_shown_floor_cent": "104.60"
+    },
+    {
+     "after_game": 16,
+     "credit": "0",
+     "balance_exact": "104.50696390625",
+     "balance_shown_floor_cent": "104.50"
+    },
+    {
+     "after_game": 17,
+     "credit": "0",
+     "balance_exact": "104.40696390625",
+     "balance_shown_floor_cent": "104.40"
+    },
+    {
+     "after_game": 18,
+     "credit": "0",
+     "balance_exact": "104.29696390625",
+     "balance_shown_floor_cent": "104.29"
+    },
+    {
+     "after_game": 19,
+     "credit": "0",
+     "balance_exact": "104.19696390625",
+     "balance_shown_floor_cent": "104.19"
+    },
+    {
+     "after_game": 20,
+     "credit": "0",
+     "balance_exact": "103.69696390625",
+     "balance_shown_floor_cent": "103.69"
+    },
+    {
+     "after_game": 21,
+     "credit": "0",
+     "balance_exact": "103.58696390625",
+     "balance_shown_floor_cent": "103.58"
+    },
+    {
+     "after_game": 22,
+     "credit": "0",
+     "balance_exact": "103.48696390625",
+     "balance_shown_floor_cent": "103.48"
+    },
+    {
+     "after_game": 23,
+     "credit": "0",
+     "balance_exact": "103.37696390625",
+     "balance_shown_floor_cent": "103.37"
+    },
+    {
+     "after_game": 24,
+     "credit": "0",
+     "balance_exact": "103.26696390625",
+     "balance_shown_floor_cent": "103.26"
+    },
+    {
+     "after_game": 25,
+     "credit": "0.1425",
+     "balance_exact": "103.30946390625",
+     "balance_shown_floor_cent": "103.30"
+    },
+    {
+     "after_game": 26,
+     "credit": "0",
+     "balance_exact": "103.20946390625",
+     "balance_shown_floor_cent": "103.20"
+    },
+    {
+     "after_game": 27,
+     "credit": "0.2893640625",
+     "balance_exact": "103.39882796875",
+     "balance_shown_floor_cent": "103.39"
+    },
+    {
+     "after_game": 28,
+     "credit": "0",
+     "balance_exact": "103.06882796875",
+     "balance_shown_floor_cent": "103.06"
+    },
+    {
+     "after_game": 29,
+     "credit": "0",
+     "balance_exact": "102.95882796875",
+     "balance_shown_floor_cent": "102.95"
+    },
+    {
+     "after_game": 30,
+     "credit": "0",
+     "balance_exact": "102.84882796875",
+     "balance_shown_floor_cent": "102.84"
+    },
+    {
+     "after_game": 31,
+     "credit": "0",
+     "balance_exact": "102.34882796875",
+     "balance_shown_floor_cent": "102.34"
+    },
+    {
+     "after_game": 32,
+     "credit": "0",
+     "balance_exact": "102.23882796875",
+     "balance_shown_floor_cent": "102.23",
+     "reading": "102.23",
+     "match": true
+    }
+   ]
+  }
+ },
+ "excluded_reading": {
+  "approx_after_game": 16,
+  "displayed": "104.57",
+  "source": "log.redacted.txt '~12:24Z ... Balance last seen 104.57' (written after bet9 = game 16)",
+  "reason": "read while the balance display was still animating, per the note added to log.txt after the session; not used for reconciliation. analysis/session_verify.py reports the displayed value at every game boundary so the exclusion can be checked.",
+  "any_boundary_shows_it": {
+   "H-3dp": [],
+   "H-full": []
+  }
+ },
+ "failures": []
+}

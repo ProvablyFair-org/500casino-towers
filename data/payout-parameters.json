@@ -1,0 +1,70 @@
+{
+ "description": "Payout parameters used by analysis/. Towers values come from the captured client code (evidence/client/) and the historical help pages (evidence/help-history/). Comparator values are the stated edge and per-row odds; see CLAIMS.md C05 for which of them have a retained source.",
+ "towers": {
+  "house_edge": "0.05",
+  "rows": 10,
+  "difficulties": {
+   "easy": {
+    "choices": 3,
+    "bombs": 1,
+    "client_step_number": "1.425"
+   },
+   "medium": {
+    "choices": 2,
+    "bombs": 1,
+    "client_step_number": "1.9"
+   },
+   "hard": {
+    "choices": 3,
+    "bombs": 2,
+    "client_step_number": "2.85"
+   }
+  },
+  "client_step_note": "client_step_number is the JavaScript Number returned by new BigNumber(choices/(choices-bombs)).times(1-houseEdge).toNumber() in roundMultiplier (evidence/client/towers-chunk-2026-10-07/1828.89aa27f6.js, byte 33117). BigNumber multiplies in decimal, so the results are the doubles nearest 1.425, 1.9 and 2.85, not the binary product (3/2)*(1-0.05)."
+ },
+ "limits": {
+  "description": "Published caps and rounded maximum Medium stakes (evidence/help-history/, evidence/client/limits-article-2026-10-07/).",
+  "checkpoints": [
+   {
+    "snapshot": "2023-09-25",
+    "cap_usd": "100000",
+    "max_medium_stake_displayed": "163.10",
+    "source": "evidence/help-history/2023-09-25-limits.txt"
+   },
+   {
+    "snapshot": "2024-04-19",
+    "cap_usd": "200000",
+    "max_medium_stake_displayed": "326.20",
+    "source": "evidence/help-history/2024-04-19-limits.txt"
+   },
+   {
+    "snapshot": "2024-12-08",
+    "cap_usd": "200000",
+    "max_medium_stake_displayed": "326.20",
+    "source": "evidence/help-history/2024-12-08-limits.txt"
+   },
+   {
+    "snapshot": "captured 2026-10-07 (page displays May 21, 2024)",
+    "cap_usd": "200000",
+    "max_medium_stake_displayed": "326.20",
+    "source": "evidence/client/limits-article-2026-10-07/page.txt"
+   }
+  ]
+ },
+ "comparators": {
+  "stake_dragon_tower_master": {
+   "house_edge": "0.02",
+   "choices": 4,
+   "safe": 1,
+   "rows": 9,
+   "status": "guide and game page state 2% edge / 98% RTP; guide states Master first 3.92x and top 256,901.12x; game-event rules (captured 2026-10-28) state 9 game events and Master = 1 egg in 4 tiles; rows 2-8 are calculated (not published per row in the retained pages)"
+  },
+  "shuffle_tower_hard": {
+   "house_edge": "0.02",
+   "choices": 2,
+   "safe": 1,
+   "rows": 9,
+   "status": "official chart (captured 2026-10-28) lists all nine Hard (1/2) values, stated as truncated to 2 dp; game-event rules state 9 rows and Hard = 1 key in 2 columns; the chart values equal the calculation"
+  }
+ }
+}

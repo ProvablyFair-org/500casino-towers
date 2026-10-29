@@ -1,0 +1,158 @@
+{
+ "description": "Independent regression expectations. Literal values written by hand from the technical specification and its reference acceptance targets (28 October 2026), NOT produced by the analysis scripts. analysis/run_all.py compares generated results against these literals.",
+ "client_label_3dp": {
+  "easy": [
+   "1.425",
+   "2.030",
+   "2.893",
+   "4.123",
+   "5.875",
+   "8.373",
+   "11.931",
+   "17.002",
+   "24.228",
+   "34.526"
+  ],
+  "medium": [
+   "1.900",
+   "3.610",
+   "6.858",
+   "13.032",
+   "24.760",
+   "47.045",
+   "89.387",
+   "169.835",
+   "322.687",
+   "613.106"
+  ],
+  "hard": [
+   "2.850",
+   "8.122",
+   "23.149",
+   "65.975",
+   "188.028",
+   "535.881",
+   "1527.263",
+   "4352.701",
+   "12405.199",
+   "35354.817"
+  ]
+ },
+ "client_tile_label_2dp_critical": {
+  "easy/2": "2.02",
+  "medium/3": "6.85"
+ },
+ "nominal_edge_percent": {
+  "row5": "22.62190625",
+  "row10": "40.126306076162109375"
+ },
+ "nominal_edge_percent_display": {
+  "row5": "22.62",
+  "row10": "40.13"
+ },
+ "medium_row5_captured_ladder_edge_percent": "22.625",
+ "medium_row5_captured_ladder_edge_percent_display": "22.63",
+ "medium_100": {
+  "row4_full_gross": "1303.21",
+  "row4_fixed5_gross": "1520.00",
+  "row4_difference": "216.79"
+ },
+ "session": {
+  "games": 33,
+  "tiles": 53,
+  "cash_outs": 13,
+  "bombs": 20,
+  "staked": "18.09",
+  "commitments": 2,
+  "final_chain_value": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3",
+  "game32_value": "e9e2b67ace637ee3c297b2343531b8a8a07384d0c405a85bf91106cd0796cf03",
+  "H-3dp": {
+   "credits": "19.84574",
+   "final": "102.23574",
+   "shown": "102.23",
+   "readings_matched": 10
+  },
+  "H-full": {
+   "credits": "19.84882796875",
+   "final": "102.23882796875",
+   "shown": "102.23",
+   "readings_matched": 10
+  }
+ },
+ "historical": {
+  "games": 27,
+  "rows": 270,
+  "rows_replayed": 270,
+  "payout_full": 270,
+  "payout_trunc3": 41,
+  "payout_trunc4": 105,
+  "payout_trunc5": 255,
+  "payout_trunc6": 269,
+  "payout_client_label3": 40,
+  "cashouts": 27,
+  "cashout_full": 27,
+  "cashout_client_label3": 2,
+  "seeds_on_chain": 27,
+  "chain_min": 958,
+  "chain_max": 1923,
+  "stake_units_match_display": 27,
+  "win_units_match_display": 27,
+  "example_673498dd37bae6ae49b68c49": {
+   "payout_units": 338302,
+   "displayed": "203.06",
+   "three_dp": "203.00",
+   "fixed5": "213.75"
+  }
+ },
+ "feed": {
+  "entries": 416,
+  "winners": 330,
+  "zero_payout": 86,
+  "unique_matches": 330,
+  "unmatched": 0,
+  "ambiguous": 0,
+  "equals_floor_of_prediction": 330,
+  "unrounded_equal": 6,
+  "unrounded_below": 324,
+  "unrounded_above": 0,
+  "distinct_all_games": 236603,
+  "trunc3": 202,
+  "trunc4": 309,
+  "trunc5": 321,
+  "trunc6": 330,
+  "client_label3": 199
+ },
+ "stake_master": [
+  "3.92",
+  "15.68",
+  "62.72",
+  "250.88",
+  "1003.52",
+  "4014.08",
+  "16056.32",
+  "64225.28",
+  "256901.12"
+ ],
+ "shuffle_hard": [
+  "1.96",
+  "3.92",
+  "7.84",
+  "15.68",
+  "31.36",
+  "62.72",
+  "125.44",
+  "250.88",
+  "501.76"
+ ],
+ "shuffle_hard_official_chart": [
+  "1.96",
+  "3.92",
+  "7.84",
+  "15.68",
+  "31.36",
+  "62.72",
+  "125.44",
+  "250.88",
+  "501.76"
+ ]
+}

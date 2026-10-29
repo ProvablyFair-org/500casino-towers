@@ -1,0 +1,18 @@
+{
+ "requested_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino",
+ "final_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino",
+ "title": "What is the house edge on 500 Casino? | Welcome to the 500 Casino Help Center!",
+ "acquired_at_utc": "2026-10-28T12:48:13.071Z",
+ "page_language": null,
+ "logged_in": false,
+ "acquisition": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+ "locale_note": null,
+ "text_sha256": "1321d70be904fc81e2e4a626f58ab8907a6d6a249a80c4e1da13e2633cf3deb7",
+ "html_sha256_withheld": "ec2b9cbf7aba12d340b69a869c837180a1ae984f13bd0b093721d16d0a518fc0",
+ "html_withheld_reason": "page HTML withheld; only its sha256 is published. It contains markup injected by an extension of the capturing browser.",
+ "screenshot_sha256": {
+  "screenshot.jpg": "cfbaddcac94b4f88627ad8a39b6e1e983d4f7257dc2e041fce7adedd32c7a7a2"
+ },
+ "original_capture_metadata_sha256": "7e8c5d31556a96832a73e4e886fb04d92a46d69cbd8a0137e90058d1d9f965ee",
+ "not_receipts": "command-line fetches of these URLs made the same day returned Cloudflare challenge pages for 500 Casino and Stake; they are not used"
+}

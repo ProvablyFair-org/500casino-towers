@@ -1,0 +1,49 @@
+HTTP 200
+Server: nginx
+Date: Wed, 28 Oct 2026 15:23:09 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: close
+x-archive-orig-date: Wed, 28 Oct 2026 09:01:49 GMT
+x-archive-orig-transfer-encoding: chunked
+x-archive-orig-connection: keep-alive
+x-archive-orig-server: cloudflare
+x-archive-orig-vary: Origin
+x-archive-orig-access-control-allow-credentials: true
+x-archive-orig-cross-origin-opener-policy: same-origin-allow-popups
+x-archive-orig-cross-origin-resource-policy: cross-origin
+x-archive-orig-origin-agent-cluster: ?1
+x-archive-orig-referrer-policy: no-referrer
+x-archive-orig-strict-transport-security: max-age=31536000; includeSubDomains
+x-archive-orig-x-content-type-options: nosniff
+x-archive-orig-x-dns-prefetch-control: off
+x-archive-orig-x-download-options: noopen
+x-archive-orig-x-frame-options: SAMEORIGIN
+x-archive-orig-x-permitted-cross-domain-policies: none
+x-archive-orig-x-xss-protection: 0
+x-archive-orig-access-control-expose-headers: X-R-LastSolve, X-R-Cooldown
+x-archive-orig-etag: W/"465-yriHjtB1r/c4nYZHnD6zXOE5AnQ"
+x-archive-orig-cf-cache-status: DYNAMIC
+x-archive-orig-nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+x-archive-orig-report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=UATeRY3chB%2BDwaIM3FW15xVfdLRLwQz6sCY7bWWl2mpms2SWvFMy3M9Acp1KgYdmMtZSfg%2BkC9ufC123Tnskvelhack%2F49GCbpvfdalg6xNuCk71hUeyr8tDB1c%3D"}]}
+x-archive-orig-cf-ray: a518c20ddd417396-SJC
+x-archive-guessed-content-type: application/json
+x-archive-guessed-charset: utf-8
+x-archive-orig-content-encoding: gzip
+memento-datetime: Wed, 28 Oct 2026 09:01:49 GMT
+link: <https://500.casino/api/share-bet/towers/673497f367b44f9e57abae91>; rel="original", <https://web.archive.org/web/timemap/link/https://500.casino/api/share-bet/towers/673497f367b44f9e57abae91>; rel="timemap"; type="application/link-format", <https://web.archive.org/web/https://500.casino/api/share-bet/towers/673497f367b44f9e57abae91>; rel="timegate"
+content-security-policy: default-src 'self' 'unsafe-eval' 'unsafe-inline' data: blob: archive.org web.archive.org web-static.archive.org wayback-api.archive.org athena.archive.org analytics.archive.org pragma.archivelab.org wwwb-events.archive.org
+x-archive-src: spn2-20261028051003-wwwb-spn08.us.archive.org-8001.warc.gz
+server-timing: captures_list;dur=0.613440, exclusion.robots;dur=0.055124, exclusion.robots.policy;dur=0.041495, esindex;dur=0.009158, cdx.remote;dur=6.763534, LoadShardBlock;dur=189.575619, PetaboxLoader3.datanode;dur=156.801601, PetaboxLoader3.resolve;dur=86.883612, load_resource;dur=165.556754
+x-app-server: wwwb-app204-dc6
+x-ts: 200
+x-tr: 381
+server-timing: TR;dur=0,Tw;dur=0,Tc;dur=1
+X-location: All
+X-RL: 0
+X-NA: 0
+X-Page-Cache: MISS
+Server-Timing: MISS
+Referrer-Policy: no-referrer-when-downgrade
+Permissions-Policy: interest-cohort=()
+X-sd: 0

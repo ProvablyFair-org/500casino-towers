@@ -1,0 +1,407 @@
+{
+ "description": "Machine-readable link between every numerical value stated in CLAIMS.md / README.md and the generated result that supports it. analysis/run_all.py resolves each 'result' path in a fresh output directory, requires it to equal 'value', and requires 'value' to appear verbatim in each listed document.",
+ "values": [
+  {
+   "claim": "C02",
+   "what": "row-10 nominal edge, exact percent",
+   "result": "payout-math.json:ideal_return_curve.9.nominal_edge_percent_exact",
+   "value": "40.126306076162109375",
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C02",
+   "what": "row-10 nominal edge, displayed",
+   "result": "payout-math.json:ideal_return_curve.9.nominal_edge_percent_2dp_half_up",
+   "value": "40.13",
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C02",
+   "what": "Medium row-10 captured-ladder edge, exact percent",
+   "result": "payout-math.json:ladders.19.captured_ladder_edge_percent_exact",
+   "value": "40.1263671875",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C02",
+   "what": "Medium row-3 client 3-dp label (JavaScript)",
+   "result": "client-ladders.json:rows.12.client_label_3dp",
+   "value": "6.858",
+   "docs": [
+    "CLAIMS.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C02",
+   "what": "Medium row-3 full multiplier",
+   "result": "payout-math.json:ladders.12.layer1_full_multiplier_exact",
+   "value": "6.859",
+   "docs": [
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C02",
+   "what": "Easy row-2 client 2-dp tile label (JavaScript)",
+   "result": "client-ladders.json:rows.1.client_tile_label_2dp",
+   "value": "2.02",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C02",
+   "what": "Medium row-5 captured-ladder edge, exact percent",
+   "result": "payout-math.json:ladders.14.captured_ladder_edge_percent_exact",
+   "value": "22.625",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C02",
+   "what": "Medium row-5 captured-ladder edge, 2 dp half-up",
+   "result": "payout-math.json:ladders.14.captured_ladder_edge_percent_2dp_half_up",
+   "value": "22.63",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C02",
+   "what": "row-5 nominal edge, exact percent",
+   "result": "payout-math.json:ideal_return_curve.4.nominal_edge_percent_exact",
+   "value": "22.62190625",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C02",
+   "what": "row-5 nominal edge, 2 dp",
+   "result": "payout-math.json:ideal_return_curve.4.nominal_edge_percent_2dp_half_up",
+   "value": "22.62",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C03",
+   "what": "games replayed and matching",
+   "result": "session-2026-10-09.json:counts.games_matching",
+   "value": 33,
+   "docs": []
+  },
+  {
+   "claim": "C03",
+   "what": "tiles replayed",
+   "result": "session-2026-10-09.json:counts.tiles_replayed",
+   "value": 53,
+   "docs": []
+  },
+  {
+   "claim": "C03",
+   "what": "cash-outs",
+   "result": "session-2026-10-09.json:counts.cash_outs",
+   "value": 13,
+   "docs": []
+  },
+  {
+   "claim": "C03",
+   "what": "staked",
+   "result": "session-2026-10-09.json:counts.staked",
+   "value": "18.09",
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C03",
+   "what": "H-3dp gross credits",
+   "result": "session-2026-10-09.json:reconciliation.H-3dp.credits_total",
+   "value": "19.84574",
+   "docs": [
+    "CLAIMS.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C03",
+   "what": "H-3dp final balance",
+   "result": "session-2026-10-09.json:reconciliation.H-3dp.final_balance_exact",
+   "value": "102.23574",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C03",
+   "what": "H-full gross credits",
+   "result": "session-2026-10-09.json:reconciliation.H-full.credits_total",
+   "value": "19.84882796875",
+   "docs": [
+    "CLAIMS.md",
+    "README.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C03",
+   "what": "H-full final balance",
+   "result": "session-2026-10-09.json:reconciliation.H-full.final_balance_exact",
+   "value": "102.23882796875",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C03",
+   "what": "final 64-character game-seed chain value",
+   "result": "session-2026-10-09.json:final_chain_value_full",
+   "value": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C03.F",
+   "what": "feed Towers entries",
+   "result": "feed-towers.json:counts.entries",
+   "value": 416,
+   "docs": []
+  },
+  {
+   "claim": "C03.F",
+   "what": "feed winners uniquely matched",
+   "result": "feed-towers.json:counts.unique_matches",
+   "value": 330,
+   "docs": []
+  },
+  {
+   "claim": "C05",
+   "what": "Stake Master row 9 (calculated)",
+   "result": "payout-math.json:comparators.stake_dragon_tower_master.rows.8.calculated_multiplier",
+   "value": "256901.12",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C05",
+   "what": "Shuffle Hard row 9 (calculated)",
+   "result": "payout-math.json:comparators.shuffle_tower_hard.rows.8.calculated_multiplier",
+   "value": "501.76",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C06",
+   "what": "$100 Medium row 4 full-formula gross",
+   "result": "payout-math.json:medium_100_examples.3.gross_payout_full_formula_cents_half_up",
+   "value": "1303.21",
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C06",
+   "what": "$100 Medium row 4 fixed-5% gross",
+   "result": "payout-math.json:medium_100_examples.3.gross_payout_fixed5_benchmark",
+   "value": "1520.00",
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C06",
+   "what": "$100 Medium row 4 difference",
+   "result": "payout-math.json:medium_100_examples.3.successful_cashout_difference_gross",
+   "value": "216.79",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C05",
+   "what": "Shuffle official chart, Hard row 9 (captured text)",
+   "result": "payout-math.json:comparators.shuffle_tower_hard.official_chart_hard_column.8",
+   "value": "501.76",
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C05",
+   "what": "Shuffle official chart equals 0.98 x 2^n",
+   "result": "payout-math.json:comparators.shuffle_tower_hard.official_chart_equals_calculation_truncated_2dp",
+   "value": true,
+   "docs": []
+  },
+  {
+   "claim": "C04",
+   "what": "Nov 2024 row payout values equal to floor(stake x full multiplier)",
+   "result": "historical-2024.json:counts.payout_full",
+   "value": 270,
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "Nov 2024 rows replayed from revealed seeds",
+   "result": "historical-2024.json:counts.rows_replayed",
+   "value": 270,
+   "docs": []
+  },
+  {
+   "claim": "C04",
+   "what": "Nov 2024 row payout values reproduced by the exact multiplier truncated to 3 decimals",
+   "result": "historical-2024.json:precision_test.truncated_3dp",
+   "value": 41,
+   "docs": [
+    "CLAIMS.md",
+    "README.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "Nov 2024 row payout values reproduced by the exact multiplier truncated to 6 decimals",
+   "result": "historical-2024.json:precision_test.truncated_6dp",
+   "value": 269,
+   "docs": [
+    "CLAIMS.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "Nov 2024 row payout values reproduced by the client's JavaScript 3-decimal labels",
+   "result": "historical-2024.json:precision_test.client_js_label_3dp",
+   "value": 40,
+   "docs": [
+    "CLAIMS.md",
+    "README.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "Nov 2024 paid cash-outs equal to floor(stake x full multiplier)",
+   "result": "historical-2024.json:precision_test.paid_cash_outs.full_multiplier",
+   "value": 27,
+   "docs": [
+    "CLAIMS.md",
+    "README.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "Nov 2024 paid cash-outs reproduced by the client's JavaScript 3-decimal labels",
+   "result": "historical-2024.json:precision_test.paid_cash_outs.client_js_label_3dp",
+   "value": 2,
+   "docs": [
+    "CLAIMS.md",
+    "README.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "chain position, first game",
+   "result": "historical-2024.json:chain.min_position",
+   "value": 958,
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "chain position, last game",
+   "result": "historical-2024.json:chain.max_position",
+   "value": 1923,
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "example server payout (units)",
+   "result": "historical-2024.json:precision_example.payout_units",
+   "value": 338302,
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "example displayed win",
+   "result": "historical-2024.json:precision_example.displayed_usd",
+   "value": "203.06",
+   "docs": [
+    "CLAIMS.md",
+    "README.md"
+   ]
+  },
+  {
+   "claim": "C04",
+   "what": "example fixed-5% benchmark",
+   "result": "historical-2024.json:precision_example.fixed5_usd",
+   "value": "213.75",
+   "docs": [
+    "CLAIMS.md"
+   ]
+  },
+  {
+   "claim": "C03.F",
+   "what": "feed winners reproduced by the exact multiplier truncated to 3 decimals",
+   "result": "feed-towers.json:precision_test.truncated_3dp",
+   "value": 202,
+   "docs": [
+    "CLAIMS.md",
+    "README.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C03.F",
+   "what": "feed winners reproduced by the client's JavaScript 3-decimal labels",
+   "result": "feed-towers.json:precision_test.client_js_label_3dp",
+   "value": 199,
+   "docs": [
+    "CLAIMS.md",
+    "README.md",
+    "METHODOLOGY.md"
+   ]
+  },
+  {
+   "claim": "C03.F",
+   "what": "feed winners reproduced by the full multiplier",
+   "result": "feed-towers.json:precision_test.full_multiplier",
+   "value": 330,
+   "docs": [
+    "CLAIMS.md",
+    "README.md",
+    "METHODOLOGY.md"
+   ]
+  }
+ ]
+}

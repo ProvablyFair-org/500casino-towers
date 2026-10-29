@@ -1,0 +1,19 @@
+{
+ "requested_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart",
+ "final_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart",
+ "title": "Tower (Shuffle Original) Multiplier Chart | Shuffle Help Center",
+ "acquired_at_utc": "2026-10-28T12:48:38.789Z",
+ "page_language": null,
+ "logged_in": false,
+ "acquisition": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+ "locale_note": null,
+ "text_sha256": "d75df5f046faed0ba3675e7b5f42989d2e90434738e6a3426aac0aa730153818",
+ "html_sha256_withheld": "dc746b79f394a14f2ec8c6cd7dd62e7d811dc701a4e9211e3f970503befef864",
+ "html_withheld_reason": "page HTML withheld; only its sha256 is published. It contains markup injected by an extension of the capturing browser; Cloudflare per-request parameters (ray id and timestamp).",
+ "screenshot_sha256": {
+  "screenshot-table.jpg": "e2a830645da7b43df6818cc66c986c3666aaf2558a355118d121c9230467a386",
+  "screenshot.jpg": "42bd33b8c6843a5fa5b53fbcd47506bcc880d173983312b8c2d4920c6981ccca"
+ },
+ "original_capture_metadata_sha256": "3f5d00f202907842f1fb2f64b932ae6a27b7eade3ed470444a595bd03ab371e5",
+ "not_receipts": "command-line fetches of these URLs made the same day returned Cloudflare challenge pages for 500 Casino and Stake; they are not used"
+}

@@ -1,0 +1,194 @@
+[
+ {
+  "url": "https://500.casino/static/js/chunk-vendors.7f6abaa4.js",
+  "status": 200,
+  "file": "chunk-vendors.7f6abaa4.js",
+  "bytes": 1266557
+ },
+ {
+  "url": "https://500.casino/static/js/app.3088e4a4.js",
+  "status": 200,
+  "file": "app.3088e4a4.js",
+  "bytes": 2254733
+ },
+ {
+  "url": "https://500.casino/static/js/37179.9d65be83.js",
+  "status": 200,
+  "file": "37179.9d65be83.js",
+  "bytes": 5914
+ },
+ {
+  "url": "https://500.casino/static/js/73150.1c13deb0.js",
+  "status": 200,
+  "file": "73150.1c13deb0.js",
+  "bytes": 3822
+ },
+ {
+  "url": "https://500.casino/static/js/51830.87d4522d.js",
+  "status": 200,
+  "file": "51830.87d4522d.js",
+  "bytes": 2555
+ },
+ {
+  "url": "https://500.casino/static/js/29737.c3981025.js",
+  "status": 200,
+  "file": "29737.c3981025.js",
+  "bytes": 31125
+ },
+ {
+  "url": "https://500.casino/static/js/593.5b09f1e9.js",
+  "status": 200,
+  "file": "593.5b09f1e9.js",
+  "bytes": 3709
+ },
+ {
+  "url": "https://500.casino/static/js/35624.52266378.js",
+  "status": 200,
+  "file": "35624.52266378.js",
+  "bytes": 1654
+ },
+ {
+  "url": "https://500.casino/static/js/72893.313b2295.js",
+  "status": 200,
+  "file": "72893.313b2295.js",
+  "bytes": 6050
+ },
+ {
+  "url": "https://33ce67c9-53e8-4854-acf6-18c7794439a3.seals-xcm.certria.com/xcm-seal.js",
+  "status": 200,
+  "file": "xcm-seal.js",
+  "bytes": 3015
+ },
+ {
+  "url": "https://500.casino/static/js/86466.54f20ef6.js",
+  "status": 200,
+  "file": "86466.54f20ef6.js",
+  "bytes": 1957
+ },
+ {
+  "url": "https://recaptcha.net/recaptcha/api.js?render=explicit",
+  "status": 200,
+  "file": "api.js",
+  "bytes": 1863
+ },
+ {
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-R6VFD2WZE3&l=dataLayer",
+  "status": 200,
+  "file": "js",
+  "bytes": 507230
+ },
+ {
+  "url": "https://500.casino/static/js/16015.c079750d.js",
+  "status": 200,
+  "file": "16015.c079750d.js",
+  "bytes": 15504
+ },
+ {
+  "url": "https://cdn.dfsdk.com/js/v6/agent.umd.js",
+  "status": 200,
+  "file": "agent.umd.js",
+  "bytes": 323087
+ },
+ {
+  "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__pt_br.js",
+  "status": 200,
+  "file": "recaptcha__pt_br.js",
+  "bytes": 852248
+ },
+ {
+  "url": "https://www.clarity.ms/tag/oydpsv8nip?ref=npm",
+  "status": 200,
+  "file": "oydpsv8nip",
+  "bytes": 589
+ },
+ {
+  "url": "https://500.casino/static/js/80052.a794a002.js",
+  "status": 200,
+  "file": "80052.a794a002.js",
+  "bytes": 10483
+ },
+ {
+  "url": "https://widget.intercom.io/widget/n3rorevq",
+  "status": 200,
+  "file": "n3rorevq",
+  "bytes": 4235
+ },
+ {
+  "url": "https://500.casino/static/js/45013.5579b457.js",
+  "status": 200,
+  "file": "45013.5579b457.js",
+  "bytes": 16523
+ },
+ {
+  "url": "https://500.casino/static/js/20378.ea421801.js",
+  "status": 200,
+  "file": "20378.ea421801.js",
+  "bytes": 54799
+ },
+ {
+  "url": "https://500.casino/static/js/28322.f2ab9bdc.js",
+  "status": 200,
+  "file": "28322.f2ab9bdc.js",
+  "bytes": 27242
+ },
+ {
+  "url": "https://scripts.clarity.ms/0.8.70/clarity.js",
+  "status": 200,
+  "file": "clarity.js",
+  "bytes": 75095
+ },
+ {
+  "url": "https://js.intercomcdn.com/vendor-modern.dd7bebc7.js",
+  "status": 200,
+  "file": "vendor-modern.dd7bebc7.js",
+  "bytes": 358104
+ },
+ {
+  "url": "https://js.intercomcdn.com/frame-modern.592819c3.js",
+  "status": 200,
+  "file": "frame-modern.592819c3.js",
+  "bytes": 873989
+ },
+ {
+  "url": "https://500.casino/static/js/towers.af02258b.js",
+  "status": 200,
+  "file": "towers.af02258b.js",
+  "bytes": 13880
+ },
+ {
+  "url": "https://500.casino/static/js/1828.89aa27f6.js",
+  "status": 200,
+  "file": "1828.89aa27f6.js",
+  "bytes": 50730
+ },
+ {
+  "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__pt_br.js",
+  "status": 200,
+  "file": "recaptcha__pt_br.js",
+  "bytes": 852248
+ },
+ {
+  "url": "https://recaptcha.net/recaptcha/api2/webworker.js?hl=pt-BR&v=guXhH0v-XMxlzmbTwqkaT4i5",
+  "status": 200,
+  "file": "webworker.js",
+  "bytes": 105
+ },
+ {
+  "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__pt_br.js",
+  "status": 200,
+  "file": "recaptcha__pt_br.js",
+  "bytes": 852248
+ },
+ {
+  "url": "https://500.casino/static/js/34668.96842b58.js",
+  "status": 200,
+  "file": "34668.96842b58.js",
+  "bytes": 21944
+ },
+ {
+  "url": "https://500.casino/static/js/spine.c0afc95f.js",
+  "status": 200,
+  "file": "spine.c0afc95f.js",
+  "bytes": 275651
+ }
+]

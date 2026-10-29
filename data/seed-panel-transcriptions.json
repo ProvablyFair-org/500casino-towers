@@ -1,0 +1,11 @@
+{
+ "description": "Full 64-character values read visually from the operator's seed-panel screenshots during the 2026-10-28 release build, by zooming each image. They are an observation channel separate from log.txt and from the hash chain: none of them was computed. Limitation: the transcriber had already read the corresponding log.txt values, so this is a re-reading of the image, not a blind one. The images are in the repository; anyone can re-read them.",
+ "transcriptions": [
+  {"field": "game seed, 'your 500 ID hashed 0 times'", "chain_n": 0, "value": "6a9ae61b8fb4004f64eae1e0", "image": "evidence/session-2026-10-09/shots/S03-mines-seedpair-loads-hashed0.png"},
+  {"field": "active server seed (hashed) before first bet", "commitment_pair": 1, "value": "93cfceb2b5f17ff55b527a960984d1d0e74d671b57789bc7e14d5fd28351c522", "image": "evidence/session-2026-10-09/shots/S03-mines-seedpair-loads-hashed0.png"},
+  {"field": "next server seed (hashed) before first bet", "commitment_pair": 2, "value": "9eeda95c8a580536b9442c39af75872c9ec380b065afe850589c24c739da00ad", "image": "evidence/session-2026-10-09/shots/S03-mines-seedpair-loads-hashed0.png"},
+  {"field": "next game seed, 'hashed 3 times'", "chain_n": 3, "value": "4b6d7ecac5a2a895cca6d52df692b9cc4f3ae76d0c5f4e192476289f3afe06f3", "image": "evidence/session-2026-10-09/shots/A04-seedpair-before-rotate-hashed3.redacted.png"},
+  {"field": "next game seed, 'hashed 33 times' (before final rotation)", "chain_n": 33, "value": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3", "image": "evidence/session-2026-10-09/shots/F01-seedpair-before-final-rotate-hashed33.redacted.png"},
+  {"field": "next game seed, 'hashed 33 times' (after final rotation)", "chain_n": 33, "value": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3", "image": "evidence/session-2026-10-09/shots/F02-seedpair-after-final-rotate.redacted.png"}
+ ]
+}

@@ -1,0 +1,2949 @@
+{
+ "scope": "27 Towers games from one account, dated 8 and 13 November 2024 by the operator's own records, as served by the operator's share-bet endpoint, archived by the Wayback Machine and retrieved on 2026-10-28. Selected winning games shared by the account holder; not a sample of play.",
+ "account": {
+  "id": "66d8a460c92633f73b8f9dd7",
+  "public_name": "user-8f9dd7",
+  "note": "published with the account holder's consent"
+ },
+ "counts": {
+  "rows": 270,
+  "rows_replayed": 270,
+  "rows_played": 82,
+  "played_rows_safe": 82,
+  "payout_full": 270,
+  "payout_trunc3": 41,
+  "payout_trunc4": 105,
+  "payout_trunc5": 255,
+  "payout_trunc6": 269,
+  "payout_trunc7": 270,
+  "payout_trunc8": 270,
+  "payout_client_label3": 40,
+  "payout_below_fixed5": 263,
+  "payout_above_fixed5": 0,
+  "cashouts": 27,
+  "cashout_full": 27,
+  "cashout_trunc3": 2,
+  "cashout_trunc4": 6,
+  "cashout_trunc5": 26,
+  "cashout_trunc6": 27,
+  "cashout_trunc7": 27,
+  "cashout_trunc8": 27,
+  "cashout_client_label3": 2,
+  "rows2plus": 243,
+  "rows2plus_below_fixed5": 243,
+  "winworth_equals_cashout_row": 27,
+  "on_chain": 27,
+  "display_records": 27,
+  "stake_units_match_display": 27,
+  "win_units_match_display": 27,
+  "display_offset_hours_+4": 27
+ },
+ "precision_test": {
+  "records": 27,
+  "row_payout_values": 270,
+  "full_multiplier": 270,
+  "truncated_3dp": 41,
+  "truncated_4dp": 105,
+  "truncated_5dp": 255,
+  "truncated_6dp": 269,
+  "truncated_7dp": 270,
+  "truncated_8dp": 270,
+  "client_js_label_3dp": 40,
+  "paid_cash_outs": {
+   "count": 27,
+   "full_multiplier": 27,
+   "truncated_3dp": 2,
+   "truncated_4dp": 6,
+   "truncated_5dp": 26,
+   "truncated_6dp": 27,
+   "truncated_7dp": 27,
+   "truncated_8dp": 27,
+   "client_js_label_3dp": 2
+  },
+  "note": "truncated_kdp = the exact compounded multiplier truncated to k decimals before multiplying; client_js_label_3dp = the label the captured client computes in JavaScript. Truncation at 7 or 8 decimals reproduces the same values as the full multiplier at these stakes, so the exact internal precision is not uniquely established; the 3-decimal ladder is ruled out."
+ },
+ "chain": {
+  "seeds_on_chain": 27,
+  "min_position": 958,
+  "max_position": 1923,
+  "positions_increase_with_date": true,
+  "distinct_server_seeds": 2,
+  "distinct_client_seeds": 2
+ },
+ "difficulties": {
+  "medium": 1,
+  "easy": 26
+ },
+ "balances": {
+  "usdt": 26,
+  "bux": 1
+ },
+ "dates_utc": {
+  "2024-11-08": 6,
+  "2024-11-13": 21
+ },
+ "client_labels_3dp_used": {
+  "easy": [
+   "1.425",
+   "2.030",
+   "2.893",
+   "4.123",
+   "5.875",
+   "8.373",
+   "11.931",
+   "17.002",
+   "24.228",
+   "34.526"
+  ],
+  "medium": [
+   "1.900",
+   "3.610",
+   "6.858",
+   "13.032",
+   "24.760",
+   "47.045",
+   "89.387",
+   "169.835",
+   "322.687",
+   "613.106"
+  ],
+  "hard": [
+   "2.850",
+   "8.122",
+   "23.149",
+   "65.975",
+   "188.028",
+   "535.881",
+   "1527.263",
+   "4352.701",
+   "12405.199",
+   "35354.817"
+  ]
+ },
+ "games": [
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "date_utc": "2024-11-08T10:18:29.637Z",
+   "balance": "usdt",
+   "difficulty": "medium",
+   "stake_units": 3332,
+   "cash_out_row": 2,
+   "win_units": 12028,
+   "stake_usd_at_1666": "2.00",
+   "win_usd_at_1666": "7.22",
+   "chain_position": 958,
+   "server_seed": "183979cd303969fb23e45ebb03220bd1fdd0018789d58bd5d2c1a5f9a0b8b2de",
+   "client_seed": "69EGtz4E8d"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "date_utc": "2024-11-08T10:23:11.200Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 8330,
+   "cash_out_row": 3,
+   "win_units": 24104,
+   "stake_usd_at_1666": "5.00",
+   "win_usd_at_1666": "14.47",
+   "chain_position": 1017,
+   "server_seed": "183979cd303969fb23e45ebb03220bd1fdd0018789d58bd5d2c1a5f9a0b8b2de",
+   "client_seed": "69EGtz4E8d"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "date_utc": "2024-11-08T10:23:21.718Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 8330,
+   "cash_out_row": 3,
+   "win_units": 24104,
+   "stake_usd_at_1666": "5.00",
+   "win_usd_at_1666": "14.47",
+   "chain_position": 1019,
+   "server_seed": "183979cd303969fb23e45ebb03220bd1fdd0018789d58bd5d2c1a5f9a0b8b2de",
+   "client_seed": "69EGtz4E8d"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "date_utc": "2024-11-08T10:23:35.446Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 8330,
+   "cash_out_row": 5,
+   "win_units": 48946,
+   "stake_usd_at_1666": "5.00",
+   "win_usd_at_1666": "29.38",
+   "chain_position": 1023,
+   "server_seed": "183979cd303969fb23e45ebb03220bd1fdd0018789d58bd5d2c1a5f9a0b8b2de",
+   "client_seed": "69EGtz4E8d"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "date_utc": "2024-11-08T10:23:47.672Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 8330,
+   "cash_out_row": 5,
+   "win_units": 48946,
+   "stake_usd_at_1666": "5.00",
+   "win_usd_at_1666": "29.38",
+   "chain_position": 1025,
+   "server_seed": "183979cd303969fb23e45ebb03220bd1fdd0018789d58bd5d2c1a5f9a0b8b2de",
+   "client_seed": "69EGtz4E8d"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "date_utc": "2024-11-08T10:24:24.828Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 8330,
+   "cash_out_row": 4,
+   "win_units": 34348,
+   "stake_usd_at_1666": "5.00",
+   "win_usd_at_1666": "20.62",
+   "chain_position": 1031,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "date_utc": "2024-11-13T11:22:11.840Z",
+   "balance": "bux",
+   "difficulty": "easy",
+   "stake_units": 200,
+   "cash_out_row": 4,
+   "win_units": 824,
+   "stake_usd_at_1666": "0.12",
+   "win_usd_at_1666": "0.49",
+   "chain_position": 1240,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "date_utc": "2024-11-13T12:02:49.721Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 3332,
+   "cash_out_row": 3,
+   "win_units": 9641,
+   "stake_usd_at_1666": "2.00",
+   "win_usd_at_1666": "5.79",
+   "chain_position": 1245,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "date_utc": "2024-11-13T12:03:01.682Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 3332,
+   "cash_out_row": 4,
+   "win_units": 13739,
+   "stake_usd_at_1666": "2.00",
+   "win_usd_at_1666": "8.25",
+   "chain_position": 1247,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "date_utc": "2024-11-13T12:07:29.788Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 2516,
+   "cash_out_row": 3,
+   "win_units": 7280,
+   "stake_usd_at_1666": "1.51",
+   "win_usd_at_1666": "4.37",
+   "chain_position": 1410,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "date_utc": "2024-11-13T12:08:21.213Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 4998,
+   "cash_out_row": 3,
+   "win_units": 14462,
+   "stake_usd_at_1666": "3.00",
+   "win_usd_at_1666": "8.68",
+   "chain_position": 1437,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "date_utc": "2024-11-13T12:10:11.468Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 8330,
+   "cash_out_row": 3,
+   "win_units": 24104,
+   "stake_usd_at_1666": "5.00",
+   "win_usd_at_1666": "14.47",
+   "chain_position": 1476,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "date_utc": "2024-11-13T12:12:25.423Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 16660,
+   "cash_out_row": 4,
+   "win_units": 68696,
+   "stake_usd_at_1666": "10.00",
+   "win_usd_at_1666": "41.23",
+   "chain_position": 1532,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "date_utc": "2024-11-13T12:13:00.288Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 16660,
+   "cash_out_row": 3,
+   "win_units": 48208,
+   "stake_usd_at_1666": "10.00",
+   "win_usd_at_1666": "28.94",
+   "chain_position": 1534,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "date_utc": "2024-11-13T12:13:39.981Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 33320,
+   "cash_out_row": 3,
+   "win_units": 96416,
+   "stake_usd_at_1666": "20.00",
+   "win_usd_at_1666": "57.87",
+   "chain_position": 1542,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "date_utc": "2024-11-13T12:14:54.155Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 33320,
+   "cash_out_row": 3,
+   "win_units": 96416,
+   "stake_usd_at_1666": "20.00",
+   "win_usd_at_1666": "57.87",
+   "chain_position": 1603,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "date_utc": "2024-11-13T12:17:33.989Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 166600,
+   "cash_out_row": 2,
+   "win_units": 338302,
+   "stake_usd_at_1666": "100.00",
+   "win_usd_at_1666": "203.06",
+   "chain_position": 1665,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "date_utc": "2024-11-13T12:31:47.781Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 16660,
+   "cash_out_row": 2,
+   "win_units": 33830,
+   "stake_usd_at_1666": "10.00",
+   "win_usd_at_1666": "20.31",
+   "chain_position": 1715,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "date_utc": "2024-11-13T12:32:53.146Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 16660,
+   "cash_out_row": 2,
+   "win_units": 33830,
+   "stake_usd_at_1666": "10.00",
+   "win_usd_at_1666": "20.31",
+   "chain_position": 1723,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "date_utc": "2024-11-13T12:32:58.843Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 16660,
+   "cash_out_row": 2,
+   "win_units": 33830,
+   "stake_usd_at_1666": "10.00",
+   "win_usd_at_1666": "20.31",
+   "chain_position": 1724,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "date_utc": "2024-11-13T12:33:55.623Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 16827,
+   "cash_out_row": 3,
+   "win_units": 48691,
+   "stake_usd_at_1666": "10.10",
+   "win_usd_at_1666": "29.23",
+   "chain_position": 1752,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "date_utc": "2024-11-13T12:35:06.364Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 16660,
+   "cash_out_row": 4,
+   "win_units": 68696,
+   "stake_usd_at_1666": "10.00",
+   "win_usd_at_1666": "41.23",
+   "chain_position": 1782,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "date_utc": "2024-11-13T12:35:16.393Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 16660,
+   "cash_out_row": 3,
+   "win_units": 48208,
+   "stake_usd_at_1666": "10.00",
+   "win_usd_at_1666": "28.94",
+   "chain_position": 1783,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "date_utc": "2024-11-13T12:36:09.643Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 33320,
+   "cash_out_row": 2,
+   "win_units": 67660,
+   "stake_usd_at_1666": "20.00",
+   "win_usd_at_1666": "40.61",
+   "chain_position": 1829,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "date_utc": "2024-11-13T12:36:16.059Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 33320,
+   "cash_out_row": 2,
+   "win_units": 67660,
+   "stake_usd_at_1666": "20.00",
+   "win_usd_at_1666": "40.61",
+   "chain_position": 1830,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "date_utc": "2024-11-13T12:37:10.557Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 33320,
+   "cash_out_row": 3,
+   "win_units": 96416,
+   "stake_usd_at_1666": "20.00",
+   "win_usd_at_1666": "57.87",
+   "chain_position": 1890,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "date_utc": "2024-11-13T12:38:06.903Z",
+   "balance": "usdt",
+   "difficulty": "easy",
+   "stake_units": 33487,
+   "cash_out_row": 2,
+   "win_units": 67999,
+   "stake_usd_at_1666": "20.10",
+   "win_usd_at_1666": "40.82",
+   "chain_position": 1923,
+   "server_seed": "df9d7eb595c877bf5044afbc8ec429d6ea667c1d66c24888c02a8cc9bfb00e21",
+   "client_seed": "Vvp6Y4Fsedwwww"
+  }
+ ],
+ "payout_rows": [
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 6330,
+   "full_prediction": "6330.8",
+   "fixed5_benchmark_units": "6330.8"
+  },
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 2,
+   "paid_cash_out": true,
+   "stake_units": 3332,
+   "payout_units": 12028,
+   "full_prediction": "12028.52",
+   "fixed5_benchmark_units": "12661.6"
+  },
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 22854,
+   "full_prediction": "22854.188",
+   "fixed5_benchmark_units": "25323.2"
+  },
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 43422,
+   "full_prediction": "43422.9572",
+   "fixed5_benchmark_units": "50646.4"
+  },
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 82503,
+   "full_prediction": "82503.61868",
+   "fixed5_benchmark_units": "101292.8"
+  },
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 156756,
+   "full_prediction": "156756.875492",
+   "fixed5_benchmark_units": "202585.6"
+  },
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 297838,
+   "full_prediction": "297838.0634348",
+   "fixed5_benchmark_units": "405171.2"
+  },
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 565892,
+   "full_prediction": "565892.32052612",
+   "fixed5_benchmark_units": "810342.4"
+  },
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 1075195,
+   "full_prediction": "1075195.408999628",
+   "fixed5_benchmark_units": "1620684.8"
+  },
+  {
+   "game": "672de575e61e8c3513e61b1e",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 2042871,
+   "full_prediction": "2042871.2770992932",
+   "fixed5_benchmark_units": "3241369.6"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 11870,
+   "full_prediction": "11870.25",
+   "fixed5_benchmark_units": "11870.25"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 16915,
+   "full_prediction": "16915.10625",
+   "fixed5_benchmark_units": "17805.375"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 8330,
+   "payout_units": 24104,
+   "full_prediction": "24104.02640625",
+   "fixed5_benchmark_units": "26708.0625"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 34348,
+   "full_prediction": "34348.23762890625",
+   "fixed5_benchmark_units": "40062.09375"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 48946,
+   "full_prediction": "48946.23862119140625",
+   "fixed5_benchmark_units": "60093.140625"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 69748,
+   "full_prediction": "69748.39003519775390625",
+   "fixed5_benchmark_units": "90139.7109375"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 99391,
+   "full_prediction": "99391.45580015679931640625",
+   "fixed5_benchmark_units": "135209.56640625"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 141632,
+   "full_prediction": "141632.82451522343902587890625",
+   "fixed5_benchmark_units": "202814.349609375"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 201826,
+   "full_prediction": "201826.77493419340061187744140625",
+   "fixed5_benchmark_units": "304221.5244140625"
+  },
+  {
+   "game": "672de68fefd8eba01b2a8ee6",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 287603,
+   "full_prediction": "287603.15428122559587192535400390625",
+   "fixed5_benchmark_units": "456332.28662109375"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 11870,
+   "full_prediction": "11870.25",
+   "fixed5_benchmark_units": "11870.25"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 16915,
+   "full_prediction": "16915.10625",
+   "fixed5_benchmark_units": "17805.375"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 8330,
+   "payout_units": 24104,
+   "full_prediction": "24104.02640625",
+   "fixed5_benchmark_units": "26708.0625"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 34348,
+   "full_prediction": "34348.23762890625",
+   "fixed5_benchmark_units": "40062.09375"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 48946,
+   "full_prediction": "48946.23862119140625",
+   "fixed5_benchmark_units": "60093.140625"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 69748,
+   "full_prediction": "69748.39003519775390625",
+   "fixed5_benchmark_units": "90139.7109375"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 99391,
+   "full_prediction": "99391.45580015679931640625",
+   "fixed5_benchmark_units": "135209.56640625"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 141632,
+   "full_prediction": "141632.82451522343902587890625",
+   "fixed5_benchmark_units": "202814.349609375"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 201826,
+   "full_prediction": "201826.77493419340061187744140625",
+   "fixed5_benchmark_units": "304221.5244140625"
+  },
+  {
+   "game": "672de699bb5bb935191030e6",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 287603,
+   "full_prediction": "287603.15428122559587192535400390625",
+   "fixed5_benchmark_units": "456332.28662109375"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 11870,
+   "full_prediction": "11870.25",
+   "fixed5_benchmark_units": "11870.25"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 16915,
+   "full_prediction": "16915.10625",
+   "fixed5_benchmark_units": "17805.375"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 24104,
+   "full_prediction": "24104.02640625",
+   "fixed5_benchmark_units": "26708.0625"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 34348,
+   "full_prediction": "34348.23762890625",
+   "fixed5_benchmark_units": "40062.09375"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 5,
+   "paid_cash_out": true,
+   "stake_units": 8330,
+   "payout_units": 48946,
+   "full_prediction": "48946.23862119140625",
+   "fixed5_benchmark_units": "60093.140625"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 69748,
+   "full_prediction": "69748.39003519775390625",
+   "fixed5_benchmark_units": "90139.7109375"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 99391,
+   "full_prediction": "99391.45580015679931640625",
+   "fixed5_benchmark_units": "135209.56640625"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 141632,
+   "full_prediction": "141632.82451522343902587890625",
+   "fixed5_benchmark_units": "202814.349609375"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 201826,
+   "full_prediction": "201826.77493419340061187744140625",
+   "fixed5_benchmark_units": "304221.5244140625"
+  },
+  {
+   "game": "672de6a7e61e8c3513e664bd",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 287603,
+   "full_prediction": "287603.15428122559587192535400390625",
+   "fixed5_benchmark_units": "456332.28662109375"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 11870,
+   "full_prediction": "11870.25",
+   "fixed5_benchmark_units": "11870.25"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 16915,
+   "full_prediction": "16915.10625",
+   "fixed5_benchmark_units": "17805.375"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 24104,
+   "full_prediction": "24104.02640625",
+   "fixed5_benchmark_units": "26708.0625"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 34348,
+   "full_prediction": "34348.23762890625",
+   "fixed5_benchmark_units": "40062.09375"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 5,
+   "paid_cash_out": true,
+   "stake_units": 8330,
+   "payout_units": 48946,
+   "full_prediction": "48946.23862119140625",
+   "fixed5_benchmark_units": "60093.140625"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 69748,
+   "full_prediction": "69748.39003519775390625",
+   "fixed5_benchmark_units": "90139.7109375"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 99391,
+   "full_prediction": "99391.45580015679931640625",
+   "fixed5_benchmark_units": "135209.56640625"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 141632,
+   "full_prediction": "141632.82451522343902587890625",
+   "fixed5_benchmark_units": "202814.349609375"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 201826,
+   "full_prediction": "201826.77493419340061187744140625",
+   "fixed5_benchmark_units": "304221.5244140625"
+  },
+  {
+   "game": "672de6b3bb5bb935191037d7",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 287603,
+   "full_prediction": "287603.15428122559587192535400390625",
+   "fixed5_benchmark_units": "456332.28662109375"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 11870,
+   "full_prediction": "11870.25",
+   "fixed5_benchmark_units": "11870.25"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 16915,
+   "full_prediction": "16915.10625",
+   "fixed5_benchmark_units": "17805.375"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 24104,
+   "full_prediction": "24104.02640625",
+   "fixed5_benchmark_units": "26708.0625"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 4,
+   "paid_cash_out": true,
+   "stake_units": 8330,
+   "payout_units": 34348,
+   "full_prediction": "34348.23762890625",
+   "fixed5_benchmark_units": "40062.09375"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 48946,
+   "full_prediction": "48946.23862119140625",
+   "fixed5_benchmark_units": "60093.140625"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 69748,
+   "full_prediction": "69748.39003519775390625",
+   "fixed5_benchmark_units": "90139.7109375"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 99391,
+   "full_prediction": "99391.45580015679931640625",
+   "fixed5_benchmark_units": "135209.56640625"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 141632,
+   "full_prediction": "141632.82451522343902587890625",
+   "fixed5_benchmark_units": "202814.349609375"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 201826,
+   "full_prediction": "201826.77493419340061187744140625",
+   "fixed5_benchmark_units": "304221.5244140625"
+  },
+  {
+   "game": "672de6d8594ca27d1d299dbe",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 287603,
+   "full_prediction": "287603.15428122559587192535400390625",
+   "fixed5_benchmark_units": "456332.28662109375"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 200,
+   "payout_units": 285,
+   "full_prediction": "285",
+   "fixed5_benchmark_units": "285"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 200,
+   "payout_units": 406,
+   "full_prediction": "406.125",
+   "fixed5_benchmark_units": "427.5"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 200,
+   "payout_units": 578,
+   "full_prediction": "578.728125",
+   "fixed5_benchmark_units": "641.25"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 4,
+   "paid_cash_out": true,
+   "stake_units": 200,
+   "payout_units": 824,
+   "full_prediction": "824.687578125",
+   "fixed5_benchmark_units": "961.875"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 200,
+   "payout_units": 1175,
+   "full_prediction": "1175.179798828125",
+   "fixed5_benchmark_units": "1442.8125"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 200,
+   "payout_units": 1674,
+   "full_prediction": "1674.631213330078125",
+   "fixed5_benchmark_units": "2164.21875"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 200,
+   "payout_units": 2386,
+   "full_prediction": "2386.349478995361328125",
+   "fixed5_benchmark_units": "3246.328125"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 200,
+   "payout_units": 3400,
+   "full_prediction": "3400.548007568389892578125",
+   "fixed5_benchmark_units": "4869.4921875"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 200,
+   "payout_units": 4845,
+   "full_prediction": "4845.780910784955596923828125",
+   "fixed5_benchmark_units": "7304.23828125"
+  },
+  {
+   "game": "67348be34dc1da9e56358a1f",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 200,
+   "payout_units": 6905,
+   "full_prediction": "6905.237797868561725616455078125",
+   "fixed5_benchmark_units": "10956.357421875"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 4748,
+   "full_prediction": "4748.1",
+   "fixed5_benchmark_units": "4748.1"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 6766,
+   "full_prediction": "6766.0425",
+   "fixed5_benchmark_units": "7122.15"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 3332,
+   "payout_units": 9641,
+   "full_prediction": "9641.6105625",
+   "fixed5_benchmark_units": "10683.225"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 13739,
+   "full_prediction": "13739.2950515625",
+   "fixed5_benchmark_units": "16024.8375"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 19578,
+   "full_prediction": "19578.4954484765625",
+   "fixed5_benchmark_units": "24037.25625"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 27899,
+   "full_prediction": "27899.3560140791015625",
+   "fixed5_benchmark_units": "36055.884375"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 39756,
+   "full_prediction": "39756.5823200627197265625",
+   "fixed5_benchmark_units": "54083.8265625"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 56653,
+   "full_prediction": "56653.1298060893756103515625",
+   "fixed5_benchmark_units": "81125.73984375"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 80730,
+   "full_prediction": "80730.7099736773602447509765625",
+   "fixed5_benchmark_units": "121688.609765625"
+  },
+  {
+   "game": "6734956902f6eaae6c95e6ef",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 115041,
+   "full_prediction": "115041.2617124902383487701416015625",
+   "fixed5_benchmark_units": "182532.9146484375"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 4748,
+   "full_prediction": "4748.1",
+   "fixed5_benchmark_units": "4748.1"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 6766,
+   "full_prediction": "6766.0425",
+   "fixed5_benchmark_units": "7122.15"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 9641,
+   "full_prediction": "9641.6105625",
+   "fixed5_benchmark_units": "10683.225"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 4,
+   "paid_cash_out": true,
+   "stake_units": 3332,
+   "payout_units": 13739,
+   "full_prediction": "13739.2950515625",
+   "fixed5_benchmark_units": "16024.8375"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 19578,
+   "full_prediction": "19578.4954484765625",
+   "fixed5_benchmark_units": "24037.25625"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 27899,
+   "full_prediction": "27899.3560140791015625",
+   "fixed5_benchmark_units": "36055.884375"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 39756,
+   "full_prediction": "39756.5823200627197265625",
+   "fixed5_benchmark_units": "54083.8265625"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 56653,
+   "full_prediction": "56653.1298060893756103515625",
+   "fixed5_benchmark_units": "81125.73984375"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 80730,
+   "full_prediction": "80730.7099736773602447509765625",
+   "fixed5_benchmark_units": "121688.609765625"
+  },
+  {
+   "game": "673495751f02b99e3730f003",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 3332,
+   "payout_units": 115041,
+   "full_prediction": "115041.2617124902383487701416015625",
+   "fixed5_benchmark_units": "182532.9146484375"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 2516,
+   "payout_units": 3585,
+   "full_prediction": "3585.3",
+   "fixed5_benchmark_units": "3585.3"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 2516,
+   "payout_units": 5109,
+   "full_prediction": "5109.0525",
+   "fixed5_benchmark_units": "5377.95"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 2516,
+   "payout_units": 7280,
+   "full_prediction": "7280.3998125",
+   "fixed5_benchmark_units": "8066.925"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 2516,
+   "payout_units": 10374,
+   "full_prediction": "10374.5697328125",
+   "fixed5_benchmark_units": "12100.3875"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 2516,
+   "payout_units": 14783,
+   "full_prediction": "14783.7618692578125",
+   "fixed5_benchmark_units": "18150.58125"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 2516,
+   "payout_units": 21066,
+   "full_prediction": "21066.8606636923828125",
+   "fixed5_benchmark_units": "27225.871875"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 2516,
+   "payout_units": 30020,
+   "full_prediction": "30020.2764457616455078125",
+   "fixed5_benchmark_units": "40838.8078125"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 2516,
+   "payout_units": 42778,
+   "full_prediction": "42778.8939352103448486328125",
+   "fixed5_benchmark_units": "61258.21171875"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 2516,
+   "payout_units": 60959,
+   "full_prediction": "60959.9238576747414093017578125",
+   "fixed5_benchmark_units": "91887.317578125"
+  },
+  {
+   "game": "67349681ae51670360bc804e",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 2516,
+   "payout_units": 86867,
+   "full_prediction": "86867.8914971865065082550048828125",
+   "fixed5_benchmark_units": "137830.9763671875"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 4998,
+   "payout_units": 7122,
+   "full_prediction": "7122.15",
+   "fixed5_benchmark_units": "7122.15"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 4998,
+   "payout_units": 10149,
+   "full_prediction": "10149.06375",
+   "fixed5_benchmark_units": "10683.225"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 4998,
+   "payout_units": 14462,
+   "full_prediction": "14462.41584375",
+   "fixed5_benchmark_units": "16024.8375"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 4998,
+   "payout_units": 20608,
+   "full_prediction": "20608.94257734375",
+   "fixed5_benchmark_units": "24037.25625"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 4998,
+   "payout_units": 29367,
+   "full_prediction": "29367.74317271484375",
+   "fixed5_benchmark_units": "36055.884375"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 4998,
+   "payout_units": 41849,
+   "full_prediction": "41849.03402111865234375",
+   "fixed5_benchmark_units": "54083.8265625"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 4998,
+   "payout_units": 59634,
+   "full_prediction": "59634.87348009407958984375",
+   "fixed5_benchmark_units": "81125.73984375"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 4998,
+   "payout_units": 84979,
+   "full_prediction": "84979.69470913406341552734375",
+   "fixed5_benchmark_units": "121688.609765625"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 4998,
+   "payout_units": 121096,
+   "full_prediction": "121096.06496051604036712646484375",
+   "fixed5_benchmark_units": "182532.9146484375"
+  },
+  {
+   "game": "673496b537bae6ae49b5aa2a",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 4998,
+   "payout_units": 172561,
+   "full_prediction": "172561.89256873535752315521240234375",
+   "fixed5_benchmark_units": "273799.37197265625"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 11870,
+   "full_prediction": "11870.25",
+   "fixed5_benchmark_units": "11870.25"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 16915,
+   "full_prediction": "16915.10625",
+   "fixed5_benchmark_units": "17805.375"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 8330,
+   "payout_units": 24104,
+   "full_prediction": "24104.02640625",
+   "fixed5_benchmark_units": "26708.0625"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 34348,
+   "full_prediction": "34348.23762890625",
+   "fixed5_benchmark_units": "40062.09375"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 48946,
+   "full_prediction": "48946.23862119140625",
+   "fixed5_benchmark_units": "60093.140625"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 69748,
+   "full_prediction": "69748.39003519775390625",
+   "fixed5_benchmark_units": "90139.7109375"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 99391,
+   "full_prediction": "99391.45580015679931640625",
+   "fixed5_benchmark_units": "135209.56640625"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 141632,
+   "full_prediction": "141632.82451522343902587890625",
+   "fixed5_benchmark_units": "202814.349609375"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 201826,
+   "full_prediction": "201826.77493419340061187744140625",
+   "fixed5_benchmark_units": "304221.5244140625"
+  },
+  {
+   "game": "673497234cb75d9e38324d00",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 8330,
+   "payout_units": 287603,
+   "full_prediction": "287603.15428122559587192535400390625",
+   "fixed5_benchmark_units": "456332.28662109375"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 23740,
+   "full_prediction": "23740.5",
+   "fixed5_benchmark_units": "23740.5"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 33830,
+   "full_prediction": "33830.2125",
+   "fixed5_benchmark_units": "35610.75"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 48208,
+   "full_prediction": "48208.0528125",
+   "fixed5_benchmark_units": "53416.125"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 4,
+   "paid_cash_out": true,
+   "stake_units": 16660,
+   "payout_units": 68696,
+   "full_prediction": "68696.4752578125",
+   "fixed5_benchmark_units": "80124.1875"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 97892,
+   "full_prediction": "97892.4772423828125",
+   "fixed5_benchmark_units": "120186.28125"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 139496,
+   "full_prediction": "139496.7800703955078125",
+   "fixed5_benchmark_units": "180279.421875"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 198782,
+   "full_prediction": "198782.9116003135986328125",
+   "fixed5_benchmark_units": "270419.1328125"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 283265,
+   "full_prediction": "283265.6490304468780517578125",
+   "fixed5_benchmark_units": "405628.69921875"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 403653,
+   "full_prediction": "403653.5498683868012237548828125",
+   "fixed5_benchmark_units": "608443.048828125"
+  },
+  {
+   "game": "673497a937bae6ae49b62668",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 575206,
+   "full_prediction": "575206.3085624511917438507080078125",
+   "fixed5_benchmark_units": "912664.5732421875"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 23740,
+   "full_prediction": "23740.5",
+   "fixed5_benchmark_units": "23740.5"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 33830,
+   "full_prediction": "33830.2125",
+   "fixed5_benchmark_units": "35610.75"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 16660,
+   "payout_units": 48208,
+   "full_prediction": "48208.0528125",
+   "fixed5_benchmark_units": "53416.125"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 68696,
+   "full_prediction": "68696.4752578125",
+   "fixed5_benchmark_units": "80124.1875"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 97892,
+   "full_prediction": "97892.4772423828125",
+   "fixed5_benchmark_units": "120186.28125"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 139496,
+   "full_prediction": "139496.7800703955078125",
+   "fixed5_benchmark_units": "180279.421875"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 198782,
+   "full_prediction": "198782.9116003135986328125",
+   "fixed5_benchmark_units": "270419.1328125"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 283265,
+   "full_prediction": "283265.6490304468780517578125",
+   "fixed5_benchmark_units": "405628.69921875"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 403653,
+   "full_prediction": "403653.5498683868012237548828125",
+   "fixed5_benchmark_units": "608443.048828125"
+  },
+  {
+   "game": "673497cc37bae6ae49b6384f",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 575206,
+   "full_prediction": "575206.3085624511917438507080078125",
+   "fixed5_benchmark_units": "912664.5732421875"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 47481,
+   "full_prediction": "47481",
+   "fixed5_benchmark_units": "47481"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 67660,
+   "full_prediction": "67660.425",
+   "fixed5_benchmark_units": "71221.5"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 33320,
+   "payout_units": 96416,
+   "full_prediction": "96416.105625",
+   "fixed5_benchmark_units": "106832.25"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 137392,
+   "full_prediction": "137392.950515625",
+   "fixed5_benchmark_units": "160248.375"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 195784,
+   "full_prediction": "195784.954484765625",
+   "fixed5_benchmark_units": "240372.5625"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 278993,
+   "full_prediction": "278993.560140791015625",
+   "fixed5_benchmark_units": "360558.84375"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 397565,
+   "full_prediction": "397565.823200627197265625",
+   "fixed5_benchmark_units": "540838.265625"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 566531,
+   "full_prediction": "566531.298060893756103515625",
+   "fixed5_benchmark_units": "811257.3984375"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 807307,
+   "full_prediction": "807307.099736773602447509765625",
+   "fixed5_benchmark_units": "1216886.09765625"
+  },
+  {
+   "game": "673497f367b44f9e57abae91",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 1150412,
+   "full_prediction": "1150412.617124902383487701416015625",
+   "fixed5_benchmark_units": "1825329.146484375"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 47481,
+   "full_prediction": "47481",
+   "fixed5_benchmark_units": "47481"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 67660,
+   "full_prediction": "67660.425",
+   "fixed5_benchmark_units": "71221.5"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 33320,
+   "payout_units": 96416,
+   "full_prediction": "96416.105625",
+   "fixed5_benchmark_units": "106832.25"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 137392,
+   "full_prediction": "137392.950515625",
+   "fixed5_benchmark_units": "160248.375"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 195784,
+   "full_prediction": "195784.954484765625",
+   "fixed5_benchmark_units": "240372.5625"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 278993,
+   "full_prediction": "278993.560140791015625",
+   "fixed5_benchmark_units": "360558.84375"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 397565,
+   "full_prediction": "397565.823200627197265625",
+   "fixed5_benchmark_units": "540838.265625"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 566531,
+   "full_prediction": "566531.298060893756103515625",
+   "fixed5_benchmark_units": "811257.3984375"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 807307,
+   "full_prediction": "807307.099736773602447509765625",
+   "fixed5_benchmark_units": "1216886.09765625"
+  },
+  {
+   "game": "6734983e37bae6ae49b66262",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 1150412,
+   "full_prediction": "1150412.617124902383487701416015625",
+   "fixed5_benchmark_units": "1825329.146484375"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 166600,
+   "payout_units": 237405,
+   "full_prediction": "237405",
+   "fixed5_benchmark_units": "237405"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 2,
+   "paid_cash_out": true,
+   "stake_units": 166600,
+   "payout_units": 338302,
+   "full_prediction": "338302.125",
+   "fixed5_benchmark_units": "356107.5"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 166600,
+   "payout_units": 482080,
+   "full_prediction": "482080.528125",
+   "fixed5_benchmark_units": "534161.25"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 166600,
+   "payout_units": 686964,
+   "full_prediction": "686964.752578125",
+   "fixed5_benchmark_units": "801241.875"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 166600,
+   "payout_units": 978924,
+   "full_prediction": "978924.772423828125",
+   "fixed5_benchmark_units": "1201862.8125"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 166600,
+   "payout_units": 1394967,
+   "full_prediction": "1394967.800703955078125",
+   "fixed5_benchmark_units": "1802794.21875"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 166600,
+   "payout_units": 1987829,
+   "full_prediction": "1987829.116003135986328125",
+   "fixed5_benchmark_units": "2704191.328125"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 166600,
+   "payout_units": 2832656,
+   "full_prediction": "2832656.490304468780517578125",
+   "fixed5_benchmark_units": "4056286.9921875"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 166600,
+   "payout_units": 4036535,
+   "full_prediction": "4036535.498683868012237548828125",
+   "fixed5_benchmark_units": "6084430.48828125"
+  },
+  {
+   "game": "673498dd37bae6ae49b68c49",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 166600,
+   "payout_units": 5752063,
+   "full_prediction": "5752063.085624511917438507080078125",
+   "fixed5_benchmark_units": "9126645.732421875"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 23740,
+   "full_prediction": "23740.5",
+   "fixed5_benchmark_units": "23740.5"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 2,
+   "paid_cash_out": true,
+   "stake_units": 16660,
+   "payout_units": 33830,
+   "full_prediction": "33830.2125",
+   "fixed5_benchmark_units": "35610.75"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 48208,
+   "full_prediction": "48208.0528125",
+   "fixed5_benchmark_units": "53416.125"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 68696,
+   "full_prediction": "68696.4752578125",
+   "fixed5_benchmark_units": "80124.1875"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 97892,
+   "full_prediction": "97892.4772423828125",
+   "fixed5_benchmark_units": "120186.28125"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 139496,
+   "full_prediction": "139496.7800703955078125",
+   "fixed5_benchmark_units": "180279.421875"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 198782,
+   "full_prediction": "198782.9116003135986328125",
+   "fixed5_benchmark_units": "270419.1328125"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 283265,
+   "full_prediction": "283265.6490304468780517578125",
+   "fixed5_benchmark_units": "405628.69921875"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 403653,
+   "full_prediction": "403653.5498683868012237548828125",
+   "fixed5_benchmark_units": "608443.048828125"
+  },
+  {
+   "game": "67349c334dc1da9e56390bea",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 575206,
+   "full_prediction": "575206.3085624511917438507080078125",
+   "fixed5_benchmark_units": "912664.5732421875"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 23740,
+   "full_prediction": "23740.5",
+   "fixed5_benchmark_units": "23740.5"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 2,
+   "paid_cash_out": true,
+   "stake_units": 16660,
+   "payout_units": 33830,
+   "full_prediction": "33830.2125",
+   "fixed5_benchmark_units": "35610.75"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 48208,
+   "full_prediction": "48208.0528125",
+   "fixed5_benchmark_units": "53416.125"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 68696,
+   "full_prediction": "68696.4752578125",
+   "fixed5_benchmark_units": "80124.1875"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 97892,
+   "full_prediction": "97892.4772423828125",
+   "fixed5_benchmark_units": "120186.28125"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 139496,
+   "full_prediction": "139496.7800703955078125",
+   "fixed5_benchmark_units": "180279.421875"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 198782,
+   "full_prediction": "198782.9116003135986328125",
+   "fixed5_benchmark_units": "270419.1328125"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 283265,
+   "full_prediction": "283265.6490304468780517578125",
+   "fixed5_benchmark_units": "405628.69921875"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 403653,
+   "full_prediction": "403653.5498683868012237548828125",
+   "fixed5_benchmark_units": "608443.048828125"
+  },
+  {
+   "game": "67349c754dc1da9e56391646",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 575206,
+   "full_prediction": "575206.3085624511917438507080078125",
+   "fixed5_benchmark_units": "912664.5732421875"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 23740,
+   "full_prediction": "23740.5",
+   "fixed5_benchmark_units": "23740.5"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 2,
+   "paid_cash_out": true,
+   "stake_units": 16660,
+   "payout_units": 33830,
+   "full_prediction": "33830.2125",
+   "fixed5_benchmark_units": "35610.75"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 48208,
+   "full_prediction": "48208.0528125",
+   "fixed5_benchmark_units": "53416.125"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 68696,
+   "full_prediction": "68696.4752578125",
+   "fixed5_benchmark_units": "80124.1875"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 97892,
+   "full_prediction": "97892.4772423828125",
+   "fixed5_benchmark_units": "120186.28125"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 139496,
+   "full_prediction": "139496.7800703955078125",
+   "fixed5_benchmark_units": "180279.421875"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 198782,
+   "full_prediction": "198782.9116003135986328125",
+   "fixed5_benchmark_units": "270419.1328125"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 283265,
+   "full_prediction": "283265.6490304468780517578125",
+   "fixed5_benchmark_units": "405628.69921875"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 403653,
+   "full_prediction": "403653.5498683868012237548828125",
+   "fixed5_benchmark_units": "608443.048828125"
+  },
+  {
+   "game": "67349c7ae685f4ae4acd388a",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 575206,
+   "full_prediction": "575206.3085624511917438507080078125",
+   "fixed5_benchmark_units": "912664.5732421875"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 16827,
+   "payout_units": 23978,
+   "full_prediction": "23978.475",
+   "fixed5_benchmark_units": "23978.475"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 16827,
+   "payout_units": 34169,
+   "full_prediction": "34169.326875",
+   "fixed5_benchmark_units": "35967.7125"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 16827,
+   "payout_units": 48691,
+   "full_prediction": "48691.290796875",
+   "fixed5_benchmark_units": "53951.56875"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 16827,
+   "payout_units": 69385,
+   "full_prediction": "69385.089385546875",
+   "fixed5_benchmark_units": "80927.353125"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 16827,
+   "payout_units": 98873,
+   "full_prediction": "98873.752374404296875",
+   "fixed5_benchmark_units": "121391.0296875"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 16827,
+   "payout_units": 140895,
+   "full_prediction": "140895.097133526123046875",
+   "fixed5_benchmark_units": "182086.54453125"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 16827,
+   "payout_units": 200775,
+   "full_prediction": "200775.513415274725341796875",
+   "fixed5_benchmark_units": "273129.816796875"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 16827,
+   "payout_units": 286105,
+   "full_prediction": "286105.106616766483612060546875",
+   "fixed5_benchmark_units": "409694.7251953125"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 16827,
+   "payout_units": 407699,
+   "full_prediction": "407699.776928892239147186279296875",
+   "fixed5_benchmark_units": "614542.08779296875"
+  },
+  {
+   "game": "67349cb337bae6ae49b7aa5f",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 16827,
+   "payout_units": 580972,
+   "full_prediction": "580972.182123671440784740447998046875",
+   "fixed5_benchmark_units": "921813.131689453125"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 23740,
+   "full_prediction": "23740.5",
+   "fixed5_benchmark_units": "23740.5"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 33830,
+   "full_prediction": "33830.2125",
+   "fixed5_benchmark_units": "35610.75"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 48208,
+   "full_prediction": "48208.0528125",
+   "fixed5_benchmark_units": "53416.125"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 4,
+   "paid_cash_out": true,
+   "stake_units": 16660,
+   "payout_units": 68696,
+   "full_prediction": "68696.4752578125",
+   "fixed5_benchmark_units": "80124.1875"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 97892,
+   "full_prediction": "97892.4772423828125",
+   "fixed5_benchmark_units": "120186.28125"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 139496,
+   "full_prediction": "139496.7800703955078125",
+   "fixed5_benchmark_units": "180279.421875"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 198782,
+   "full_prediction": "198782.9116003135986328125",
+   "fixed5_benchmark_units": "270419.1328125"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 283265,
+   "full_prediction": "283265.6490304468780517578125",
+   "fixed5_benchmark_units": "405628.69921875"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 403653,
+   "full_prediction": "403653.5498683868012237548828125",
+   "fixed5_benchmark_units": "608443.048828125"
+  },
+  {
+   "game": "67349cfa4dc1da9e56393a3d",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 575206,
+   "full_prediction": "575206.3085624511917438507080078125",
+   "fixed5_benchmark_units": "912664.5732421875"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 23740,
+   "full_prediction": "23740.5",
+   "fixed5_benchmark_units": "23740.5"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 33830,
+   "full_prediction": "33830.2125",
+   "fixed5_benchmark_units": "35610.75"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 16660,
+   "payout_units": 48208,
+   "full_prediction": "48208.0528125",
+   "fixed5_benchmark_units": "53416.125"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 68696,
+   "full_prediction": "68696.4752578125",
+   "fixed5_benchmark_units": "80124.1875"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 97892,
+   "full_prediction": "97892.4772423828125",
+   "fixed5_benchmark_units": "120186.28125"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 139496,
+   "full_prediction": "139496.7800703955078125",
+   "fixed5_benchmark_units": "180279.421875"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 198782,
+   "full_prediction": "198782.9116003135986328125",
+   "fixed5_benchmark_units": "270419.1328125"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 283265,
+   "full_prediction": "283265.6490304468780517578125",
+   "fixed5_benchmark_units": "405628.69921875"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 403653,
+   "full_prediction": "403653.5498683868012237548828125",
+   "fixed5_benchmark_units": "608443.048828125"
+  },
+  {
+   "game": "67349d04e685f4ae4acd5ad6",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 16660,
+   "payout_units": 575206,
+   "full_prediction": "575206.3085624511917438507080078125",
+   "fixed5_benchmark_units": "912664.5732421875"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 47481,
+   "full_prediction": "47481",
+   "fixed5_benchmark_units": "47481"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 2,
+   "paid_cash_out": true,
+   "stake_units": 33320,
+   "payout_units": 67660,
+   "full_prediction": "67660.425",
+   "fixed5_benchmark_units": "71221.5"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 96416,
+   "full_prediction": "96416.105625",
+   "fixed5_benchmark_units": "106832.25"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 137392,
+   "full_prediction": "137392.950515625",
+   "fixed5_benchmark_units": "160248.375"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 195784,
+   "full_prediction": "195784.954484765625",
+   "fixed5_benchmark_units": "240372.5625"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 278993,
+   "full_prediction": "278993.560140791015625",
+   "fixed5_benchmark_units": "360558.84375"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 397565,
+   "full_prediction": "397565.823200627197265625",
+   "fixed5_benchmark_units": "540838.265625"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 566531,
+   "full_prediction": "566531.298060893756103515625",
+   "fixed5_benchmark_units": "811257.3984375"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 807307,
+   "full_prediction": "807307.099736773602447509765625",
+   "fixed5_benchmark_units": "1216886.09765625"
+  },
+  {
+   "game": "67349d3937bae6ae49b7d5c2",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 1150412,
+   "full_prediction": "1150412.617124902383487701416015625",
+   "fixed5_benchmark_units": "1825329.146484375"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 47481,
+   "full_prediction": "47481",
+   "fixed5_benchmark_units": "47481"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 2,
+   "paid_cash_out": true,
+   "stake_units": 33320,
+   "payout_units": 67660,
+   "full_prediction": "67660.425",
+   "fixed5_benchmark_units": "71221.5"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 96416,
+   "full_prediction": "96416.105625",
+   "fixed5_benchmark_units": "106832.25"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 137392,
+   "full_prediction": "137392.950515625",
+   "fixed5_benchmark_units": "160248.375"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 195784,
+   "full_prediction": "195784.954484765625",
+   "fixed5_benchmark_units": "240372.5625"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 278993,
+   "full_prediction": "278993.560140791015625",
+   "fixed5_benchmark_units": "360558.84375"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 397565,
+   "full_prediction": "397565.823200627197265625",
+   "fixed5_benchmark_units": "540838.265625"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 566531,
+   "full_prediction": "566531.298060893756103515625",
+   "fixed5_benchmark_units": "811257.3984375"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 807307,
+   "full_prediction": "807307.099736773602447509765625",
+   "fixed5_benchmark_units": "1216886.09765625"
+  },
+  {
+   "game": "67349d40e685f4ae4acd6c17",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 1150412,
+   "full_prediction": "1150412.617124902383487701416015625",
+   "fixed5_benchmark_units": "1825329.146484375"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 47481,
+   "full_prediction": "47481",
+   "fixed5_benchmark_units": "47481"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 2,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 67660,
+   "full_prediction": "67660.425",
+   "fixed5_benchmark_units": "71221.5"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 3,
+   "paid_cash_out": true,
+   "stake_units": 33320,
+   "payout_units": 96416,
+   "full_prediction": "96416.105625",
+   "fixed5_benchmark_units": "106832.25"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 137392,
+   "full_prediction": "137392.950515625",
+   "fixed5_benchmark_units": "160248.375"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 195784,
+   "full_prediction": "195784.954484765625",
+   "fixed5_benchmark_units": "240372.5625"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 278993,
+   "full_prediction": "278993.560140791015625",
+   "fixed5_benchmark_units": "360558.84375"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 397565,
+   "full_prediction": "397565.823200627197265625",
+   "fixed5_benchmark_units": "540838.265625"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 566531,
+   "full_prediction": "566531.298060893756103515625",
+   "fixed5_benchmark_units": "811257.3984375"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 807307,
+   "full_prediction": "807307.099736773602447509765625",
+   "fixed5_benchmark_units": "1216886.09765625"
+  },
+  {
+   "game": "67349d7637bae6ae49b7e564",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 33320,
+   "payout_units": 1150412,
+   "full_prediction": "1150412.617124902383487701416015625",
+   "fixed5_benchmark_units": "1825329.146484375"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 1,
+   "paid_cash_out": false,
+   "stake_units": 33487,
+   "payout_units": 47718,
+   "full_prediction": "47718.975",
+   "fixed5_benchmark_units": "47718.975"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 2,
+   "paid_cash_out": true,
+   "stake_units": 33487,
+   "payout_units": 67999,
+   "full_prediction": "67999.539375",
+   "fixed5_benchmark_units": "71578.4625"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 3,
+   "paid_cash_out": false,
+   "stake_units": 33487,
+   "payout_units": 96899,
+   "full_prediction": "96899.343609375",
+   "fixed5_benchmark_units": "107367.69375"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 4,
+   "paid_cash_out": false,
+   "stake_units": 33487,
+   "payout_units": 138081,
+   "full_prediction": "138081.564643359375",
+   "fixed5_benchmark_units": "161051.540625"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 5,
+   "paid_cash_out": false,
+   "stake_units": 33487,
+   "payout_units": 196766,
+   "full_prediction": "196766.229616787109375",
+   "fixed5_benchmark_units": "241577.3109375"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 6,
+   "paid_cash_out": false,
+   "stake_units": 33487,
+   "payout_units": 280391,
+   "full_prediction": "280391.877203921630859375",
+   "fixed5_benchmark_units": "362365.96640625"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 7,
+   "paid_cash_out": false,
+   "stake_units": 33487,
+   "payout_units": 399558,
+   "full_prediction": "399558.425015588323974609375",
+   "fixed5_benchmark_units": "543548.949609375"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 8,
+   "paid_cash_out": false,
+   "stake_units": 33487,
+   "payout_units": 569370,
+   "full_prediction": "569370.755647213361663818359375",
+   "fixed5_benchmark_units": "815323.4244140625"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 9,
+   "paid_cash_out": false,
+   "stake_units": 33487,
+   "payout_units": 811353,
+   "full_prediction": "811353.326797279040370941162109375",
+   "fixed5_benchmark_units": "1222985.13662109375"
+  },
+  {
+   "game": "67349dae67b44f9e57ad1812",
+   "row": 10,
+   "paid_cash_out": false,
+   "stake_units": 33487,
+   "payout_units": 1156178,
+   "full_prediction": "1156178.490686122632528591156005859375",
+   "fixed5_benchmark_units": "1834477.704931640625"
+  }
+ ],
+ "precision_example": {
+  "game": "673498dd37bae6ae49b68c49",
+  "row": 2,
+  "paid_cash_out": true,
+  "stake_units": 166600,
+  "payout_units": 338302,
+  "full_prediction": "338302.125",
+  "fixed5_benchmark_units": "356107.5",
+  "payout_usd_exact": "203.06242496998799519807923169267707082833133253301320528211284513805522208883553",
+  "displayed_usd": "203.06",
+  "three_dp_ladder_usd": "203.00",
+  "fixed5_usd": "213.75"
+ },
+ "failures": []
+}

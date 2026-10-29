@@ -1,0 +1,51 @@
+Browser tab: 3, Title: "What are the odds of Towers? | Welcome to 500 Casino Knowledge Base", URL: "https://web.archive.org/web/20230925084622/https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers".
+1 AXWebArea What are the odds of Towers? | Welcome to 500 Casino Knowledge Base, URL: web.archive.org/web/20230925084622/https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers
+	2 container
+		3 container
+			4 link Description: Welcome to 500 Casino Knowledge Base, Value: web.archive.org/web/20230925084622/https://help.500.casino/en/
+			5 container
+				6 link Description: Go to 500 Casino, Value: web.archive.org/web/20230925084622/https://500.casino/
+				7 pop up button (collapsed, settable) Value: English, Secondary Actions: Expand
+					8 menu
+						9 (selected) English
+						10 text ;
+				11 image locale-picker-globe
+				12 text English
+				13 image locale-picker-arrow
+			14 container
+				15 text field (settable)
+				16 image
+		17 container
+			18 link Description: All Collections, Value: web.archive.org/web/20230925084622/https://help.500.casino/en/
+			19 image
+			20 link Description: Casino & Classics, Value: web.archive.org/web/20230925084622/https://help.500.casino/en/collections/3318233-casino-classics
+			21 image
+			22 link Description: Towers, Value: web.archive.org/web/20230925084622/https://help.500.casino/en/collections/6146614-towers
+			23 image
+			24 text What are the odds of Towers? What are the odds of Towers?
+			25 image NSGDX avatar
+			26 container
+				27 text Written by  NSGDX
+			28 text Updated over a week ago
+			29 container
+				30 text Towers offer different odds based on the difficulty level selected by a user.
+				31 text The odds of Easy difficulty is 0.6666 per level. 
+				32 text The odds of Medium difficulty is 0.5 per level.  
+				33 text The odds of Hard difficulty is 0.3333 per level. 
+				34 text Towes has a fixed house edge set at 5% for all 3 difficulty modes.
+			35 text Did this answer your question?
+			36 checkbox Description: Disappointed Reaction, Value: 0
+				37 text 😞
+			38 checkbox Description: Neutral Reaction, Value: 0
+				39 text 😐
+			40 checkbox Description: Smiley Reaction, Value: 0
+				41 text 😃
+		42 container footer
+			43 link Description: Welcome to 500 Casino Knowledge Base, Value: web.archive.org/web/20230925084622/https://help.500.casino/en/
+			44 content list custom-links
+				45 link Description: 500 Casino Blog, Value: web.archive.org/web/20230925084622/https://blog.500.casino/
+			46 content list social-links
+				47 link web.archive.org/web/20230925084622/https://www.facebook.com/officialcsgo500
+				48 link web.archive.org/web/20230925084622/https://www.twitter.com/csgo500
+
+The focused UI element is 1 AXWebArea What are the odds of Towers? | Welcome to 500 Casino Knowledge Base, URL: web.archive.org/web/20230925084622/https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers

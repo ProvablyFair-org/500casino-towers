@@ -1,0 +1,18 @@
+{
+ "requested_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+ "final_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+ "title": "What are the odds of Towers? | Welcome to the 500 Casino Help Center!",
+ "acquired_at_utc": "2026-10-28T12:47:30.976Z",
+ "page_language": null,
+ "logged_in": false,
+ "acquisition": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+ "locale_note": null,
+ "text_sha256": "2e5078923b7d3abed6f4358fe877417428cf0ee6ea988cf1e05dfb3b699adae0",
+ "html_sha256_withheld": "4f0118138ab5f5a7bcc114d124e60e0c7d3b5e09e106dd3b93b23678fd282846",
+ "html_withheld_reason": "page HTML withheld; only its sha256 is published. It contains markup injected by an extension of the capturing browser; Cloudflare per-request parameters (ray id and timestamp).",
+ "screenshot_sha256": {
+  "screenshot.jpg": "c471e516816cd6f8ff51b812ac7440542d4a66a24b753dca4830d0e59b2720d3"
+ },
+ "original_capture_metadata_sha256": "b2fc31c1debd400ddf948ef37d685b94c69a28c7df357f6fdd373bb3e5d5dfac",
+ "not_receipts": "command-line fetches of these URLs made the same day returned Cloudflare challenge pages for 500 Casino and Stake; they are not used"
+}

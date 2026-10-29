@@ -1,0 +1,758 @@
+Skip to main content
+Back to Shuffle.com
+X
+Português do Brasil
+English
+Français
+Deutsch
+Magyar
+Bahasa Indonesia
+Italiano
+日本語
+한국어
+Polski
+Pусский
+Cрпски
+简体中文
+Español
+Español (Estados Unidos)
+Türkçe
+Tiếng Việt
+English
+Search for articles...
+All Collections
+Provably Fair
+Provably Fair - Game Events
+Provably Fair - Game Events
+August 12, 2026
+What are game events
+
+Previously, we have generated random floats between 0 to 1 using the generateFloats and byteGenerator functions. Game events translate these floats generated into actual game outcomes. This happens in different ways for different games. In Plinko, floats help to determine the direction of the ball drop. In Dice, floats help to determine the outcome of the dice roll.
+
+ 
+
+Below is a detailed explanation of how we translate floats into fair events or outcome for every original game we have on our platform.
+
+Tower
+
+In Tower, the objective of the game is to reach the top of the tower and save the princess by finding the keys and avoiding the poison apples. Each row of the tower contains a predefined number of safe tiles (keys) and poison apples, depending on the selected difficulty.
+
+The game event in Tower is to determine the position of the safe tiles (or keys) in each row.
+
+There are a total of 9 rows in the tower. The number of columns and distribution of keys and poison apples vary according to the chosen difficulty:
+
+Easy: 4 columns - 3 keys and 1 poison apple per row
+
+Medium: 3 columns - 2 keys and 1 poison apple per row
+
+Hard: 2 columns - 1 key and 1 poison apple per row
+
+Expert: 3 columns: - 1 key and 2 poison apples per row
+
+Master: 4 columns - 1 key and 3 poison apples per row
+
+The outcome for each row is determined by generating random positions of the keys (safe tiles) within the available columns based on the difficulty configuration.
+​
+
+const TOWER_DIFFICULTY_TO_CONFIG: Record<TowerDifficulty, DifficultyConfig> = {
+  [TowerDifficulty.EASY]: {
+    count: 3,
+    columns: 4,
+  },
+  [TowerDifficulty.MEDIUM]: {
+    count: 2,
+    columns: 3,
+  },
+  [TowerDifficulty.HARD]: {
+    count: 1,
+    columns: 2,
+  },
+  [TowerDifficulty.EXPERT]: {
+    count: 1,
+    columns: 3,
+  },
+  [TowerDifficulty.MASTER]: {
+    count: 1,
+    columns: 4,
+  },
+};
+
+
+// Generate floats to determine the positions of safe tiles (keys) for each row
+const floats = generateFloats({
+  serverSeed,
+  clientSeed,
+  nonce,
+  cursor,
+  count,
+});
+
+// Get the tower configuration based on the selected difficulty
+const towerConfig = TOWER_DIFFICULTY_TO_CONFIG[difficulty];
+const results: number[][] = [];
+const resultPerRow = towerConfig.count;
+
+// Iterate through each row to determine the positions of safe tiles for that row
+for (let i = 0; i < TOWER_TOTAL_ROWS.toNumber(); i++) {
+  const result: number[] = [];
+  const values = Array.from(Array(towerConfig.columns).keys());
+
+  // Get positions for safe tiles in the current row
+  for (let j = 0; j < resultPerRow; j++) {
+    const float = floats[i * resultPerRow + j];
+    if (float === undefined) {
+      break;
+    }
+
+    const position = Math.floor(float * (towerConfig.columns - j));
+    result.push(values.splice(position, 1)[0] ?? 0);
+  }
+
+  results.push(result);
+}
+
+return results;
+
+// Example: when clientSeed='abc', serverSeed='def', nonce=1, difficulty='easy'
+// results: [
+// [0, 1, 2], 
+// [0, 2, 3], 
+// [0, 2, 3], 
+// [0, 1, 2], 
+// [0, 1, 3], 
+// [0, 1, 2], 
+// [1, 2, 3], 
+// [0, 1, 3], 
+// [0, 1, 3]
+// ]
+// Each sub-array represents the column indexes of safe tiles for that row
+// (e.g., for the first row, safe tiles are in columns 0, 1, and 2)
+
+ 
+
+Chicken
+
+In Chicken, the objective is to move the chicken across as many lanes as possible without landing on the danger lane.
+
+Each successful step forward increases the payout multiplier. The player may cash out at any time before the chicken jumps onto the danger lane. If the chicken reaches the danger zone before the player cashes out, the bet is lost.
+
+The core game event in Chicken is the determination of the danger lane - the specific lane at which the chicken will lose.
+
+There are 4 difficulties in Chicken. The number of lanes the chicken can cross varies depending on the selected difficulty:
+
+Easy: 19 Lanes
+
+Medium: 17 Lanes
+
+Hard: 15 Lanes
+
+Expert: 10 Lanes 
+
+const TOTAL_LANES = 20
+
+// Number of lanes that the chicken can cross for each difficulty
+const DIFFICULTY_TO_VALID_LANE_COUNT: Record<ChickenDifficulty, number> = {
+    [ChickenDifficulty.EASY]: 19,
+    [ChickenDifficulty.MEDIUM]: 17,
+    [ChickenDifficulty.HARD]: 15,
+    [ChickenDifficulty.EXPERT]: 10,
+  };
+  
+// Number of gameResults generated depends on the difficulty
+// Example with Hard difficulty, we generate 20 - 15 = 5 numbers 
+// and the smallest number in the array is the danger lane
+const gameResults = generateFloats({
+  serverSeed,
+  clientSeed,
+  nonce,
+  cursor: 0,
+  count: TOTAL_LANES - DIFFICULTY_TO_VALID_LANE_COUNT[difficulty] // difficulty selected for the game
+}).map((val, index) => Math.floor(val * (TOTAL_LANES - index)));
+
+// Danger lane is determined by the smallest number in the game results array
+const dangerLane = Math.min(...gameResults)
+
+// Example: Hard difficulty - gameResults = [10, 4, 6, 15, 8] 
+// Danger lane will be on 4 (this is zero based index)
+// Lane 0 - 3 are safe and lane 4 will be the danger lane
+// The chicken will lose upon reaching lane 4 if not cashed out earlier
+
+ 
+
+ 
+
+Plinko
+
+In Plinko the Players can choose between a pyramid of height 8 to 16. As the ball is released from the top, it will either fall left of right 8 to 16 times every time it hits a pin on the Plinko board. The game event in Plinko is to determine if the ball falls left or right at every level, represented by 0 and 1.
+
+ 
+
+// Create multiple floats between 0 and 1 
+// Example: floats = [0.8320531346835196, 0.8531235849950463, 0.18227359023876488, 0.774284637067467, 0.18627392360940576, 0.6012540922965854, 0.608081541955471, 0.46018488449044526] when clientSeed='abc', serverSeed='def', nonce=1, count=8 
+// count refers to the number of plinko rows 
+const floats = generateFloats({ serverSeed, clientSeed, nonce, cursor, count }); 
+
+// Example: [1, 1, 0, 1, 0, 1, 1, 0] Each 1 represents a drop to the right whereas 0 represents a drop to the left 
+const dropDirections = floats.map(val => Math.floor(val * 2)); 
+
+// This sums up all the values in the array to get the final position of the ball from the left. 
+
+// Example: finalPositionFromLeft = 5 (the ball will land on the 6th slot from the left) 
+const finalPositionFromLeft = dropDirections.reduce((cur, acc) => cur + acc, 0)
+
+ 
+
+Dice
+
+In dice, a roll of the dice can be between the values of 0.00 to 100.00. The game event in Dice is to determine this value. We do this by using the (floats * 10,001) / 100). As we include values up to 2 decimal places, and the number 0, there are a total of 10,000 + 1 = 10,001 possible outcomes (including decimal places).
+
+// Creates an array of random numbers 
+// Example: With clientSeed = 'abc', serverSeed = 'def', nonce = 1, floats = [0.43053962965495884] 
+const floats = generateFloats({ serverSeed, clientSeed, nonce, cursor: 0, count: 1 }); 
+
+// Converts the value in the array to a number between 0.00 to 100.00 and return the value 
+
+// Example: resultValue = [43.05] 
+const resultValue = floats.map(val => Math.floor(floats * 10001) / 100); 
+return resultValue[0]; 
+// Example: 43.05 is returned as the result of the game
+
+ 
+
+Limbo
+
+In limbo, the goal of the game is to guess a multiplier >1. If the game result is greater than the multiplier, the user wins the game. The game event is to generate a float value that is above 1 and follows a hyperbolic curve distribution.
+
+// Generate float between 0 and 1 
+// Example: floats = [0.43053962965495884], float = 0.43053962965495884, 
+// when clientSeed='abc', serverSeed='def', nonce=1 
+const floats = generateFloats({ serverSeed, clientSeed, nonce, cursor: 0, count: 1 }); 
+const float = floats[0] 
+// generate limbo game event results with house edge (1%) 
+// using a hyperbolic 1/x curve 
+// multiplying by this and dividing by (MAX_VALUE + 1) prevents division by 0 error 
+
+const MAX_VALUE = 2 ** 24; 
+const rtp = 0.99; 
+
+// Example: rawValue = 2.298905 
+const rawValue = (rtp * MAX_VALUE) / (MAX_VALUE * float + 1) 
+
+// resultValue = 2.29 
+const resultValue = (0.99 * MAX_VALUE / (MAX_VALUE * float +1)).toFixed(2,ROUND_DOWN); 
+return resultValue;
+
+ 
+
+Keno
+
+In Keno, the game event requires the identification of 10 unique gem placements on the keno board. To achieve this, we generate 10 different floats between 1 to 40., representing each location on the keno board. Then a is used to handle duplicated floats and return the final 10 gem locations
+
+// Generate 10 different floats as there are 10 positions that are selected when the game is played 
+// Example: floats = [18, 26, 7, 22, 31, 10, 23, 8, 24, 13] when clientSeed='abc', serverSeed='def', nonce=1 
+
+const floats = generateFloats({ serverSeed, clientSeed, nonce, cursor: 0, count: 10 }) .map((val, index) => Math.ceil(val * (40 - index))) 
+
+// array used to store the position of the gems const gemLocations: number[] = []; 
+
+// this loop helps to prevent duplicate gem positions by skipping positions that already contain a gem 
+for (const val of floats) { let currentGem = val; 
+let i = 0; 
+while (i <= currentGem) { 
+ if (gemLocations.includes(i)) { 
+ currentGem++; 
+} 
+ i++; 
+ }
+
+gemLocations.push(currentGem); 
+} 
+
+// returns the location of the gem on the board 
+// Example: [18, 27, 7, 24, 35, 11, 28, 9, 31, 16] return gemLocations;
+
+ 
+
+Mines
+
+In Mines, the game event requires the identification of mines placement on the 25 tiled mines board. Based on the user selection of a number of mines, we generate a list of integers from 0 to 24 to represent the 25 spaces on the board.
+
+// Generate 10 different floats 
+// Example: [20, 20, 4] when clientSeed='abc', serverSeed='def', nonce=1, numberOfBombs=3 
+const floats = generateFloats({ serverSeed, clientSeed, nonce, cursor: 0, count: numberOfBombs }) 
+        .map((val, index) => Math.floor(val * (25 - index))); 
+
+// array used to store the position of the bombs
+ const mineLocations: number[] = []; 
+
+// this loop helps to prevent duplicate bomb positions by skipping positions that already contain a mine
+  for (const val of floats) { 
+  let currentMine = val; 
+  let i = 0; 
+
+  while (i <= currentMine) { 
+   if (mineLocations.includes(i)) {
+      currentMine++;
+ } i++; } mineLocations.push(currentMine); } 
+
+// returns the location of the bombs on the board 
+// Example: [20, 21, 4] 
+ return mineLocations;
+
+ 
+
+Roulette
+
+Our Roulette is based on the European style single ‘0’ wheel where there are 37 different pockets ranging from 0 to 36. The game event in roulette is to calculate the pockets from the 37 pockets in which the ball will land.
+
+// Generate a float between 0 and 1 
+// Example: floats = [0.43053962965495884] 
+const floats = generateFloats({serverSeed, clientSeed, nonce, cursor: 0, count: 1 }); 
+
+// generate an integer from 0 to 37 to represent the pocket to land on 
+// Example: resultValue = 15 
+ const resultValue = floats.map(val => Math.floor(val * 37))[0]; 
+ return resultValue
+
+ 
+
+Wheel
+
+In Wheel, a user will select the number of segments the wheel has. Depending on which segment the pointer stops, the user will win the multiplier at the segment. The game event is to determine the segment.
+
+// Generate a float between 0 and 1 
+// Example: floats = [0.43053962965495884] 
+const floats = generateFloats({serverSeed, clientSeed, nonce, cursor,                                                                      count:1 }); 
+
+// Get an integer representing the number of segments set in the game 
+// Example: resultSegment = 8 
+const resultSegment = floats.map(val => Math.floor(val * numberOfSegments))[0]; 
+
+return resultSegment
+
+ 
+
+Blackjack
+
+In blackjack, the game is played with an unlimited card deck. Hence each turn will always have the same probability. The game event in Blackjack is to determine the card being drawn if the player or the banker draws a card from the deck.
+
+// Generate a float between 0 and 1 
+// Example: floats = [0.43053962965495884, 0.6645898742135614, 0.17454026662744582, 0.5729992990382016, 0.850033157505095] (52 elements are generated but only 5 are shown here for brevity) 
+const floats = generateFloats({serverSeed, clientSeed, nonce, cursor, count:52 }); 
+
+const CARDS = [ ♦2, ♥2, ♠2, ♣2, ♦3, ♥3, ♠3, ♣3, ♦4, ♥4, ♠4, ♣4, ♦5, ♥5, ♠5, ♣5, ♦6, ♥6, ♠6, ♣6, ♦7, ♥7, ♠7, ♣7, ♦8, ♥8, ♠8, ♣8, ♦9, ♥9, ♠9, ♣9, ♦10, ♥10, ♠10, ♣10, ♦J, ♥J, ♠J, ♣J, ♦Q, ♥Q, ♠Q, ♣Q, ♦K, ♥K, ♠K, ♣K, ♦A, ♥A, ♠A, ♣A 
+]; 
+
+// Get an integer 0 to 51, representing the index of the cards 
+// Example: cardFloats = [22, 34, 9, 29, 44] 
+const cardFloats = floats.map(val => Math.floor(val * 52)); 
+
+// Example: cards = [♠7, ♠10, ♥4, ♥9, ♦K] 
+const cards = cardFloats.map(val => CARDS[val]) 
+return cards;
+
+ 
+
+Hilo
+
+In Hilo, the game is played with an unlimited card deck Hence each turn will always have the same probability. The objective of the game is to guess if the next card is of higher or lower value than the existing card. The game event in Hilo is to determine which card a user draws next (if drawn).
+
+// Generate a float between 0 and 1 
+// Example: floats = [0.43053962965495884, 0.6645898742135614, 0.17454026662744582, 0.5729992990382016, 0.850033157505095] (an unlimited number of cards can be drawn but only 5 are shown here for brevity) 
+const floats = generateFloats({serverSeed, clientSeed, nonce, cursor, count:52 }); 
+
+const CARDS = [ 
+♦2, ♥2, ♠2, ♣2, ♦3, ♥3, ♠3, ♣3, ♦4, ♥4, ♠4, ♣4, ♦5, ♥5, ♠5, ♣5, ♦6, ♥6, ♠6, ♣6, ♦7, ♥7, ♠7, ♣7, ♦8, ♥8, ♠8, ♣8, ♦9, ♥9, ♠9, ♣9, ♦10, ♥10, ♠10, ♣10, ♦J, ♥J, ♠J, ♣J, ♦Q, ♥Q, ♠Q, ♣Q, ♦K, ♥K, ♠K, ♣K, ♦A, ♥A, ♠A, ♣A 
+]; 
+
+// Get an integer 0 to 51, representing the index of the cards 
+// Example: cardFloats = [22, 34, 9, 29, 44] 
+const cardFloats = floats.map(val => Math.floor(val * 52)); 
+
+
+// Example: cards = [♠7, ♠10, ♥4, ♥9, ♦K] 
+const cards = cardFloats.map(val => CARDS[val]) 
+return cards;
+
+ 
+
+Crash
+
+There are 2 parts to the calculation of the result of a crash game
+
+Bitcoin block hash
+
+Seed
+
+ 
+
+Bitcoin Hash
+
+Details are in this tweet:
+
+https://twitter.com/shufflecom/status/1632716347435286528
+
+ 
+
+ 
+
+The hash of block 779588 can be found on the BTC block explorer (https://btcscan.org/block/000000000000000000033ab71b5fa7edcafe388e5f49719f1de8e1f8d0670460), and matches the hash that is shown in the tweet.
+
+ 
+
+Seed
+
+The process for generating seeds for 10 million crash games is designed to ensure fairness and transparency, preventing any possibility of manipulation by Shuffle. Here’s how seeds are generated and verified:
+
+Initial Seed Generation: The seed for the 10 millionth game is randomly chosen by Shuffle.
+
+Sequential Hashing for Seed Generation: To generate the seeds for all other games, we use a backward hashing method:
+
+The seed for each game is the result of hashing the seed of the subsequent game. Specifically, the hash for the 9,999,999th game is the SHA256 hash of the 10 millionth game’s hash.
+
+This chaining continues such that each game’s seed is derived from hashing the next game’s hash, culminating in the first game's seed being derived from the second game’s hash.
+
+Verification of Seed Integrity:
+
+By publishing the hashed value of the hash used in the first game, players can independently verify the integrity of the hash for all games up to the 10 millionth game.
+
+Using this method, if you know the hash for any specific game, you can verify the seeds for all previous games. For example, if you know the seed of game 1323185, you can hash this seed to verify that it matches the seed of game 1323184, and so on, back to the first game.
+
+For example, in game 1323185 (https://shuffle.com/games/originals/crash?md-id=1323185&modal=crashGame), the hash is 2f824ebb9548a4d24d042ecab390acd1dc931048f696dc03c738937852825ac0
+
+In game 1323184 (https://shuffle.com/games/originals/crash?md-id=1323184&modal=crashGame), the hash is 20f42ccc46fed8e005767f85eb4bd5d42d3bd2a72b01ae77dcc7071bec280265
+
+The hash of game 1323184 is the SHA256 hash of the hash of 1323185. You can use an online SHA256 calculator like https://xorbin.com/tools/sha256-hash-calculator to verify this
+
+Transparency and Security:
+
+By using a future BTC block hash which is out of the control of Shuffle and publishing the hashed version of the seed of first game, users are can prove that crash game results are fair and were untampered.
+
+ 
+
+Slide
+
+Slide uses the same provably fair and seeding process as Crash. The seeding was done publicly on x.com, and the post can be found here.
+
+ 
+
+ 
+
+The hash of block 952294 can be found on the BTC block explorer (https://btcscan.org/block/00000000000000000000a382760ff19cdb7f9f22147b9123f3e471fb3c6d129a) and matches the hash shown in the tweet.
+
+ 
+
+Baccarat
+
+In Baccarat, the game is played with an unlimited card deck. Hence each turn will always have the same probability. The game event in Baccarat is to determine the cards being dealt to both Player and Banker hands across the initial deal and any additional draws following standard Baccarat drawing rules.
+
+The cards are dealt in the following order from the generated float sequence:
+
+Player’s first card - float index 0
+
+Banker’s first card - float index 1
+
+Player’s second card - float index 2
+
+Banker’s second card - float index 3
+
+Player’s third card (if drawn) - float index 4
+
+Banker’s third card (if drawn)
+
+float index 4 - if player did not draw the third card
+
+float index 5 - if player draws the third card
+
+// Generate a float between 0 and 1
+// Example: floats = [0.40353962965495884, 0.6645898742135614, 0.17454026662744582, 0.5729992990382016, 0.850033157505095] (an unlimited number of cards can be drawn but only 5 are shown here for brevity)
+const floats = generateFloats({serverSeed, clientSeed, nonce, cursor, count:52 });
+
+const CARDS = [
+♠2, ♥2, ♦2, ♣2, ♠3, ♥3, ♦3, ♣3, ♠4, ♥4,
+♦4, ♣4, ♠5, ♥5, ♦5, ♣5, ♠6, ♥6, ♦6, ♣6,
+♠7, ♥7, ♦7, ♣7, ♠8, ♥8, ♦8, ♣8, ♠9, ♥9,
+♦9, ♣9, ♠10, ♥10, ♦10, ♣10, ♠J, ♥J, ♦J,
+♣J, ♠Q, ♥Q, ♦Q, ♣Q, ♠K, ♥K, ♦K, ♣K, ♠A,
+♥A, ♦A, ♣A
+];
+
+// Get an integer 0 to 51, representing the index of the cards
+// Example: cardFloats = [22, 34, 9, 29, 44]
+const cardFloats = floats.map(val => Math.floor(val * 52));
+
+// Example: cards = [♠7, ♠10, ♥4, ♠9, ♦K]
+const cards = cardFloats.map(val => CARDS[val])
+return cards;
+
+ 
+
+Blitz
+
+In Blitz, the game is played with an unlimited card deck. Hence, each turn will always have the same probability. The game event in Blitz is to determine the cards being dealt to the player across their chosen draw count, and to evaluate whether all drawn cards are unique.
+
+ 
+
+// Generate a float between 0 and 1
+// Example: floats = [0.43053962965495884, 0.6645898742135614, 0.17454026662744582, 0.5729992990382016, 0.850033157505095] (an unlimited number of cards can be drawn but only 5 are shown here for brevity)
+const floats = generateFloats({serverSeed, clientSeed, nonce, cursor, count:52 });
+
+const CARDS = [
+♠2, ♥2, ♣2, ♦2, ♠3, ♥3, ♣3, ♦3, ♠4, ♥4,
+♣4, ♦4, ♠5, ♥5, ♣5, ♦5, ♠6, ♥6, ♣6, ♦6,
+♠7, ♥7, ♣7, ♦7, ♠8, ♥8, ♣8, ♦8, ♠9, ♥9,
+♣9, ♦9, ♠10, ♥10, ♣10, ♦10, ♠J, ♥J, ♣J, ♦J,
+♠Q, ♥Q, ♣Q, ♦Q, ♠K, ♥K, ♣K, ♦K, ♠A,
+♥A, ♣A, ♦A
+];
+
+// Get an integer 0 to 51, representing the index of the cards
+// Example: cardFloats = [22, 34, 9, 29, 44]
+const cardFloats = floats.map(val => Math.floor(val * 52));
+
+// Example: cards = [♠7, ♠10, ♥4, ♠9, ♦K]
+const cards = cardFloats.map(val => CARDS[val])
+return cards;
+
+ 
+
+Coinflip
+
+
+In Coinflip, the objective is to correctly call the side a flipped coin lands on. The game event in Coinflip is to determine the outcome (HEADS or TAILS) of each coin flip. Coinflip has three modes — Classic (a single flip), Classic Progressive (flip repeatedly and cash out at any point), and Target (choose a number of flips and the minimum number of correct calls needed to win) — but all three derive flip outcomes the same way.
+
+ 
+
+Each flip is determined by generating a float and mapping it to 0 or 1, exactly as Plinko maps its floats to left/right drops:
+
+ 
+
+// Generate floats to determine each flip outcome
+// Example: floats = [0.43053962965495884, 0.6645898742135614, ...] when clientSeed='abc', serverSeed='def', nonce=1
+const floats = generateFloats({ serverSeed, clientSeed, nonce, cursor, count });
+
+// Each float maps to 0 or 1, which maps to HEADS or TAILS
+// Example: [0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1]
+const flipValues = floats.map(val => Math.floor(val * 2));
+const flipResults = flipValues.map(val => (val === 0 ? 'HEADS' : 'TAILS'));
+
+
+// Example: [HEADS, TAILS, HEADS, TAILS, TAILS, HEADS, TAILS, HEADS, TAILS, HEADS,
+//           TAILS, HEADS, TAILS, HEADS, HEADS, TAILS, HEADS, HEADS, HEADS, TAILS]
+return flipResults;
+
+
+Classic — one flip is generated (count = 1). The player wins if their selected side matches the flip.
+
+ 
+
+Classic Progressive — flips are generated one at a time as the player continues, but each flip's outcome is fixed from the start of the round: the Nth flip is always derived by generating flips 1 through N and taking the last one, so revealing flips one-by-one as the player climbs doesn't change what any given flip would have been. The player can cash out after any successful flip; the round ends on the first miss.
+
+ 
+
+Target — the player chooses a total number of flips (up to 20) and a minimum number of correct calls needed to win. All flips are generated as a single batch (count = totalFlips), and the round is won if the number of flips matching the player's call is at least the chosen minimum.
+
+ 
+
+ 
+
+Floor is Lava
+
+Objective: Cross a 7×7 grid (49 tiles) across three consecutive levels without stepping on a tile that turns to lava. 
+
+ 
+
+Each level plays out in fixed-size "rounds" — a batch of tiles drops into lava together each round — and you can cash out after surviving any round. 
+
+ 
+
+Board generation 
+
+Before the round starts, the tile layout for all three levels is drawn in a single provably-fair shuffle: a random permutation of the integers 0..146 (49 tiles × 3 levels) is drawn without replacement from the seeded generator, then split by level: 
+
+ 
+
+// Draw a random permutation of 0..146 without replacement 
+// Example: raw = [103, 12, 140, 76, 3, ...] 
+const boards = [[], [], []]; 
+for (const value of raw) {
+  boards[Math.floor(value / 49)].push(value % 49); // bucket = level, residue = tile index } 
+// boards[0], boards[1], boards[2] are each a uniformly random ordering of tiles 0..48 
+
+ 
+
+Drawing one 147-value permutation instead of three separate 49-value shuffles is just an efficiency trick — because exactly 49 of the 147 values fall in each level's band, each level still ends up with an independent, uniformly random ordering of its own 49 tiles. 
+
+ 
+
+Rounds: how lava drops 
+
+Each level's 49-tile ordering is sliced into consecutive, non-overlapping chunks: a fixed number of tiles per round (dropsPerRound), for a fixed number of rounds (roundsPerLevel), with whatever's left over at the tail being the tiles that survive the whole level: 
+
+ 
+
+tilesDroppedInRound(level, dropsPerRound, roundIndex) = levelBoard.slice(roundIndex * dropsPerRound, (roundIndex + 1) * dropsPerRound) 
+
+tilesThatSurviveLevel(level, survivingCount) = levelBoard.slice(-survivingCount) 
+
+ 
+
+Because the shuffle already fixed the tile order up front, the round's lava set is not chosen in reaction to your pick — it's whichever slice of the pre-shuffled list is "due" this round. 
+
+ 
+
+On each pick, you nominate one tile (selectedTile). That tile must not already belong to a lava batch from an earlier round in this level. The round then resolves by comparing your single tile against the round's entire lava batch (selectedTile): 
+
+ 
+
+isLoss = droppedTiles.includes(selectedTile) 
+
+ 
+
+If your tile is one of this round's dropped tiles, the run ends. Otherwise you've survived the round — regardless of how many other tiles dropped alongside it. 
+
+ 
+
+Difficulty configuration 
+
+Four difficulties trade off round size against round count. Each still adds up to the full 49-tile board (dropsPerRound × roundsPerLevel + survivingTiles = 49): 
+
+ 
+
+Difficulty
+
+	
+
+Drops per round
+
+	
+
+Rounds per level
+
+	
+
+Surviving tiles
+
+
+
+
+Easy
+
+	
+
+7
+
+	
+
+6
+
+	
+
+7
+
+
+
+
+Medium
+
+	
+
+11
+
+	
+
+4
+
+	
+
+5
+
+
+
+
+Hard
+
+	
+
+23
+
+	
+
+2
+
+	
+
+3
+
+
+
+
+Toxic
+
+	
+
+48
+
+	
+
+1
+
+	
+
+1
+
+Level and game progression 
+
+A game has 3 levels, each with its own independently-shuffled 49-tile board. Surviving all rounds in a level clears it and moves you to the next level's board at round one; clearing the third level completes the game. 
+
+ 
+
+Cashout 
+
+You can cash out after surviving any round — your very first successful pick already unlocks it. 
+
+ 
+
+Multiplier 
+multiplier = edgeMultiplier * 49^(levelsCleared+1) / (tilesRemainingInLevel * survivingTiles^levelsCleared) 
+
+ 
+
+levelsCleared is the number of fully-completed levels so far, tilesRemainingInLevel shrinks by the round's drop count each time you survive a round within the current level, and survivingTiles is the difficulty's per-level survivor count from the table above. 
+
+ 
+
+This is a fair-odds price: the inverse of the cumulative probability of having reached that exact point (levels cleared × rounds survived) under uniform random tile placement, scaled by the house edge.
+
+ 
+
+Related Articles
+Provably Fair - How to verify bets
+Provably Fair - Overview
+Provably Fair - Commitment Schemes
+Provably Fair - Implementation
+Did this answer your question?
+Disappointed Reaction
+😞
+Neutral Reaction
+😐
+Smiley Reaction
+😃
+What are game events
+Tower
+Chicken
+Plinko
+Dice
+Limbo
+Keno
+Mines
+Roulette
+Wheel
+Blackjack
+Hilo
+Crash
+Slide
+Baccarat
+Blitz
+Coinflip
+Floor is Lava

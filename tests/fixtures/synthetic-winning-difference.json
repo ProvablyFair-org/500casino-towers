@@ -1,0 +1,10 @@
+{
+ "label": "SYNTHETIC TEST DATA - NOT CASINO EVIDENCE",
+ "purpose": "Unit fixture for the successful-cash-out difference convention (gross benchmark minus observed gross payout; the stake is included in both). No casino produced these numbers.",
+ "difficulty": "medium",
+ "row": 2,
+ "stake": "2000",
+ "observed_gross_payout": "7220",
+ "expected_fixed5_gross_benchmark": "7600",
+ "expected_difference": "380"
+}

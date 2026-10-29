@@ -1,0 +1,18 @@
+{
+ "requested_url": "https://stake.com/casino/games/dragon-tower",
+ "final_url": "https://stake.com/pt/casino/games/stake-dragon-tower",
+ "title": "Play Dragon Tower Online - Casino Games on Stake.com",
+ "acquired_at_utc": "2026-10-28T12:50:27.328Z",
+ "page_language": "pt",
+ "logged_in": false,
+ "acquisition": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+ "locale_note": "stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+ "text_sha256": "4eb0ad7d2112a0995de3409c527b986e64c88c5554a652950be44cd9947ce597",
+ "html_sha256_withheld": "6966ce29e277f5cfad35f728770b16d296d5a5ac96a2d466cb4c55d6b4df866a",
+ "html_withheld_reason": "page HTML withheld; only its sha256 is published. It contains Cloudflare per-request parameters (ray id and timestamp); a live bets table with other players' usernames.",
+ "screenshot_sha256": {
+  "screenshot.png": "e16eaf235337b0520b0d0ff7ed4e3c3a215fb8480ec8ee25c016caa5ee686cab"
+ },
+ "original_capture_metadata_sha256": "9b693cfece8fb36fd4e53887426e71a4ec08c2daf5d9ec06d3a5e0fe19d8d83c",
+ "not_receipts": "command-line fetches of these URLs made the same day returned Cloudflare challenge pages for 500 Casino and Stake; they are not used"
+}

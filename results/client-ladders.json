@@ -1,0 +1,283 @@
+{
+ "layer": "Captured client display arithmetic, evaluated by the JavaScript engine. Not a settlement observation.",
+ "formula_3dp": "Math.floor(1e3*Math.pow(step,row))/1e3",
+ "formula_2dp": "Math.floor(100*label3)/100",
+ "steps": {
+  "easy": "1.425",
+  "medium": "1.9",
+  "hard": "2.85"
+ },
+ "live_vs_archived_expression_mismatches": 0,
+ "rows": [
+  {
+   "difficulty": "easy",
+   "row": 1,
+   "client_label_3dp": "1.425",
+   "client_label_3dp_js_number": "1.425",
+   "archived_client_label_3dp": "1.425",
+   "client_tile_label_2dp": "1.42",
+   "label_3dp_if_step_were_binary_product": "1.424"
+  },
+  {
+   "difficulty": "easy",
+   "row": 2,
+   "client_label_3dp": "2.030",
+   "client_label_3dp_js_number": "2.03",
+   "archived_client_label_3dp": "2.030",
+   "client_tile_label_2dp": "2.02",
+   "label_3dp_if_step_were_binary_product": "2.030"
+  },
+  {
+   "difficulty": "easy",
+   "row": 3,
+   "client_label_3dp": "2.893",
+   "client_label_3dp_js_number": "2.893",
+   "archived_client_label_3dp": "2.893",
+   "client_tile_label_2dp": "2.89",
+   "label_3dp_if_step_were_binary_product": "2.893"
+  },
+  {
+   "difficulty": "easy",
+   "row": 4,
+   "client_label_3dp": "4.123",
+   "client_label_3dp_js_number": "4.123",
+   "archived_client_label_3dp": "4.123",
+   "client_tile_label_2dp": "4.12",
+   "label_3dp_if_step_were_binary_product": "4.123"
+  },
+  {
+   "difficulty": "easy",
+   "row": 5,
+   "client_label_3dp": "5.875",
+   "client_label_3dp_js_number": "5.875",
+   "archived_client_label_3dp": "5.875",
+   "client_tile_label_2dp": "5.87",
+   "label_3dp_if_step_were_binary_product": "5.875"
+  },
+  {
+   "difficulty": "easy",
+   "row": 6,
+   "client_label_3dp": "8.373",
+   "client_label_3dp_js_number": "8.373",
+   "archived_client_label_3dp": "8.373",
+   "client_tile_label_2dp": "8.37",
+   "label_3dp_if_step_were_binary_product": "8.373"
+  },
+  {
+   "difficulty": "easy",
+   "row": 7,
+   "client_label_3dp": "11.931",
+   "client_label_3dp_js_number": "11.931",
+   "archived_client_label_3dp": "11.931",
+   "client_tile_label_2dp": "11.93",
+   "label_3dp_if_step_were_binary_product": "11.931"
+  },
+  {
+   "difficulty": "easy",
+   "row": 8,
+   "client_label_3dp": "17.002",
+   "client_label_3dp_js_number": "17.002",
+   "archived_client_label_3dp": "17.002",
+   "client_tile_label_2dp": "17.00",
+   "label_3dp_if_step_were_binary_product": "17.002"
+  },
+  {
+   "difficulty": "easy",
+   "row": 9,
+   "client_label_3dp": "24.228",
+   "client_label_3dp_js_number": "24.228",
+   "archived_client_label_3dp": "24.228",
+   "client_tile_label_2dp": "24.22",
+   "label_3dp_if_step_were_binary_product": "24.228"
+  },
+  {
+   "difficulty": "easy",
+   "row": 10,
+   "client_label_3dp": "34.526",
+   "client_label_3dp_js_number": "34.526",
+   "archived_client_label_3dp": "34.526",
+   "client_tile_label_2dp": "34.52",
+   "label_3dp_if_step_were_binary_product": "34.526"
+  },
+  {
+   "difficulty": "medium",
+   "row": 1,
+   "client_label_3dp": "1.900",
+   "client_label_3dp_js_number": "1.9",
+   "archived_client_label_3dp": "1.900",
+   "client_tile_label_2dp": "1.90",
+   "label_3dp_if_step_were_binary_product": "1.900"
+  },
+  {
+   "difficulty": "medium",
+   "row": 2,
+   "client_label_3dp": "3.610",
+   "client_label_3dp_js_number": "3.61",
+   "archived_client_label_3dp": "3.610",
+   "client_tile_label_2dp": "3.61",
+   "label_3dp_if_step_were_binary_product": "3.610"
+  },
+  {
+   "difficulty": "medium",
+   "row": 3,
+   "client_label_3dp": "6.858",
+   "client_label_3dp_js_number": "6.858",
+   "archived_client_label_3dp": "6.858",
+   "client_tile_label_2dp": "6.85",
+   "label_3dp_if_step_were_binary_product": "6.858"
+  },
+  {
+   "difficulty": "medium",
+   "row": 4,
+   "client_label_3dp": "13.032",
+   "client_label_3dp_js_number": "13.032",
+   "archived_client_label_3dp": "13.032",
+   "client_tile_label_2dp": "13.03",
+   "label_3dp_if_step_were_binary_product": "13.032"
+  },
+  {
+   "difficulty": "medium",
+   "row": 5,
+   "client_label_3dp": "24.760",
+   "client_label_3dp_js_number": "24.76",
+   "archived_client_label_3dp": "24.760",
+   "client_tile_label_2dp": "24.76",
+   "label_3dp_if_step_were_binary_product": "24.760"
+  },
+  {
+   "difficulty": "medium",
+   "row": 6,
+   "client_label_3dp": "47.045",
+   "client_label_3dp_js_number": "47.045",
+   "archived_client_label_3dp": "47.045",
+   "client_tile_label_2dp": "47.04",
+   "label_3dp_if_step_were_binary_product": "47.045"
+  },
+  {
+   "difficulty": "medium",
+   "row": 7,
+   "client_label_3dp": "89.387",
+   "client_label_3dp_js_number": "89.387",
+   "archived_client_label_3dp": "89.387",
+   "client_tile_label_2dp": "89.38",
+   "label_3dp_if_step_were_binary_product": "89.387"
+  },
+  {
+   "difficulty": "medium",
+   "row": 8,
+   "client_label_3dp": "169.835",
+   "client_label_3dp_js_number": "169.835",
+   "archived_client_label_3dp": "169.835",
+   "client_tile_label_2dp": "169.83",
+   "label_3dp_if_step_were_binary_product": "169.835"
+  },
+  {
+   "difficulty": "medium",
+   "row": 9,
+   "client_label_3dp": "322.687",
+   "client_label_3dp_js_number": "322.687",
+   "archived_client_label_3dp": "322.687",
+   "client_tile_label_2dp": "322.68",
+   "label_3dp_if_step_were_binary_product": "322.687"
+  },
+  {
+   "difficulty": "medium",
+   "row": 10,
+   "client_label_3dp": "613.106",
+   "client_label_3dp_js_number": "613.106",
+   "archived_client_label_3dp": "613.106",
+   "client_tile_label_2dp": "613.10",
+   "label_3dp_if_step_were_binary_product": "613.106"
+  },
+  {
+   "difficulty": "hard",
+   "row": 1,
+   "client_label_3dp": "2.850",
+   "client_label_3dp_js_number": "2.85",
+   "archived_client_label_3dp": "2.850",
+   "client_tile_label_2dp": "2.85",
+   "label_3dp_if_step_were_binary_product": "2.849"
+  },
+  {
+   "difficulty": "hard",
+   "row": 2,
+   "client_label_3dp": "8.122",
+   "client_label_3dp_js_number": "8.122",
+   "archived_client_label_3dp": "8.122",
+   "client_tile_label_2dp": "8.12",
+   "label_3dp_if_step_were_binary_product": "8.122"
+  },
+  {
+   "difficulty": "hard",
+   "row": 3,
+   "client_label_3dp": "23.149",
+   "client_label_3dp_js_number": "23.149",
+   "archived_client_label_3dp": "23.149",
+   "client_tile_label_2dp": "23.14",
+   "label_3dp_if_step_were_binary_product": "23.149"
+  },
+  {
+   "difficulty": "hard",
+   "row": 4,
+   "client_label_3dp": "65.975",
+   "client_label_3dp_js_number": "65.975",
+   "archived_client_label_3dp": "65.975",
+   "client_tile_label_2dp": "65.97",
+   "label_3dp_if_step_were_binary_product": "65.975"
+  },
+  {
+   "difficulty": "hard",
+   "row": 5,
+   "client_label_3dp": "188.028",
+   "client_label_3dp_js_number": "188.028",
+   "archived_client_label_3dp": "188.028",
+   "client_tile_label_2dp": "188.02",
+   "label_3dp_if_step_were_binary_product": "188.028"
+  },
+  {
+   "difficulty": "hard",
+   "row": 6,
+   "client_label_3dp": "535.881",
+   "client_label_3dp_js_number": "535.881",
+   "archived_client_label_3dp": "535.881",
+   "client_tile_label_2dp": "535.88",
+   "label_3dp_if_step_were_binary_product": "535.881"
+  },
+  {
+   "difficulty": "hard",
+   "row": 7,
+   "client_label_3dp": "1527.263",
+   "client_label_3dp_js_number": "1527.263",
+   "archived_client_label_3dp": "1527.263",
+   "client_tile_label_2dp": "1527.26",
+   "label_3dp_if_step_were_binary_product": "1527.263"
+  },
+  {
+   "difficulty": "hard",
+   "row": 8,
+   "client_label_3dp": "4352.701",
+   "client_label_3dp_js_number": "4352.701",
+   "archived_client_label_3dp": "4352.701",
+   "client_tile_label_2dp": "4352.70",
+   "label_3dp_if_step_were_binary_product": "4352.701"
+  },
+  {
+   "difficulty": "hard",
+   "row": 9,
+   "client_label_3dp": "12405.199",
+   "client_label_3dp_js_number": "12405.199",
+   "archived_client_label_3dp": "12405.199",
+   "client_tile_label_2dp": "12405.19",
+   "label_3dp_if_step_were_binary_product": "12405.199"
+  },
+  {
+   "difficulty": "hard",
+   "row": 10,
+   "client_label_3dp": "35354.817",
+   "client_label_3dp_js_number": "35354.817",
+   "archived_client_label_3dp": "35354.817",
+   "client_tile_label_2dp": "35354.81",
+   "label_3dp_if_step_were_binary_product": "35354.817"
+  }
+ ]
+}

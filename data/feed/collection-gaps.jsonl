@@ -1,0 +1,82 @@
+{"ev":"gap-start","at":"2026-10-07T13:55:10.545Z","reason":"collector-not-running (first start)"}
+{"ev":"collector-start","at":"2026-10-07T13:55:10.546Z","url":"https://500.casino/towers"}
+{"ev":"ws-open","at":"2026-10-07T13:55:12.601Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-07T13:55:13.146Z","start":"2026-10-07T13:55:10.545Z","reason":"collector-not-running (first start)","seconds":2.601}
+{"ev":"gap-start","at":"2026-10-07T14:00:38.256Z","reason":"collector-stopped (SIGTERM)"}
+{"ev":"collector-start","at":"2026-10-07T14:00:46.722Z","url":"https://500.casino/towers"}
+{"ev":"ws-open","at":"2026-10-07T14:00:48.769Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-07T14:00:49.319Z","start":"2026-10-07T14:00:38.256Z","reason":"collector-stopped (SIGTERM)","seconds":11.063}
+{"ev":"ws-close","at":"2026-10-07T19:45:03.805Z"}
+{"ev":"gap-start","at":"2026-10-07T19:45:03.806Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-07T19:45:04.553Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-07T19:45:05.120Z","start":"2026-10-07T19:45:03.806Z","reason":"ws-close","seconds":1.314}
+{"ev":"gap-start","at":"2026-10-07T20:00:52.247Z","reason":"scheduled-reload"}
+{"ev":"ws-open","at":"2026-10-07T20:00:53.694Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-07T20:00:54.251Z","start":"2026-10-07T20:00:52.247Z","reason":"scheduled-reload","seconds":2.004}
+{"ev":"ws-close","at":"2026-10-07T23:42:59.365Z"}
+{"ev":"gap-start","at":"2026-10-07T23:42:59.366Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-07T23:43:00.824Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-07T23:43:01.217Z","start":"2026-10-07T23:42:59.366Z","reason":"ws-close","seconds":1.851}
+{"ev":"ws-close","at":"2026-10-08T01:02:11.515Z"}
+{"ev":"gap-start","at":"2026-10-08T01:02:11.518Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-08T01:02:13.252Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T01:02:13.773Z","start":"2026-10-08T01:02:11.518Z","reason":"ws-close","seconds":2.255}
+{"ev":"ws-close","at":"2026-10-08T01:09:35.848Z"}
+{"ev":"gap-start","at":"2026-10-08T01:09:35.850Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-08T01:09:37.181Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T01:09:37.844Z","start":"2026-10-08T01:09:35.850Z","reason":"ws-close","seconds":1.994}
+{"ev":"ws-close","at":"2026-10-08T01:15:24.385Z"}
+{"ev":"gap-start","at":"2026-10-08T01:15:24.387Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-08T01:15:25.961Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T01:15:26.561Z","start":"2026-10-08T01:15:24.387Z","reason":"ws-close","seconds":2.174}
+{"ev":"gap-start","at":"2026-10-08T02:00:57.093Z","reason":"scheduled-reload"}
+{"ev":"ws-open","at":"2026-10-08T02:00:58.719Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T02:00:59.264Z","start":"2026-10-08T02:00:57.093Z","reason":"scheduled-reload","seconds":2.171}
+{"ev":"ws-close","at":"2026-10-08T06:56:11.706Z"}
+{"ev":"gap-start","at":"2026-10-08T06:56:11.707Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-08T06:56:12.304Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T06:56:12.826Z","start":"2026-10-08T06:56:11.707Z","reason":"ws-close","seconds":1.119}
+{"ev":"gap-start","at":"2026-10-08T08:01:01.956Z","reason":"scheduled-reload"}
+{"ev":"gap-end","at":"2026-10-08T08:01:02.340Z","start":"2026-10-08T08:01:01.956Z","reason":"scheduled-reload","seconds":0.384}
+{"ev":"ws-open","at":"2026-10-08T08:01:03.383Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"ws-close","at":"2026-10-08T09:05:15.463Z"}
+{"ev":"gap-start","at":"2026-10-08T09:05:15.463Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-08T09:05:16.617Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T09:05:17.097Z","start":"2026-10-08T09:05:15.463Z","reason":"ws-close","seconds":1.634}
+{"ev":"ws-close","at":"2026-10-08T09:20:43.006Z"}
+{"ev":"gap-start","at":"2026-10-08T09:20:43.008Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-08T09:20:44.542Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T09:20:45.045Z","start":"2026-10-08T09:20:43.008Z","reason":"ws-close","seconds":2.037}
+{"ev":"ws-close","at":"2026-10-08T09:50:27.067Z"}
+{"ev":"gap-start","at":"2026-10-08T09:50:27.068Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-08T09:50:27.883Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T09:50:28.425Z","start":"2026-10-08T09:50:27.068Z","reason":"ws-close","seconds":1.357}
+{"ev":"gap-start","at":"2026-10-08T10:17:11.431Z","reason":"collector-stopped (SIGTERM)"}
+{"ev":"collector-start","at":"2026-10-08T10:17:19.977Z","url":"https://500.casino/towers"}
+{"ev":"ws-open","at":"2026-10-08T10:17:23.020Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T10:17:24.914Z","start":"2026-10-08T10:17:11.431Z","reason":"collector-stopped (SIGTERM)","seconds":13.483}
+{"ev":"gap-end","at":"2026-10-08T10:17:11.431Z","start":"2026-10-08T09:05:04.195Z","reason":"no-bets-after-reconnect","seconds":4327.236,"note":"retroactive, added 2026-10-08 by hand: socket reconnected 09:05:16Z but the page received no new_casino_bet until the restart; the collector only tracked socket state, so it logged a 1.6 s ws-close gap. Fixed in collector.mjs (bet watchdog, gaps end only on a bet)."}
+{"ev":"gap-start","at":"2026-10-08T13:40:29.285Z","reason":"browser-disconnected"}
+{"ev":"ws-open","at":"2026-10-08T13:40:37.305Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T13:40:38.579Z","start":"2026-10-08T13:40:29.285Z","reason":"browser-disconnected","seconds":9.294}
+{"ev":"gap-start","at":"2026-10-08T16:13:46.061Z","reason":"browser-disconnected"}
+{"ev":"ws-open","at":"2026-10-08T16:13:52.221Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T16:13:54.201Z","start":"2026-10-08T16:13:46.061Z","reason":"browser-disconnected","seconds":8.14}
+{"ev":"gap-start","at":"2026-10-08T16:15:15.620Z","reason":"browser-disconnected"}
+{"ev":"ws-open","at":"2026-10-08T16:15:27.917Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T16:15:28.915Z","start":"2026-10-08T16:15:15.620Z","reason":"browser-disconnected","seconds":13.295}
+{"ev":"gap-start","at":"2026-10-08T22:15:30.961Z","reason":"scheduled-reload"}
+{"ev":"ws-open","at":"2026-10-08T22:15:32.457Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-08T22:15:33.773Z","start":"2026-10-08T22:15:30.961Z","reason":"scheduled-reload","seconds":2.812}
+{"ev":"gap-start","at":"2026-10-09T04:15:35.678Z","reason":"scheduled-reload"}
+{"ev":"ws-open","at":"2026-10-09T04:15:36.940Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-09T04:15:38.511Z","start":"2026-10-09T04:15:35.678Z","reason":"scheduled-reload","seconds":2.833}
+{"ev":"ws-close","at":"2026-10-09T08:27:50.664Z"}
+{"ev":"gap-start","at":"2026-10-09T08:27:50.667Z","reason":"ws-close"}
+{"ev":"ws-open","at":"2026-10-09T08:27:52.004Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"ws-open","at":"2026-10-09T08:30:30.632Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-end","at":"2026-10-09T08:30:32.230Z","start":"2026-10-09T08:27:50.667Z","reason":"ws-close","seconds":161.563}
+{"ev":"gap-start","at":"2026-10-09T10:15:41.222Z","reason":"scheduled-reload"}
+{"ev":"gap-end","at":"2026-10-09T10:15:41.505Z","start":"2026-10-09T10:15:41.222Z","reason":"scheduled-reload","seconds":0.283}
+{"ev":"ws-open","at":"2026-10-09T10:15:42.482Z","url":"wss://socket.500.casino/socket.io/?EIO=4&transport=websocket"}
+{"ev":"gap-start","at":"2026-10-09T11:46:12.781Z","reason":"silence>120s"}

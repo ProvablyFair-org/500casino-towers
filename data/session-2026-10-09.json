@@ -1,0 +1,96 @@
+{
+ "description": "Normalized inputs for the 9 October 2026 Towers session, transcribed from evidence/session-2026-10-09/log.redacted.txt (and, where stated, from the screenshots in evidence/session-2026-10-09/shots/). Every value names its source. This file is an input to analysis/session_verify.py; it is not an observation in its own right.",
+ "tile_encoding": "0 = left, 1 = middle (Easy/Hard) or right (Medium), 2 = right (Easy/Hard). Row 1 = bottom row. Rounds in the HMAC message are numbered 0-9 (row 1 = round 0).",
+ "account_game_seed_root": {
+  "value": "6a9ae61b8fb4004f64eae1e0",
+  "note": "Test-account id. The operator's seed panel calls the game seed 'your 500 ID hashed N times'; N = 0 is this id. It identifies the test account (see REDACTIONS.md).",
+  "sources": ["log.redacted.txt line 3", "shots/S03-mines-seedpair-loads-hashed0.png", "shots/S02-seedpair-locked-devtools.png", "log.redacted.txt verify link A1"]
+ },
+ "server_seed_pairs": [
+  {
+   "pair": 1, "games": "0-2",
+   "revealed_server_seed": "c32b9c845d43157bc420cfbadb408d28802b81ca3e90dca34a3e52d87bd0770f",
+   "revealed_source": "log.redacted.txt verify links A1, A2, A3 (server_seed= parameter)",
+   "committed_hash": "93cfceb2b5f17ff55b527a960984d1d0e74d671b57789bc7e14d5fd28351c522",
+   "committed_source": "log.redacted.txt line 3 (active server seed hash shown before the first bet); shots/S03 and shots/A04 (visual transcription in data/seed-panel-transcriptions.json)",
+   "client_seed": "97BCXIhqj6",
+   "client_seed_source": "log.redacted.txt verify links A1-A3 (log line 3 misread it as 97BCXlhqj6; the log records the correction)"
+  },
+  {
+   "pair": 2, "games": "3-32",
+   "revealed_server_seed": "a558bb39a66ab03aba9d14c7a5a02d91ea3b43e658b09b7dc53bb7aa5f28116e",
+   "revealed_source": "log.redacted.txt OFFLINE block and verify link A25 (server_seed= parameter)",
+   "committed_hash": "9eeda95c8a580536b9442c39af75872c9ec380b065afe850589c24c739da00ad",
+   "committed_source": "log.redacted.txt line 3 (next server seed hash shown before the first bet); shots/S03, A04, A05, F01 (visual transcription)",
+   "client_seed": "pf500radb9081b2d",
+   "client_seed_source": "log.redacted.txt 12:09:25Z A0-REVEAL line and verify link A25"
+  }
+ ],
+ "game_seed_observations": [
+  {"n": 0, "value": "6a9ae61b8fb4004f64eae1e0", "source": "log.redacted.txt verify link A1 game_seed="},
+  {"n": 1, "value": "89bb2e592ed73bafcf543d02ac723e72b52004fb5d60f24fb9f5f654e009a03a", "source": "log.redacted.txt verify link A2 game_seed="},
+  {"n": 2, "value": "dcf579506c2552c9db4933e90e3466f3f6e01ac92162939a3882bc5fcf11d5f5", "source": "log.redacted.txt verify link A3 game_seed="},
+  {"n": 3, "value": "4b6d7ecac5a2a895cca6d52df692b9cc4f3ae76d0c5f4e192476289f3afe06f3", "source": "log.redacted.txt 12:10:48Z (panel 'hashed 3 times'); shots/A04, A05"},
+  {"n": 32, "value": "e9e2b67ace637ee3c297b2343531b8a8a07384d0c405a85bf91106cd0796cf03", "source": "log.redacted.txt verify link A25 game_seed="},
+  {"n": 33, "value": "1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3", "source": "log.redacted.txt 13:12:34Z FINAL ROTATE line (panel 'hashed 33 times'); shots/F01, F02 (visual transcription)"}
+ ],
+ "start_balance": {"value": "100.48", "source": "log.redacted.txt 11:47:00Z S-LOGIN; shots/S01"},
+ "games": [
+  {"n": 0, "label": "A1", "difficulty": "easy", "stake": "0.10", "picks": [0], "logged": "cash@1", "source": "log.redacted.txt 12:05:15Z"},
+  {"n": 1, "label": "A2", "difficulty": "medium", "stake": "0.10", "picks": [0], "logged": "cash@1", "source": "log.redacted.txt 12:07:28Z"},
+  {"n": 2, "label": "A3", "difficulty": "hard", "stake": "0.10", "picks": [1], "logged": "cash@1", "source": "log.redacted.txt 12:09:25Z"},
+  {"n": 3, "label": "P1-1", "difficulty": "easy", "stake": "2.00", "picks": [0], "logged": "bomb@1", "source": "log.redacted.txt 12:14:52Z"},
+  {"n": 4, "label": "P1-2", "difficulty": "easy", "stake": "2.00", "picks": [0], "logged": "cash@1", "source": "log.redacted.txt 12:15:42Z"},
+  {"n": 5, "label": "P1-3", "difficulty": "easy", "stake": "2.00", "picks": [2], "logged": "cash@1", "source": "log.redacted.txt 12:16:41Z"},
+  {"n": 6, "label": "P1-4", "difficulty": "easy", "stake": "2.00", "picks": [0], "logged": "cash@1", "source": "log.redacted.txt 12:17:34Z"},
+  {"n": 7, "label": "P2-1", "difficulty": "easy", "stake": "1.50", "picks": [1, 2], "logged": "cash@2", "source": "log.redacted.txt 12:18:53Z"},
+  {"n": 8, "label": "P2-2", "difficulty": "easy", "stake": "1.50", "picks": [0], "logged": "bomb@1", "source": "log.redacted.txt 12:19:05Z"},
+  {"n": 9, "label": "P2-3", "difficulty": "easy", "stake": "1.50", "picks": [0, 2], "logged": "cash@2", "source": "log.redacted.txt 12:20:06Z"},
+  {"n": 10, "label": "P2-4", "difficulty": "easy", "stake": "1.50", "picks": [0, 1], "logged": "cash@2", "source": "log.redacted.txt 12:21:10Z"},
+  {"n": 11, "label": "A4", "difficulty": "easy", "stake": "0.33", "picks": [2, 1, 0], "logged": "bomb@3", "source": "log.redacted.txt Block A bet4"},
+  {"n": 12, "label": "A5", "difficulty": "easy", "stake": "0.11", "picks": [2], "logged": "cash@1", "source": "log.redacted.txt Block A bet5"},
+  {"n": 13, "label": "A6", "difficulty": "easy", "stake": "0.33", "picks": [1, 1, 1], "logged": "cash@3", "source": "log.redacted.txt Block A bet6"},
+  {"n": 14, "label": "A7", "difficulty": "easy", "stake": "0.11", "picks": [0], "logged": "bomb@1", "source": "log.redacted.txt Block A bet7"},
+  {"n": 15, "label": "A8", "difficulty": "hard", "stake": "0.11", "picks": [1], "logged": "bomb@1", "source": "log.redacted.txt Block A bet8"},
+  {"n": 16, "label": "A9", "difficulty": "medium", "stake": "0.10", "picks": [1], "logged": "bomb@1", "source": "log.redacted.txt Block A bet9"},
+  {"n": 17, "label": "A10", "difficulty": "easy", "stake": "0.10", "picks": [2, 0, 1, 1], "logged": "bomb@4", "source": "log.redacted.txt Block A bet10"},
+  {"n": 18, "label": "A11", "difficulty": "medium", "stake": "0.11", "picks": [0, 1, 0], "logged": "bomb@3", "source": "log.redacted.txt Block A bet11"},
+  {"n": 19, "label": "A12", "difficulty": "medium", "stake": "0.10", "picks": [0], "logged": "bomb@1", "source": "log.redacted.txt Block A bet12"},
+  {"n": 20, "label": "A13", "difficulty": "hard", "stake": "0.50", "picks": [0], "logged": "bomb@1", "source": "log.redacted.txt Block A bet13"},
+  {"n": 21, "label": "A14", "difficulty": "easy", "stake": "0.11", "picks": [1], "logged": "bomb@1", "source": "log.redacted.txt Block A bet14"},
+  {"n": 22, "label": "A15", "difficulty": "easy", "stake": "0.10", "picks": [2, 1], "logged": "bomb@2", "source": "log.redacted.txt Block A bet15"},
+  {"n": 23, "label": "A16", "difficulty": "medium", "stake": "0.11", "picks": [0, 0, 1], "logged": "bomb@3", "source": "log.redacted.txt Block A bet16"},
+  {"n": 24, "label": "A17", "difficulty": "hard", "stake": "0.11", "picks": [1], "logged": "bomb@1", "source": "log.redacted.txt Block A bet17"},
+  {"n": 25, "label": "A18", "difficulty": "easy", "stake": "0.10", "picks": [1], "logged": "cash@1", "source": "log.redacted.txt Block A bet18"},
+  {"n": 26, "label": "A19", "difficulty": "medium", "stake": "0.10", "picks": [0], "logged": "bomb@1", "source": "log.redacted.txt Block A bet19"},
+  {"n": 27, "label": "A20", "difficulty": "easy", "stake": "0.10", "picks": [1, 0, 2], "logged": "cash@3", "source": "log.redacted.txt Block A bet20"},
+  {"n": 28, "label": "A21", "difficulty": "medium", "stake": "0.33", "picks": [0], "logged": "bomb@1", "source": "log.redacted.txt Block A bet21"},
+  {"n": 29, "label": "A22", "difficulty": "hard", "stake": "0.11", "picks": [1, 2], "logged": "bomb@2", "source": "log.redacted.txt Block A bet22"},
+  {"n": 30, "label": "A23", "difficulty": "easy", "stake": "0.11", "picks": [1, 2], "logged": "bomb@2", "source": "log.redacted.txt Block A bet23"},
+  {"n": 31, "label": "A24", "difficulty": "easy", "stake": "0.50", "picks": [2, 0], "logged": "bomb@2", "source": "log.redacted.txt Block A bet24"},
+  {"n": 32, "label": "A25", "difficulty": "medium", "stake": "0.11", "picks": [1], "logged": "bomb@1", "source": "log.redacted.txt Block A bet25"}
+ ],
+ "balance_readings_selected": [
+  {"after_game": 0, "displayed": "100.52", "source": "log.redacted.txt 12:05:15Z 'settled'; shots/A01-bet1-mybets-balance-100.52"},
+  {"after_game": 1, "displayed": "100.61", "source": "log.redacted.txt 12:07:28Z 'settled'"},
+  {"after_game": 2, "displayed": "100.79", "source": "log.redacted.txt 12:09:25Z 'settled'; shots/A03-balance-100.79.png"},
+  {"after_game": 4, "displayed": "99.64", "source": "log.redacted.txt 12:15:42Z; shots/P1-try2-balance-99.64.png"},
+  {"after_game": 5, "displayed": "100.49", "source": "log.redacted.txt 12:16:41Z; shots/P1-try3-balance-100.49.png"},
+  {"after_game": 6, "displayed": "101.34", "source": "log.redacted.txt 12:17:34Z; shots/P1-try4-balance-101.34.png"},
+  {"after_game": 7, "displayed": "102.89", "source": "log.redacted.txt 12:18:53Z; shots/P2-try1-balance-102.89.png"},
+  {"after_game": 9, "displayed": "102.93", "source": "log.redacted.txt 12:20:06Z; shots/P2-try3-balance-102.93.png"},
+  {"after_game": 10, "displayed": "104.48", "source": "log.redacted.txt 12:21:10Z; shots/P2-try4-balance-104.48.png"},
+  {"after_game": 32, "displayed": "102.23", "source": "log.redacted.txt 13:12:34Z 'Balance shown 102.23'; shots/F01, F02"}
+ ],
+ "balance_readings_excluded": [
+  {"approx_after_game": 16, "displayed": "104.57", "source": "log.redacted.txt '~12:24Z ... Balance last seen 104.57' (written after bet9 = game 16)", "reason": "read while the balance display was still animating, per the note added to log.txt after the session; not used for reconciliation. analysis/session_verify.py reports the displayed value at every game boundary so the exclusion can be checked."}
+ ],
+ "screenshot_layouts": {
+  "description": "Bomb tiles per row read visually from the bet-detail and board screenshots during the 2026-10-28 build (same encoding as above). They test the outcome-to-tile mapping independently of the logged picks.",
+  "games": [
+   {"n": 0, "source": "shots/A01-bet1-details-top.png", "rows": {"1": [2], "2": [2], "3": [0], "4": [1], "5": [1]}},
+   {"n": 1, "source": "shots/A02-bet2-medium-cashed-1.89x-badge.jpg (rows 5-6 hidden by the payout popup)", "rows": {"1": [1], "2": [0], "3": [1], "4": [1], "7": [1], "8": [1], "9": [0], "10": [0]}},
+   {"n": 2, "source": "shots/A03-bet3-details.jpg", "rows": {"1": [0, 2], "2": [0, 1], "3": [0, 1], "4": [1, 2], "5": [1, 2]}}
+  ]
+ }
+}

@@ -1,0 +1,2392 @@
+{
+ "description": "Technical source inventory. One entry per source group, using the report's source ids (S13 is report-only and deliberately absent; S08.F is new to this repository). Every distributed evidence or data file is listed with its original and public sha256 and the transformation between them. Dates are copied from retained capture metadata; null means not established. A hash identifies bytes; it does not prove when they were acquired.",
+ "sources": [
+  {
+   "source_id": "S01",
+   "title": "Current Towers odds disclosure (captured 2026-10-28)",
+   "claim_ids": [
+    "C01"
+   ],
+   "source_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+   "status": "retained (rendered text, screenshot, metadata; HTML hash only)",
+   "scope": "current fixed-5% wording and per-level odds; the displayed article date does not authenticate historical wording",
+   "public_files": [
+    {
+     "public_path": "evidence/client/help-odds-of-towers-2026-10-28/capture.json",
+     "public_sha256": "eb0be1faa6c45e65fe5143dad7069e78183fedaa44c044e9a9709f3d0b5465a5",
+     "original_path": "01.meta.json",
+     "original_sha256": "b2fc31c1debd400ddf948ef37d685b94c69a28c7df357f6fdd373bb3e5d5dfac",
+     "transformations": "derived metadata: URLs, title, acquisition time, language, hashes; the capture tool name and the full browser user agent omitted",
+     "notes": "original metadata kept private",
+     "source_event_or_snapshot_date": "page displays April 29, 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:47:30.976Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+     "final_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers"
+    },
+    {
+     "public_path": "evidence/client/help-odds-of-towers-2026-10-28/page.txt",
+     "public_sha256": "2e5078923b7d3abed6f4358fe877417428cf0ee6ea988cf1e05dfb3b699adae0",
+     "original_path": "01.txt",
+     "original_sha256": "2e5078923b7d3abed6f4358fe877417428cf0ee6ea988cf1e05dfb3b699adae0",
+     "transformations": "none (byte-identical copy of the rendered text)",
+     "notes": "rendered page text (innerText) captured logged out",
+     "source_event_or_snapshot_date": "page displays April 29, 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:47:30.976Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+     "final_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers"
+    },
+    {
+     "public_path": "evidence/client/help-odds-of-towers-2026-10-28/screenshot.jpg",
+     "public_sha256": "c471e516816cd6f8ff51b812ac7440542d4a66a24b753dca4830d0e59b2720d3",
+     "original_path": "01-screenshot.jpg",
+     "original_sha256": "c471e516816cd6f8ff51b812ac7440542d4a66a24b753dca4830d0e59b2720d3",
+     "transformations": "none (byte-identical copy)",
+     "notes": "viewport screenshot taken in the same session",
+     "source_event_or_snapshot_date": "page displays April 29, 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:47:30.976Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+     "final_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers"
+    }
+   ]
+  },
+  {
+   "source_id": "S02",
+   "title": "October 7 Towers game page (logged out)",
+   "claim_ids": [
+    "C01",
+    "C02"
+   ],
+   "source_url": "https://500.casino/towers",
+   "status": "retained",
+   "scope": "captured RTP statement and displayed 2-dp ladder labels; not universal server settlement",
+   "public_files": [
+    {
+     "public_path": "evidence/client/towers-live-2026-10-07/capture.json",
+     "public_sha256": "a60ec07295bb3e8d8602596943de8c0f0f0d3417533b4fe5dd5c6171640d6857",
+     "original_path": "statics-2026-10-07/towers-live/capture.json",
+     "original_sha256": "a60ec07295bb3e8d8602596943de8c0f0f0d3417533b4fe5dd5c6171640d6857",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "2026-10-07T13:49:23.317Z",
+     "acquired_at_utc": "2026-10-07T13:49:23.317Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/client/towers-live-2026-10-07/js-index.json",
+     "public_sha256": "fa617415c39b9ab2a61b007fe2af275fa6f60f9cc6186574b2e1cab6b1a10dc6",
+     "original_path": "statics-2026-10-07/towers-live/js-index.json",
+     "original_sha256": "fa617415c39b9ab2a61b007fe2af275fa6f60f9cc6186574b2e1cab6b1a10dc6",
+     "transformations": "none (byte-identical copy)",
+     "notes": "index of every script the page loaded; only app.3088e4a4.js is distributed from js/ (1828.89aa27f6.js and towers.af02258b.js are distributed byte-identical under towers-chunk-2026-10-07/)",
+     "source_event_or_snapshot_date": "2026-10-07T13:49:23.317Z",
+     "acquired_at_utc": "2026-10-07T13:49:23.317Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/client/towers-live-2026-10-07/page-excerpt.txt",
+     "public_sha256": "ff2147036c854c22e1c6d67d790f530b2382025570466a1dd159947c67e79274",
+     "original_path": "statics-2026-10-07/towers-live/page.txt",
+     "original_sha256": "e29e3042f8600089d2f1dc161e7097aa133ad9eb92238826611cc4696af700bb",
+     "transformations": "verbatim excerpt: original lines [[428, 473], [775, 838]] (1-based, inclusive), joined with \\n plus one trailing \\n; all other lines omitted",
+     "notes": "page.txt also contains public chat messages, a live-wins ticker, High Wins and All Bets tables with other players' usernames; only the Towers game panel (difficulty, displayed ladder labels) and the game description (RTP statement) are distributed",
+     "source_event_or_snapshot_date": "2026-10-07T13:49:23.317Z",
+     "acquired_at_utc": "2026-10-07T13:49:23.317Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/client/towers-live-2026-10-07/screenshot.redacted.png",
+     "public_sha256": "8af330c08e0a20b47b8c834c9acb76f080c4d74945fe9b7c41fe6476c3543272",
+     "original_path": "statics-2026-10-07/towers-live/screenshot.png",
+     "original_sha256": "9d7f07c610b6fc3a1075e8971a17339091334812820bfd5f6c7537455b981c8c",
+     "transformations": "solid black rectangles (irreversible) at [[272, 88, 1435, 154], [288, 1052, 605, 1552], [568, 2575, 852, 3045]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "logged-out page capture: live-wins ticker, High Wins usernames/avatars/levels and All Bets usernames/avatars/levels of other players",
+     "source_event_or_snapshot_date": "2026-10-07T13:49:23.317Z",
+     "acquired_at_utc": "2026-10-07T13:49:23.317Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    }
+   ]
+  },
+  {
+   "source_id": "S03",
+   "title": "Live (7 Oct 2026) and archived (1 Nov 2025) Towers client code",
+   "claim_ids": [
+    "C02",
+    "C04",
+    "C06"
+   ],
+   "source_url": "https://500.casino/static/js/towers.55a86d17.js",
+   "archive_url": "https://web.archive.org/web/20251101025405id_/https://500.casino/static/js/towers.55a86d17.js; https://archive.ph/uAhyA",
+   "status": "retained (no CDX response retained, so no CDX-digest comparison is made)",
+   "scope": "two client versions show the payout construction; client code is not a server ledger",
+   "public_files": [
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/1828.89aa27f6.js",
+     "public_sha256": "44638cd5e3834a78de1a7efc592fee4368dcd0f5cee5b01b43d99b410bc082cb",
+     "original_path": "statics-2026-10-07/towers-chunk/1828.89aa27f6.js",
+     "original_sha256": "44638cd5e3834a78de1a7efc592fee4368dcd0f5cee5b01b43d99b410bc082cb",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": null,
+     "acquisition_method": "script loaded by https://500.casino/towers on 2026-10-07; byte-identical to the copy indexed in towers-live-2026-10-07/js-index.json; separate fetch time not logged"
+    },
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/archive.ph-uAhyA.redacted.html",
+     "public_sha256": "5010674a25f7815b433cac8bc3cdd48aa4f4e0aaf99d9c4aff5d9bce12853a1a",
+     "original_path": "statics-2026-10-07/towers-chunk/archive.ph-uAhyA.html",
+     "original_sha256": "3d1012daff83dc85d66e7f20398467edc57d9d62c2898f296571e360a1b1e0b3",
+     "transformations": "bytes 173-416 (0-based, inclusive; original lines 1-4, the HTML comment after <head>) replaced by the marker comment '<!-- [REDACTED IN PUBLIC COPY: archive.ph requester comment (token, user agent, requester IP address) removed] -->'; all other bytes unchanged",
+     "notes": "archive.ph embeds a per-request comment with a token, the browser user agent and the requesting machine's IP address",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": null,
+     "acquisition_method": "read-only GET of archive.ph/uAhyA at approximately 2026-10-07T13:46Z (approximate, per archive.ph-uAhyA.txt; exact time not logged)"
+    },
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/archive.ph-uAhyA.txt",
+     "public_sha256": "91fc2c59cddcbe63006fe3ca0b58dc4c1dad925122094fdcf7ea71d3ebba468d",
+     "original_path": "statics-2026-10-07/towers-chunk/archive.ph-uAhyA.txt",
+     "original_sha256": "91fc2c59cddcbe63006fe3ca0b58dc4c1dad925122094fdcf7ea71d3ebba468d",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": null,
+     "acquisition_method": "read-only GET of archive.ph/uAhyA at approximately 2026-10-07T13:46Z (approximate, per archive.ph-uAhyA.txt; exact time not logged)"
+    },
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/archived-fetched-utc.txt",
+     "public_sha256": "ef07abc7ab511b7e6dd4ce86b0adb8c48382c84db4fc366b73e762de2238ac3e",
+     "original_path": "statics-2026-10-07/towers-chunk/archived-fetched-utc.txt",
+     "original_sha256": "ef07abc7ab511b7e6dd4ce86b0adb8c48382c84db4fc366b73e762de2238ac3e",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "2025-11-01T02:54:05Z (memento-datetime)",
+     "acquired_at_utc": "2026-10-07T13:43:36Z",
+     "acquisition_method": "GET of the Wayback id_ URL; response headers saved in archived-headers.txt (published as archived-headers.redacted.txt)"
+    },
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/archived-headers.redacted.txt",
+     "public_sha256": "1cb4f50e204363a65ad6a795dcd3921f5ba6d1ea276bbbba9450ba354d0101fc",
+     "original_path": "statics-2026-10-07/towers-chunk/archived-headers.txt",
+     "original_sha256": "e9f0123e99406dd5e61e5e0a5949637f01226320049f9613469f5150d17c2d25",
+     "transformations": "removed original lines [38, 41, 46] (1-based): the x-as (requester autonomous-system number), set-cookie (archive load-balancer cookie) and x-nid (requester network operator) response headers; all other lines and bytes unchanged",
+     "notes": "these headers describe the machine that fetched the archived file, not the archived resource",
+     "source_event_or_snapshot_date": "2025-11-01T02:54:05Z (memento-datetime)",
+     "acquired_at_utc": "2026-10-07T13:43:36Z",
+     "acquisition_method": "GET of the Wayback id_ URL; response headers saved in archived-headers.txt (published as archived-headers.redacted.txt)"
+    },
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/archived-towers.55a86d17.js",
+     "public_sha256": "820b02bb582d9cf19d7c2f55ce0c46bd9b26cbbacb475a428a27f6e1dc987f74",
+     "original_path": "statics-2026-10-07/towers-chunk/archived-towers.55a86d17.js",
+     "original_sha256": "820b02bb582d9cf19d7c2f55ce0c46bd9b26cbbacb475a428a27f6e1dc987f74",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "2025-11-01T02:54:05Z (memento-datetime)",
+     "acquired_at_utc": "2026-10-07T13:43:36Z",
+     "acquisition_method": "GET of the Wayback id_ URL; response headers saved in archived-headers.txt (published as archived-headers.redacted.txt)"
+    },
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/archived-towers.55a86d17.js.gz",
+     "public_sha256": "fc47d34bfa1aeea29efc13f0a7c1b281cf330dc4291e90c246af065abeb0ddd6",
+     "original_path": "statics-2026-10-07/towers-chunk/archived-towers.55a86d17.js.gz",
+     "original_sha256": "fc47d34bfa1aeea29efc13f0a7c1b281cf330dc4291e90c246af065abeb0ddd6",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "2025-11-01T02:54:05Z (memento-datetime)",
+     "acquired_at_utc": "2026-10-07T13:43:36Z",
+     "acquisition_method": "GET of the Wayback id_ URL; response headers saved in archived-headers.txt (published as archived-headers.redacted.txt)"
+    },
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/extract_payout_math.py",
+     "public_sha256": "854123cad2deb1dac2f78d424734adf15d969065c0c5f12ed9ba3d3651a2a7ca",
+     "original_path": "statics-2026-10-07/towers-chunk/extract_payout_math.py",
+     "original_sha256": "854123cad2deb1dac2f78d424734adf15d969065c0c5f12ed9ba3d3651a2a7ca",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": null,
+     "acquisition_method": "authored extractor and its output (re-runnable on the saved files)"
+    },
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/payout-math-extract.txt",
+     "public_sha256": "01f3cfebb6b513cccd25b48854451f12099d6b471523de0d4c0314e1bd6909bd",
+     "original_path": "statics-2026-10-07/towers-chunk/payout-math-extract.txt",
+     "original_sha256": "01f3cfebb6b513cccd25b48854451f12099d6b471523de0d4c0314e1bd6909bd",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": null,
+     "acquisition_method": "authored extractor and its output (re-runnable on the saved files)"
+    },
+    {
+     "public_path": "evidence/client/towers-chunk-2026-10-07/towers.af02258b.js",
+     "public_sha256": "3bc516b48f7ba67923cc8d967bd6ea40ca481a9adba63a9a20beeb9e69b66baf",
+     "original_path": "statics-2026-10-07/towers-chunk/towers.af02258b.js",
+     "original_sha256": "3bc516b48f7ba67923cc8d967bd6ea40ca481a9adba63a9a20beeb9e69b66baf",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": null,
+     "acquisition_method": "script loaded by https://500.casino/towers on 2026-10-07; byte-identical to the copy indexed in towers-live-2026-10-07/js-index.json; separate fetch time not logged"
+    },
+    {
+     "public_path": "data/payout-parameters.json",
+     "public_sha256": "34f86521b1897e316caa06400f17c7789103d5749fba01e0cee4164145bd82c2",
+     "original_path": "data/payout-parameters.json",
+     "original_sha256": "34f86521b1897e316caa06400f17c7789103d5749fba01e0cee4164145bd82c2",
+     "transformations": "authored parameter file (no redaction): house edge 0.05, choices and bombs per difficulty and the client step Numbers from the captured client code; published caps and maximum Medium stakes from evidence/help-history/ and evidence/client/limits-article-2026-10-07/; comparator edges and odds from evidence/comparators/",
+     "notes": "input to analysis/; each value names the retained file it comes from",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": null,
+     "acquisition_method": "authored from the retained client code, help pages and comparator captures during the release build"
+    }
+   ]
+  },
+  {
+   "source_id": "S04",
+   "title": "Historical Towers odds and limits (Wayback checkpoints)",
+   "claim_ids": [
+    "C01",
+    "C04"
+   ],
+   "status": "retained",
+   "scope": "dated documentation checkpoints; not continuous deployment; the September 2023 Easy maximum (~345x) is not a reliable numeric value",
+   "public_files": [
+    {
+     "public_path": "evidence/help-history/2023-09-25-limits.png",
+     "public_sha256": "8637b643080551f29c59b38000ab4a4056a9dfee7755ad46034d4b6c1675a724",
+     "original_path": "ready-to-integrate/help-history/2023-09-25-limits.png",
+     "original_sha256": "8637b643080551f29c59b38000ab4a4056a9dfee7755ad46034d4b6c1675a724",
+     "transformations": "none (byte-identical copy)",
+     "source_url": "https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "archive_url": "https://web.archive.org/web/20230925101256/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "source_event_or_snapshot_date": "2023-09-25T10:12:56Z",
+     "acquired_at_utc": "2026-10-28T08:11:57.048Z",
+     "acquisition_method": "browser retrieval of the exact Wayback replay on 2026-10-28; text is the browser accessibility tree",
+     "notes": "files named .png contain JPEG (JFIF) data; bytes kept as supplied"
+    },
+    {
+     "public_path": "evidence/help-history/2023-09-25-limits.txt",
+     "public_sha256": "9adda1b5d724eab45cc15e31404aafeb17d8a9233d61f57e2dbb19ac7fee27ca",
+     "original_path": "ready-to-integrate/help-history/2023-09-25-limits.txt",
+     "original_sha256": "9adda1b5d724eab45cc15e31404aafeb17d8a9233d61f57e2dbb19ac7fee27ca",
+     "transformations": "none (byte-identical copy)",
+     "source_url": "https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "archive_url": "https://web.archive.org/web/20230925101256/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "source_event_or_snapshot_date": "2023-09-25T10:12:56Z",
+     "acquired_at_utc": "2026-10-28T08:11:57.048Z",
+     "acquisition_method": "browser retrieval of the exact Wayback replay on 2026-10-28; text is the browser accessibility tree",
+     "notes": ""
+    },
+    {
+     "public_path": "evidence/help-history/2023-09-25-odds.png",
+     "public_sha256": "152095b5c81080bd07b78e623e3a6d92becbc7f11f6f8dbef107325c64af63b8",
+     "original_path": "ready-to-integrate/help-history/2023-09-25-odds.png",
+     "original_sha256": "152095b5c81080bd07b78e623e3a6d92becbc7f11f6f8dbef107325c64af63b8",
+     "transformations": "none (byte-identical copy)",
+     "source_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+     "archive_url": "https://web.archive.org/web/20230925084622/https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+     "source_event_or_snapshot_date": "2023-09-25T08:46:22Z",
+     "acquired_at_utc": "2026-10-28T08:05:50.206Z",
+     "acquisition_method": "browser retrieval of the exact Wayback replay on 2026-10-28; text is the browser accessibility tree",
+     "notes": "files named .png contain JPEG (JFIF) data; bytes kept as supplied"
+    },
+    {
+     "public_path": "evidence/help-history/2023-09-25-odds.txt",
+     "public_sha256": "0cf8057adb99eb51b5313124a67020f771927d4a070709538585b6f05f56e581",
+     "original_path": "ready-to-integrate/help-history/2023-09-25-odds.txt",
+     "original_sha256": "0cf8057adb99eb51b5313124a67020f771927d4a070709538585b6f05f56e581",
+     "transformations": "none (byte-identical copy)",
+     "source_url": "https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+     "archive_url": "https://web.archive.org/web/20230925084622/https://help.500.casino/en/articles/8383497-what-are-the-odds-of-towers",
+     "source_event_or_snapshot_date": "2023-09-25T08:46:22Z",
+     "acquired_at_utc": "2026-10-28T08:05:50.206Z",
+     "acquisition_method": "browser retrieval of the exact Wayback replay on 2026-10-28; text is the browser accessibility tree",
+     "notes": ""
+    },
+    {
+     "public_path": "evidence/help-history/2024-04-19-limits.png",
+     "public_sha256": "202bd7b139f66c4dcfb51a26c9f0df44ed34875d7d6dc467d5407b3bd6558a35",
+     "original_path": "ready-to-integrate/help-history/2024-04-19-limits.png",
+     "original_sha256": "202bd7b139f66c4dcfb51a26c9f0df44ed34875d7d6dc467d5407b3bd6558a35",
+     "transformations": "none (byte-identical copy)",
+     "source_url": "https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "archive_url": "https://web.archive.org/web/20240419091538/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "source_event_or_snapshot_date": "2024-04-19T09:15:38Z",
+     "acquired_at_utc": "2026-10-28T07:53:35.765Z",
+     "acquisition_method": "browser retrieval of the exact Wayback replay on 2026-10-28; text is the browser accessibility tree",
+     "notes": "files named .png contain JPEG (JFIF) data; bytes kept as supplied"
+    },
+    {
+     "public_path": "evidence/help-history/2024-04-19-limits.txt",
+     "public_sha256": "c117664fc6710147112a65d5e4a187334c210e553d06c1cf177e89d289320527",
+     "original_path": "ready-to-integrate/help-history/2024-04-19-limits.txt",
+     "original_sha256": "c117664fc6710147112a65d5e4a187334c210e553d06c1cf177e89d289320527",
+     "transformations": "none (byte-identical copy)",
+     "source_url": "https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "archive_url": "https://web.archive.org/web/20240419091538/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "source_event_or_snapshot_date": "2024-04-19T09:15:38Z",
+     "acquired_at_utc": "2026-10-28T07:53:35.765Z",
+     "acquisition_method": "browser retrieval of the exact Wayback replay on 2026-10-28; text is the browser accessibility tree",
+     "notes": ""
+    },
+    {
+     "public_path": "evidence/help-history/2024-12-08-limits.png",
+     "public_sha256": "a7650c2c92615adccc2c60c013b1f0003149c69a6bd34d0d1772e7ba1972006b",
+     "original_path": "ready-to-integrate/help-history/2024-12-08-limits.png",
+     "original_sha256": "a7650c2c92615adccc2c60c013b1f0003149c69a6bd34d0d1772e7ba1972006b",
+     "transformations": "none (byte-identical copy)",
+     "source_url": "https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "archive_url": "https://web.archive.org/web/20241208062049/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "source_event_or_snapshot_date": "2024-12-08T06:20:49Z",
+     "acquired_at_utc": "2026-10-28T08:12:00.663Z",
+     "acquisition_method": "browser retrieval of the exact Wayback replay on 2026-10-28; text is the browser accessibility tree",
+     "notes": "files named .png contain JPEG (JFIF) data; bytes kept as supplied"
+    },
+    {
+     "public_path": "evidence/help-history/2024-12-08-limits.txt",
+     "public_sha256": "daf8265ed2d7c9e8970f682656329c22d09f4859c31a7f71fffdcb3eac44f61b",
+     "original_path": "ready-to-integrate/help-history/2024-12-08-limits.txt",
+     "original_sha256": "daf8265ed2d7c9e8970f682656329c22d09f4859c31a7f71fffdcb3eac44f61b",
+     "transformations": "none (byte-identical copy)",
+     "source_url": "https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "archive_url": "https://web.archive.org/web/20241208062049/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+     "source_event_or_snapshot_date": "2024-12-08T06:20:49Z",
+     "acquired_at_utc": "2026-10-28T08:12:00.663Z",
+     "acquisition_method": "browser retrieval of the exact Wayback replay on 2026-10-28; text is the browser accessibility tree",
+     "notes": ""
+    },
+    {
+     "public_path": "evidence/help-history/README.txt",
+     "public_sha256": "40a9227399d61f406bf9c7b96e0684e5acf14345d95a38aacf9e6f5bd1084d88",
+     "original_path": "help-history/README.txt",
+     "original_sha256": "40a9227399d61f406bf9c7b96e0684e5acf14345d95a38aacf9e6f5bd1084d88",
+     "transformations": "none (byte-identical copy)",
+     "notes": "capture metadata / nested manifest"
+    },
+    {
+     "public_path": "evidence/help-history/capture-inventory.json",
+     "public_sha256": "17a3c4dc9a8b7b99df1e2bd2c394856351179d8645113ee9e2a7635e748d6773",
+     "original_path": "help-history/capture-inventory.json",
+     "original_sha256": "17a3c4dc9a8b7b99df1e2bd2c394856351179d8645113ee9e2a7635e748d6773",
+     "transformations": "none (byte-identical copy)",
+     "notes": "capture metadata / nested manifest"
+    },
+    {
+     "public_path": "evidence/help-history/SHA256SUMS.txt",
+     "public_sha256": "601729ca29509445c38e98ba2e14c5996d2c837c5a9d25f4822f3f86348947b5",
+     "original_path": "help-history/SHA256SUMS.txt",
+     "original_sha256": "601729ca29509445c38e98ba2e14c5996d2c837c5a9d25f4822f3f86348947b5",
+     "transformations": "none (byte-identical copy)",
+     "notes": "capture metadata / nested manifest"
+    }
+   ]
+  },
+  {
+   "source_id": "S05",
+   "title": "November 2024 Towers records (27 games, one account): operator share-bet JSON archived by the Wayback Machine",
+   "claim_ids": [
+    "C02",
+    "C04",
+    "C06"
+   ],
+   "source_url": "https://500.casino/api/share-bet/towers/<game id> (one URL per record, listed in wayback-raw/index.json)",
+   "archive_url": "https://web.archive.org/web/<timestamp>/https://500.casino/api/share-bet/towers/<game id> (per record in wayback-raw/index.json)",
+   "status": "retained: raw JSON bodies byte-identical; headers with requester and cookie lines removed; share-page display transcription kept for the unit and time checks",
+   "scope": "winning games selected for sharing by the account holder (published with consent); show the server payout table, seeds and UTC times; not a sample of play",
+   "public_files": [
+    {
+     "public_path": "evidence/historical-bets-2024/share-page-display.json",
+     "public_sha256": "7b24e3d3049247d4c661f7918355b58518e5c32702a0e3466a5b28b67b191926",
+     "original_path": "historical-bets-2024/public-bet-comparisons.json",
+     "original_sha256": "ea40df131baab52222f0f5b429f83e28e3a2cb9203775e28621b0cb8b98112ef",
+     "transformations": "kept the displayed fields per record (stake, win, top multiplier, date-time string, difficulty, rounds, opening time, share URL, hash of the private dialog text); dropped the computed comparison fields and narrative",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de575e61e8c3513e61b1e.headers.redacted.txt",
+     "public_sha256": "8f1d9b7e144efc71f2b413d07378e4da359d7bdade54e8b938b7ca25cbf9e16d",
+     "original_path": "672de575e61e8c3513e61b1e.headers.txt",
+     "original_sha256": "0d847d76133e5e7868ab40c8131977f92f91873b87c0efa7e87fdf25fe90f657",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de575e61e8c3513e61b1e.json",
+     "public_sha256": "98ce3240c1e57d955d213d6c846598ee8df621f9cc17b193079988834a41e761",
+     "original_path": "672de575e61e8c3513e61b1e.body",
+     "original_sha256": "98ce3240c1e57d955d213d6c846598ee8df621f9cc17b193079988834a41e761",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085530/https://500.casino/api/share-bet/towers/672de575e61e8c3513e61b1e at 2026-10-28T15:22:06.168984Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de68fefd8eba01b2a8ee6.headers.redacted.txt",
+     "public_sha256": "28f3ecd7b9871e06afdaa932ebcdb78d9a9f0759171c3f6f3033d428899497fa",
+     "original_path": "672de68fefd8eba01b2a8ee6.headers.txt",
+     "original_sha256": "e21bc309fa2d2ea21e8ecfc8ce8027ceffc10c703489cbf1151ea42f9835df38",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de68fefd8eba01b2a8ee6.json",
+     "public_sha256": "ef9a9489639b9ace5d97b52bdbf4c3133d523314e5907d33df44a236648992eb",
+     "original_path": "672de68fefd8eba01b2a8ee6.body",
+     "original_sha256": "ef9a9489639b9ace5d97b52bdbf4c3133d523314e5907d33df44a236648992eb",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085543/https://500.casino/api/share-bet/towers/672de68fefd8eba01b2a8ee6 at 2026-10-28T15:22:10.365461Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de699bb5bb935191030e6.headers.redacted.txt",
+     "public_sha256": "25abe37da9f5cb05d75279ab57d715925be250f4aaf9f554281b3f5563290248",
+     "original_path": "672de699bb5bb935191030e6.headers.txt",
+     "original_sha256": "b86ce1c248ab5c48b5d6549aff14ea07ca3bf18c1fdebdad872b294ec6f4c938",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de699bb5bb935191030e6.json",
+     "public_sha256": "0d23c0c5dc80d431bd8f833a03368f1847a47b630f0c377fdcc9fcc8e62cf385",
+     "original_path": "672de699bb5bb935191030e6.body",
+     "original_sha256": "0d23c0c5dc80d431bd8f833a03368f1847a47b630f0c377fdcc9fcc8e62cf385",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085556/https://500.casino/api/share-bet/towers/672de699bb5bb935191030e6 at 2026-10-28T15:22:15.825339Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de6a7e61e8c3513e664bd.headers.redacted.txt",
+     "public_sha256": "0babe95ffb6cda469b190306557aa61a75f8a5be3130e4369891d09d91d3079c",
+     "original_path": "672de6a7e61e8c3513e664bd.headers.txt",
+     "original_sha256": "f6c7d8e9960b2bed537d69b5f9a07f1bdcaae7e10467f3a0de7f0248f975f585",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de6a7e61e8c3513e664bd.json",
+     "public_sha256": "f3d1ad8791fa0cf665c4cf8741a4c5191dbf104d95653eee861506ef53595e7d",
+     "original_path": "672de6a7e61e8c3513e664bd.body",
+     "original_sha256": "f3d1ad8791fa0cf665c4cf8741a4c5191dbf104d95653eee861506ef53595e7d",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085609/https://500.casino/api/share-bet/towers/672de6a7e61e8c3513e664bd at 2026-10-28T15:22:19.815533Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de6b3bb5bb935191037d7.headers.redacted.txt",
+     "public_sha256": "716c3bd9ee80afed27e1c3c8cd5c779524fcb36d40160151717fddaf307bc0f0",
+     "original_path": "672de6b3bb5bb935191037d7.headers.txt",
+     "original_sha256": "e36dd03617b97c399612b5ffe879495272e2bd7ef9adf64cf7068fc69934b5ff",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de6b3bb5bb935191037d7.json",
+     "public_sha256": "d3fe00022f7875d59c4473feee028e777d3407c607047cf90700b8ae69502688",
+     "original_path": "672de6b3bb5bb935191037d7.body",
+     "original_sha256": "d3fe00022f7875d59c4473feee028e777d3407c607047cf90700b8ae69502688",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085621/https://500.casino/api/share-bet/towers/672de6b3bb5bb935191037d7 at 2026-10-28T15:22:23.881141Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de6d8594ca27d1d299dbe.headers.redacted.txt",
+     "public_sha256": "1001153723b74b293fdc760f0cee2d2be6f42d3c660738d1ef4776dee2071b52",
+     "original_path": "672de6d8594ca27d1d299dbe.headers.txt",
+     "original_sha256": "92ed31958f39c3a7a6ff788468dcf65c55f986928cbce2acb791178918737a30",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/672de6d8594ca27d1d299dbe.json",
+     "public_sha256": "42cc86704e51c760d31293b424fc20479ed65cfa18c0dceb87adecb366cb03a2",
+     "original_path": "672de6d8594ca27d1d299dbe.body",
+     "original_sha256": "42cc86704e51c760d31293b424fc20479ed65cfa18c0dceb87adecb366cb03a2",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085640/https://500.casino/api/share-bet/towers/672de6d8594ca27d1d299dbe at 2026-10-28T15:22:27.896138Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67348be34dc1da9e56358a1f.headers.redacted.txt",
+     "public_sha256": "bcab9c8e0e8ed739758bedf57dc2d1c099b51e66a31de358d9e61f767074e21c",
+     "original_path": "67348be34dc1da9e56358a1f.headers.txt",
+     "original_sha256": "679fc4e7afadf25454024afe2b739a3aeba2f9c178aef8c59643c2b246e05f2a",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67348be34dc1da9e56358a1f.json",
+     "public_sha256": "7061dd2d3234f4f1eaa6bc3f709e300fed432a0727b7070a2cc8cbeb2304a3f0",
+     "original_path": "67348be34dc1da9e56358a1f.body",
+     "original_sha256": "7061dd2d3234f4f1eaa6bc3f709e300fed432a0727b7070a2cc8cbeb2304a3f0",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028094126/https://500.casino/api/share-bet/towers/67348be34dc1da9e56358a1f at 2026-10-28T15:22:33.576829Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/6734956902f6eaae6c95e6ef.headers.redacted.txt",
+     "public_sha256": "639530177c221eca153192af3ea4098c880ebee218b41f8d2a8276e48121c5b8",
+     "original_path": "6734956902f6eaae6c95e6ef.headers.txt",
+     "original_sha256": "a509b026cf19deb6fa33170a3b9fc50d9b10fc1c861a9296c911b485d50bbf2d",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/6734956902f6eaae6c95e6ef.json",
+     "public_sha256": "11e00798bcc335eeb942634f55c5437dc8705d2546df66da3122ee85ae8da3da",
+     "original_path": "6734956902f6eaae6c95e6ef.body",
+     "original_sha256": "11e00798bcc335eeb942634f55c5437dc8705d2546df66da3122ee85ae8da3da",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085701/https://500.casino/api/share-bet/towers/6734956902f6eaae6c95e6ef at 2026-10-28T15:22:37.696781Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673495751f02b99e3730f003.headers.redacted.txt",
+     "public_sha256": "50422ba1301fa2b195132785b8572a3978fea1753f1307a7dd171cbbd265959b",
+     "original_path": "673495751f02b99e3730f003.headers.txt",
+     "original_sha256": "4859efbb709d2036624742ad192453b42cd2bbe55caa8133d2bb2dcc4d55db61",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673495751f02b99e3730f003.json",
+     "public_sha256": "93e5ba421cd07ca38d989cee73ee7371e6f365a6cd465a658cc624c28534b736",
+     "original_path": "673495751f02b99e3730f003.body",
+     "original_sha256": "93e5ba421cd07ca38d989cee73ee7371e6f365a6cd465a658cc624c28534b736",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085750/https://500.casino/api/share-bet/towers/673495751f02b99e3730f003 at 2026-10-28T15:22:41.920028Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349681ae51670360bc804e.headers.redacted.txt",
+     "public_sha256": "81086ae0b3d598bba4c49f8876730c863e4984822c0c0d86e3ddc78a4086e91e",
+     "original_path": "67349681ae51670360bc804e.headers.txt",
+     "original_sha256": "bd9249e9dbcc0a8d7863d9723e9fc1e3f61e8a110442c5754681f882d51fbedd",
+     "transformations": "removed lines [42, 44, 49] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349681ae51670360bc804e.json",
+     "public_sha256": "f336cbd789ae7a39332c86c60da66f9a4fd9d71d29f6773b910fef5bc26e37b8",
+     "original_path": "67349681ae51670360bc804e.body",
+     "original_sha256": "f336cbd789ae7a39332c86c60da66f9a4fd9d71d29f6773b910fef5bc26e37b8",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085801/https://500.casino/api/share-bet/towers/67349681ae51670360bc804e at 2026-10-28T15:22:45.966646Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673496b537bae6ae49b5aa2a.headers.redacted.txt",
+     "public_sha256": "6e2c6cd76e31e593d14bd8043f22daac822092426c89029598193aaaafba86e7",
+     "original_path": "673496b537bae6ae49b5aa2a.headers.txt",
+     "original_sha256": "62a640c2a2a194bd1f94089c4b6794961d76a2c97855501ed8f5b9eae7c0c22d",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673496b537bae6ae49b5aa2a.json",
+     "public_sha256": "85687284d5ce569ca7ed9013df4f8fbbb3520e8795cda1f88529928cf864beef",
+     "original_path": "673496b537bae6ae49b5aa2a.body",
+     "original_sha256": "85687284d5ce569ca7ed9013df4f8fbbb3520e8795cda1f88529928cf864beef",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085922/https://500.casino/api/share-bet/towers/673496b537bae6ae49b5aa2a at 2026-10-28T15:22:50.010313Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673497234cb75d9e38324d00.headers.redacted.txt",
+     "public_sha256": "e2dbe8c7f3ab609892e69e95bed005ca39c2f1d7471cd9464b42c8bc934e8dcf",
+     "original_path": "673497234cb75d9e38324d00.headers.txt",
+     "original_sha256": "cd9239e0ba4aac68d06ab70bed1f030222483130af09ba5a1bc12841812c35c7",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673497234cb75d9e38324d00.json",
+     "public_sha256": "b5f0b03265379e9157addb0293fff5fa8d2ffd05b5a4f4b13ef7d65b46c28510",
+     "original_path": "673497234cb75d9e38324d00.body",
+     "original_sha256": "b5f0b03265379e9157addb0293fff5fa8d2ffd05b5a4f4b13ef7d65b46c28510",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028085933/https://500.casino/api/share-bet/towers/673497234cb75d9e38324d00 at 2026-10-28T15:22:54.043551Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673497a937bae6ae49b62668.headers.redacted.txt",
+     "public_sha256": "57f67e3bc13e8fbaab808f311102f3c826483f248c513b28efaababd606a47d2",
+     "original_path": "673497a937bae6ae49b62668.headers.txt",
+     "original_sha256": "86382637d9812639c6d95cabf029eaa7af0a4c604122bd4acd069e7ce701e29d",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673497a937bae6ae49b62668.json",
+     "public_sha256": "27d003b5c5bdfcec7ea7555363d58d6d89c4ab9992dc45e8c7f291b4d34c048f",
+     "original_path": "673497a937bae6ae49b62668.body",
+     "original_sha256": "27d003b5c5bdfcec7ea7555363d58d6d89c4ab9992dc45e8c7f291b4d34c048f",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028090158/https://500.casino/api/share-bet/towers/673497a937bae6ae49b62668 at 2026-10-28T15:22:58.130266Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673497cc37bae6ae49b6384f.headers.redacted.txt",
+     "public_sha256": "8255a152d0b4417d2549c09003e8bc9b6ad1d9268433aae60ce5ee320c843529",
+     "original_path": "673497cc37bae6ae49b6384f.headers.txt",
+     "original_sha256": "45b27912a619d79fb336216fc13ea9ec4d884239e52ecc81bc1b8d474be0cc6e",
+     "transformations": "removed lines [42, 44, 49] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673497cc37bae6ae49b6384f.json",
+     "public_sha256": "b776f5d9152fa0182b227beab93bd5e0c3c9f5e213bcd791c42790d3c96c44ee",
+     "original_path": "673497cc37bae6ae49b6384f.body",
+     "original_sha256": "b776f5d9152fa0182b227beab93bd5e0c3c9f5e213bcd791c42790d3c96c44ee",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028090136/https://500.casino/api/share-bet/towers/673497cc37bae6ae49b6384f at 2026-10-28T15:23:02.077271Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673497f367b44f9e57abae91.headers.redacted.txt",
+     "public_sha256": "8d8c160619eddff76862300faf276a9b9b31e4c4bac17468a9babfa27b499f9f",
+     "original_path": "673497f367b44f9e57abae91.headers.txt",
+     "original_sha256": "8f703383fd58b7618ffd7e37d00e1145aa1c4a0f48cf129e10e37555b2458282",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673497f367b44f9e57abae91.json",
+     "public_sha256": "38ab8abf518037d1a5d128d0f61bbea590cd11b727091e8febef318d596c79ad",
+     "original_path": "673497f367b44f9e57abae91.body",
+     "original_sha256": "38ab8abf518037d1a5d128d0f61bbea590cd11b727091e8febef318d596c79ad",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028090149/https://500.casino/api/share-bet/towers/673497f367b44f9e57abae91 at 2026-10-28T15:23:07.150547Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/6734983e37bae6ae49b66262.headers.redacted.txt",
+     "public_sha256": "44eb6b1079a15fa6e8b5310229da77abde635bcf29b09b1df5c95de500e30136",
+     "original_path": "6734983e37bae6ae49b66262.headers.txt",
+     "original_sha256": "08577ef696745a74be4e33659c13cfb8c5ca70c41755586ac769e91b488d5cbb",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/6734983e37bae6ae49b66262.json",
+     "public_sha256": "1173fbbabe10da2100d1882e137b40257d409d853e96881bcf87e32939f19d6c",
+     "original_path": "6734983e37bae6ae49b66262.body",
+     "original_sha256": "1173fbbabe10da2100d1882e137b40257d409d853e96881bcf87e32939f19d6c",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028090201/https://500.casino/api/share-bet/towers/6734983e37bae6ae49b66262 at 2026-10-28T15:23:12.359866Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673498dd37bae6ae49b68c49.headers.redacted.txt",
+     "public_sha256": "b930b37d5a8b69bd27b7daf7721622db08da1f82521f6c1260bc6ab74322a1aa",
+     "original_path": "673498dd37bae6ae49b68c49.headers.txt",
+     "original_sha256": "497c8fe43b100377398ba1ed641503350cfa05c4d106604f83ca3c3084822689",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/673498dd37bae6ae49b68c49.json",
+     "public_sha256": "5bfdfc8945efdfa55413f403639b3e47d1d9604be9f027faf358aa60f49ab86b",
+     "original_path": "673498dd37bae6ae49b68c49.body",
+     "original_sha256": "5bfdfc8945efdfa55413f403639b3e47d1d9604be9f027faf358aa60f49ab86b",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028090214/https://500.casino/api/share-bet/towers/673498dd37bae6ae49b68c49 at 2026-10-28T15:23:16.408294Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349c334dc1da9e56390bea.headers.redacted.txt",
+     "public_sha256": "aa62f9b9b805cc4f3d9a6706307b9f1dbacf5fdb41f972a7348f8f0832824d40",
+     "original_path": "67349c334dc1da9e56390bea.headers.txt",
+     "original_sha256": "ddc3b37ff61cf6fcf7d8ba844ff03e19bf8b1916df728a231d1d776734180288",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349c334dc1da9e56390bea.json",
+     "public_sha256": "1b2f5c487cb71e708a3e4c3362840c486ba7e8b4b6f12f08ff2d4bf14657e114",
+     "original_path": "67349c334dc1da9e56390bea.body",
+     "original_sha256": "1b2f5c487cb71e708a3e4c3362840c486ba7e8b4b6f12f08ff2d4bf14657e114",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028090227/https://500.casino/api/share-bet/towers/67349c334dc1da9e56390bea at 2026-10-28T15:23:20.432762Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349c754dc1da9e56391646.headers.redacted.txt",
+     "public_sha256": "ff3b22e5948d7d3017563446028e59a217457612a896f7d98090b8e3d08211eb",
+     "original_path": "67349c754dc1da9e56391646.headers.txt",
+     "original_sha256": "1ec5661320985757ed4cdbf45e794f536f3c36514f2b1cbde4f2e6fae7e171ed",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349c754dc1da9e56391646.json",
+     "public_sha256": "d3b67204083ff79c35ff6e917db1d2151e19b7572d766ac0a0f722d91b20fa62",
+     "original_path": "67349c754dc1da9e56391646.body",
+     "original_sha256": "d3b67204083ff79c35ff6e917db1d2151e19b7572d766ac0a0f722d91b20fa62",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028094203/https://500.casino/api/share-bet/towers/67349c754dc1da9e56391646 at 2026-10-28T15:23:24.673900Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349c7ae685f4ae4acd388a.headers.redacted.txt",
+     "public_sha256": "7de9185ff5e25f024b07c828a840e3bffa6abe5543f9c91c2fb7537620100d07",
+     "original_path": "67349c7ae685f4ae4acd388a.headers.txt",
+     "original_sha256": "37c5a993e98ed8b3104ed439c790e42d6e6d593a2b9c08dc70c8527d42bac9ac",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349c7ae685f4ae4acd388a.json",
+     "public_sha256": "7d851a74d8b26176967791473ebaf61e57be6aaf41ace826f117809b71c43674",
+     "original_path": "67349c7ae685f4ae4acd388a.body",
+     "original_sha256": "7d851a74d8b26176967791473ebaf61e57be6aaf41ace826f117809b71c43674",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028094324/https://500.casino/api/share-bet/towers/67349c7ae685f4ae4acd388a at 2026-10-28T15:23:28.857537Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349cb337bae6ae49b7aa5f.headers.redacted.txt",
+     "public_sha256": "d555ee2dc6cd8cc13c7cc56c7d14970ebeba9f2a314f0903d375bdffa403e226",
+     "original_path": "67349cb337bae6ae49b7aa5f.headers.txt",
+     "original_sha256": "a52b7155bb1f6d35ed04cc927fb3ed88abc7514c195970df6294754e7cd932fa",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349cb337bae6ae49b7aa5f.json",
+     "public_sha256": "8d7b8a4cf42be28245b84d33d9a08f17985db33763a4c63cc30f05fdf1bf06d7",
+     "original_path": "67349cb337bae6ae49b7aa5f.body",
+     "original_sha256": "8d7b8a4cf42be28245b84d33d9a08f17985db33763a4c63cc30f05fdf1bf06d7",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028094451/https://500.casino/api/share-bet/towers/67349cb337bae6ae49b7aa5f at 2026-10-28T15:23:33.633441Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349cfa4dc1da9e56393a3d.headers.redacted.txt",
+     "public_sha256": "f1722c72910f7a5e914f4b5ece196e3285d7d3fe866ee00ec09d89223f43db89",
+     "original_path": "67349cfa4dc1da9e56393a3d.headers.txt",
+     "original_sha256": "098f3a71a2540e6edd956912b4f671d667edc1ec2728c47d48a275d075a9b798",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349cfa4dc1da9e56393a3d.json",
+     "public_sha256": "c0fe203b11798537894846fdf51c1aed11e71e2cb7b0b64c5de35b2275160c11",
+     "original_path": "67349cfa4dc1da9e56393a3d.body",
+     "original_sha256": "c0fe203b11798537894846fdf51c1aed11e71e2cb7b0b64c5de35b2275160c11",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028090303/https://500.casino/api/share-bet/towers/67349cfa4dc1da9e56393a3d at 2026-10-28T15:23:37.674516Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349d04e685f4ae4acd5ad6.headers.redacted.txt",
+     "public_sha256": "31b55d40dab86976de755a6ee7ce9cd4ac6116eb981745c5a471d8c880ecb058",
+     "original_path": "67349d04e685f4ae4acd5ad6.headers.txt",
+     "original_sha256": "07f8625513b7cb8b5749b2b81b6ebae3606917a7006b65f6ba1f5d74f7923fa2",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349d04e685f4ae4acd5ad6.json",
+     "public_sha256": "37f081ee745d39ae03609054b21440f7df59aa603d2637d56da02c6e88fff9ed",
+     "original_path": "67349d04e685f4ae4acd5ad6.body",
+     "original_sha256": "37f081ee745d39ae03609054b21440f7df59aa603d2637d56da02c6e88fff9ed",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028090316/https://500.casino/api/share-bet/towers/67349d04e685f4ae4acd5ad6 at 2026-10-28T15:23:41.779958Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349d3937bae6ae49b7d5c2.headers.redacted.txt",
+     "public_sha256": "998a59849930ca0b9dff8dd7ccf83eb59dfe9935f87ed1ab78d7f0c6229df5b5",
+     "original_path": "67349d3937bae6ae49b7d5c2.headers.txt",
+     "original_sha256": "dea79d3393027bcde41359671e0b99484ad6aceecd848148b2bc36e1b49589fb",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349d3937bae6ae49b7d5c2.json",
+     "public_sha256": "c5a0b22542da73aca2311fae90a95c3c01d4979018aa850577d6f0fcb83fad56",
+     "original_path": "67349d3937bae6ae49b7d5c2.body",
+     "original_sha256": "c5a0b22542da73aca2311fae90a95c3c01d4979018aa850577d6f0fcb83fad56",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028090329/https://500.casino/api/share-bet/towers/67349d3937bae6ae49b7d5c2 at 2026-10-28T15:23:45.726258Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349d40e685f4ae4acd6c17.headers.redacted.txt",
+     "public_sha256": "9a769409c5cf207460506b4363cf859d22308affef6dd5f5450f2f5fa3c3213e",
+     "original_path": "67349d40e685f4ae4acd6c17.headers.txt",
+     "original_sha256": "d2b8bc309a7093afb400c0d2b82004e938fdeb1b37407954fa269fa0936f73f6",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349d40e685f4ae4acd6c17.json",
+     "public_sha256": "31f3c780b34780c99b37a2be242e6fdc8f02fb2fb3ec35df7776e85d95693676",
+     "original_path": "67349d40e685f4ae4acd6c17.body",
+     "original_sha256": "31f3c780b34780c99b37a2be242e6fdc8f02fb2fb3ec35df7776e85d95693676",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028094525/https://500.casino/api/share-bet/towers/67349d40e685f4ae4acd6c17 at 2026-10-28T15:23:49.797375Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349d7637bae6ae49b7e564.headers.redacted.txt",
+     "public_sha256": "0a05141882aa553b2334e668a15197c3d513959b3985f106834428cd605a1432",
+     "original_path": "67349d7637bae6ae49b7e564.headers.txt",
+     "original_sha256": "4068e941057b26094422249c59ddddfc76f45c07f31e9877b433bb76da427c3a",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349d7637bae6ae49b7e564.json",
+     "public_sha256": "19ba746c0e3a72034e709603b063c2148bd472f831c24b549680182b57da8644",
+     "original_path": "67349d7637bae6ae49b7e564.body",
+     "original_sha256": "19ba746c0e3a72034e709603b063c2148bd472f831c24b549680182b57da8644",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028094602/https://500.casino/api/share-bet/towers/67349d7637bae6ae49b7e564 at 2026-10-28T15:23:53.862331Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349dae67b44f9e57ad1812.headers.redacted.txt",
+     "public_sha256": "fad0a0cc757da85238dfca1fe45b9015e5bba7aa8d8423983a78924d1f53b61d",
+     "original_path": "67349dae67b44f9e57ad1812.headers.txt",
+     "original_sha256": "cf0cf53eaa8c3c40fe597d229e401e1953dff0d3dca27bb43688af21c34f17c0",
+     "transformations": "removed lines [26, 43, 45, 50] (1-based): x-as and x-nid (requester network), set-cookie (archive load-balancer cookie) and x-archive-orig-set-cookie (session cookie the operator set on the archiving request); all other lines unchanged",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/67349dae67b44f9e57ad1812.json",
+     "public_sha256": "8d0438c7bafeff9d8fd15fc5284a6e56fd9564b7bad79bda7c03056f0464419c",
+     "original_path": "67349dae67b44f9e57ad1812.body",
+     "original_sha256": "8d0438c7bafeff9d8fd15fc5284a6e56fd9564b7bad79bda7c03056f0464419c",
+     "transformations": "none (byte-identical response body: the operator JSON as archived)",
+     "notes": "requested https://web.archive.org/web/20261028094757/https://500.casino/api/share-bet/towers/67349dae67b44f9e57ad1812 at 2026-10-28T15:23:58.257701Z",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/wayback-raw/index.json",
+     "public_sha256": "a6b9ad2b92d7825028a79f60f21309675b8d5cb6abdd4c01e33e73b44253ccf9",
+     "original_path": "work/wayback-2026-10-28/fetch-log.json",
+     "original_sha256": "31cd225f5c0fb42dfb4b985b8c5cc88a277a050bf399305e4debd3da6dd1e5aa",
+     "transformations": "authored index: request URL, time, status, memento datetime, body sha256",
+     "notes": "",
+     "source_event_or_snapshot_date": "games 2024-11-08 and 2024-11-13 (UTC timestamps in each record); archived by the Wayback Machine 2026-10-28",
+     "acquired_at_utc": "2026-10-28 15:22-15:24 UTC (per record in wayback-raw/index.json); share pages opened 2026-10-28 07:56-07:57 UTC",
+     "acquisition_method": "GET of each Wayback capture, logged out, one request per record about 3 s apart"
+    },
+    {
+     "public_path": "evidence/historical-bets-2024/analysis.md",
+     "public_sha256": "7035b4b70cfe332d114d3ab8c4241b4a2e7dc55928936b7fde2add2e46812f5a",
+     "original_path": "evidence/historical-bets-2024/analysis.md",
+     "original_sha256": "7035b4b70cfe332d114d3ab8c4241b4a2e7dc55928936b7fde2add2e46812f5a",
+     "transformations": "authored summary (no redaction) of the checks run by analysis/historical_verify.py on the raw records in wayback-raw/",
+     "notes": "explanatory text; every figure in it is generated by analysis/historical_verify.py",
+     "source_event_or_snapshot_date": "games dated 2024-11-08 and 2024-11-13 by the operator's records; retrieved from the Wayback Machine 2026-10-28",
+     "acquired_at_utc": null,
+     "acquisition_method": "authored during the release build"
+    }
+   ]
+  },
+  {
+   "source_id": "S06",
+   "title": "General house-edge and Duels wording",
+   "claim_ids": [
+    "C01",
+    "C04"
+   ],
+   "status": "historical (2023-09-25) and current (captured 2026-10-28) retained",
+   "source_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino",
+   "scope": "historical fixed 5% rake wording; the Duels analogy is interpretation, not a Duels settlement audit",
+   "public_files": [
+    {
+     "public_path": "evidence/help-history/2023-09-25-house-edge.txt",
+     "public_sha256": "dfc956540918e154bab8c48a9069b9089ffec0693f0e3c26d8c0edfaf6cba2ee",
+     "original_path": "ready-to-integrate/help-history/2023-09-25-house-edge.txt",
+     "original_sha256": "dfc956540918e154bab8c48a9069b9089ffec0693f0e3c26d8c0edfaf6cba2ee",
+     "transformations": "none (byte-identical copy)",
+     "source_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino",
+     "archive_url": "https://web.archive.org/web/20230925094024/https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino",
+     "source_event_or_snapshot_date": "2023-09-25T09:40:24Z",
+     "acquired_at_utc": null,
+     "acquisition_method": "browser retrieval of the exact Wayback replay on 2026-10-28; text is the browser accessibility tree; precise acquisition time not logged (capture date 2026-10-28 only)",
+     "notes": ""
+    },
+    {
+     "public_path": "evidence/client/help-house-edge-2026-10-28/capture.json",
+     "public_sha256": "b2e0237c7c5f231fe5a202e7658cb8de54aa1cb70e5a76d3cee68f1d99b9849b",
+     "original_path": "02.meta.json",
+     "original_sha256": "7e8c5d31556a96832a73e4e886fb04d92a46d69cbd8a0137e90058d1d9f965ee",
+     "transformations": "derived metadata: URLs, title, acquisition time, language, hashes; the capture tool name and the full browser user agent omitted",
+     "notes": "original metadata kept private",
+     "source_event_or_snapshot_date": "page displays June 6, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:48:13.071Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino",
+     "final_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino"
+    },
+    {
+     "public_path": "evidence/client/help-house-edge-2026-10-28/page.txt",
+     "public_sha256": "1321d70be904fc81e2e4a626f58ab8907a6d6a249a80c4e1da13e2633cf3deb7",
+     "original_path": "02.txt",
+     "original_sha256": "1321d70be904fc81e2e4a626f58ab8907a6d6a249a80c4e1da13e2633cf3deb7",
+     "transformations": "none (byte-identical copy of the rendered text)",
+     "notes": "rendered page text (innerText) captured logged out",
+     "source_event_or_snapshot_date": "page displays June 6, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:48:13.071Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino",
+     "final_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino"
+    },
+    {
+     "public_path": "evidence/client/help-house-edge-2026-10-28/screenshot.jpg",
+     "public_sha256": "cfbaddcac94b4f88627ad8a39b6e1e983d4f7257dc2e041fce7adedd32c7a7a2",
+     "original_path": "02-screenshot.jpg",
+     "original_sha256": "cfbaddcac94b4f88627ad8a39b6e1e983d4f7257dc2e041fce7adedd32c7a7a2",
+     "transformations": "none (byte-identical copy)",
+     "notes": "viewport screenshot taken in the same session",
+     "source_event_or_snapshot_date": "page displays June 6, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:48:13.071Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino",
+     "final_url": "https://help.500.casino/en/articles/5925212-what-is-the-house-edge-on-500-casino"
+    }
+   ]
+  },
+  {
+   "source_id": "S07",
+   "title": "Current Towers limits article (captured 7 Oct 2026)",
+   "claim_ids": [
+    "C06"
+   ],
+   "source_url": "https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers",
+   "status": "retained",
+   "scope": "published $200,000 cap and rounded maxima; gross/net cap convention not established; the page displays \"May 21, 2024\", which is not authenticated",
+   "public_files": [
+    {
+     "public_path": "evidence/client/limits-article-2026-10-07/capture.json",
+     "public_sha256": "50d30ad2cdaabedadc6bd31044c031646f9cb3259ed277a9b0390e83b10b735e",
+     "original_path": "statics-2026-10-07/limits-article-8383528/capture.json",
+     "original_sha256": "50d30ad2cdaabedadc6bd31044c031646f9cb3259ed277a9b0390e83b10b735e",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays May 21, 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:48:50.367Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/client/limits-article-2026-10-07/links.json",
+     "public_sha256": "d8ff6fcfa2a7c419d57c94af29726d643e0895775af6addc77eb16b0430a0436",
+     "original_path": "statics-2026-10-07/limits-article-8383528/links.json",
+     "original_sha256": "d8ff6fcfa2a7c419d57c94af29726d643e0895775af6addc77eb16b0430a0436",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays May 21, 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:48:50.367Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/client/limits-article-2026-10-07/page.html",
+     "public_sha256": "53b2d2f6b8781316648aa88645c7ba65b4d615e7bb7831ac6201a5b30f1b6f44",
+     "original_path": "statics-2026-10-07/limits-article-8383528/page.html",
+     "original_sha256": "53b2d2f6b8781316648aa88645c7ba65b4d615e7bb7831ac6201a5b30f1b6f44",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays May 21, 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:48:50.367Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/client/limits-article-2026-10-07/page.txt",
+     "public_sha256": "c8e71faa9d77f9fbcd3aaf7660bd997c63b08a9762ae486f79e3a43b899067fb",
+     "original_path": "statics-2026-10-07/limits-article-8383528/page.txt",
+     "original_sha256": "c8e71faa9d77f9fbcd3aaf7660bd997c63b08a9762ae486f79e3a43b899067fb",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays May 21, 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:48:50.367Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/client/limits-article-2026-10-07/screenshot.png",
+     "public_sha256": "2461a87037f4284dc1057f9c365e627c932ed289abd1ebbf6f71488749700ef7",
+     "original_path": "statics-2026-10-07/limits-article-8383528/screenshot.png",
+     "original_sha256": "2461a87037f4284dc1057f9c365e627c932ed289abd1ebbf6f71488749700ef7",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays May 21, 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:48:50.367Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    }
+   ]
+  },
+  {
+   "source_id": "S08",
+   "title": "October 9 session and replay inputs",
+   "claim_ids": [
+    "C03"
+   ],
+   "status": "retained",
+   "scope": "33 outcomes, 53 tiles, 10 balance readings, 4 bet ids; no network capture or video of the session; no RNG-uniformity result",
+   "public_files": [
+    {
+     "public_path": "evidence/session-2026-10-09/log.redacted.txt",
+     "public_sha256": "41816400692ec289ddd150b8ca575c277f91c71cf096ae8459fd3afede5977cd",
+     "original_path": "session-2026-10-09/log.txt",
+     "original_sha256": "54d20af29b8967a1c59dd2850867cd62ef16ae3546b7d686d2262fd2d91a4d55",
+     "transformations": "one token replaced: the nine-digit browser tab id in parentheses on original line 73 -> '([REDACTED: browser tab id])'; every other byte unchanged",
+     "notes": "session log written during play; the account username was masked as [account-username] before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A01-bet1-cashed-layout.redacted.png",
+     "public_sha256": "304d8edbe0dd7cda68f213d9572819d0c65a5d4aef2b28e632da5f400f9865d7",
+     "original_path": "session-2026-10-09/shots/A01-bet1-cashed-layout.jpg",
+     "original_sha256": "bbf4935ad4ed35ee6964e11551357a24be9728206d19fae4b92e2338afbf61b2",
+     "transformations": "solid black rectangles (irreversible) at [[72, 362, 205, 508]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "High Wins table: other players' usernames and level badges (previously pixelated; pixelation replaced by solid fill)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A01-bet1-details-top.png",
+     "public_sha256": "fc0418f74785badaff8b2a5241e7a4e1d49f53a543f4ff69b5629571dc4f5ab5",
+     "original_path": "session-2026-10-09/shots/A01-bet1-details-top.png",
+     "original_sha256": "fc0418f74785badaff8b2a5241e7a4e1d49f53a543f4ff69b5629571dc4f5ab5",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A01-bet1-details-verify-secret-in-use.png",
+     "public_sha256": "1e28ff07c2eab89b92dbdf4ac21b175f898763df393266086aebe72e5fec673b",
+     "original_path": "session-2026-10-09/shots/A01-bet1-details-verify-secret-in-use.png",
+     "original_sha256": "1e28ff07c2eab89b92dbdf4ac21b175f898763df393266086aebe72e5fec673b",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A01-bet1-mybets-balance-100.52.redacted.png",
+     "public_sha256": "9819ad053d5692937b36cfc04d277fd5d2bc51abb31d6230ab8ee654aa7e7944",
+     "original_path": "session-2026-10-09/shots/A01-bet1-mybets-balance-100.52.jpg",
+     "original_sha256": "8c6b4940d225cf03996f24f774da56547d620b24f63250ab53f4e3de653e8ea6",
+     "transformations": "solid black rectangles (irreversible) at [[85, 300, 210, 508]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "pixelated username column of the bet table under the My Bets row (other players); solid fill",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A02-bet2-medium-cashed-1.89x-badge.jpg",
+     "public_sha256": "c3519390f09d925f7f8c9f4c2016995dad23bccb96b5cb9e40d821268cf5a6a9",
+     "original_path": "session-2026-10-09/shots/A02-bet2-medium-cashed-1.89x-badge.jpg",
+     "original_sha256": "c3519390f09d925f7f8c9f4c2016995dad23bccb96b5cb9e40d821268cf5a6a9",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A03-balance-100.79.png",
+     "public_sha256": "42f0c3c7b75f102803b7d1dc69030f4ee674fdc8382fece52dcf7e9facf0fe88",
+     "original_path": "session-2026-10-09/shots/A03-balance-100.79.png",
+     "original_sha256": "42f0c3c7b75f102803b7d1dc69030f4ee674fdc8382fece52dcf7e9facf0fe88",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A03-bet3-details.jpg",
+     "public_sha256": "b06a335d956d84cac7f60033841528759e230f33ae5da183b4495e7b7b54d64c",
+     "original_path": "session-2026-10-09/shots/A03-bet3-details.jpg",
+     "original_sha256": "b06a335d956d84cac7f60033841528759e230f33ae5da183b4495e7b7b54d64c",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A03-bet3-hard-cashed-2.84x-badge.jpg",
+     "public_sha256": "365944c7cc58dacadf7bee5cac86bfa27789069043877e12ee7d0715c198cecc",
+     "original_path": "session-2026-10-09/shots/A03-bet3-hard-cashed-2.84x-badge.jpg",
+     "original_sha256": "365944c7cc58dacadf7bee5cac86bfa27789069043877e12ee7d0715c198cecc",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A03-mybets-3-bets.jpg",
+     "public_sha256": "bc8de28f2feb78919c5c3e96ff503715d1b2822fdcdeb5666a6ce9a2ffb492d4",
+     "original_path": "session-2026-10-09/shots/A03-mybets-3-bets.jpg",
+     "original_sha256": "bc8de28f2feb78919c5c3e96ff503715d1b2822fdcdeb5666a6ce9a2ffb492d4",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A04-seedpair-before-rotate-hashed3.redacted.png",
+     "public_sha256": "dfa70920218334105d030b376b10bcb49cc95f1d7657f31c39611b281cc39e6c",
+     "original_path": "session-2026-10-09/shots/A04-seedpair-before-rotate-hashed3.jpg",
+     "original_sha256": "89a1f92e798d60e74b496b1856a9fc4b927a79e71c748d167a64872f0d026b5b",
+     "transformations": "solid black rectangles (irreversible) at [[96, 600, 218, 677]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "High Wins rows behind the seed modal: other players' usernames (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A05-seedpair-after-rotate.redacted.png",
+     "public_sha256": "0de8fb4e3221202800e9648dd04b692b68dd62e2d60ac845b95f28f41f09d8cf",
+     "original_path": "session-2026-10-09/shots/A05-seedpair-after-rotate.jpg",
+     "original_sha256": "66ab3e484b037c57256400fd93ad2ac7d0769d9d5895c095889740f8ca8c0d67",
+     "transformations": "solid black rectangles (irreversible) at [[96, 600, 218, 677]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "High Wins rows behind the seed modal: other players' usernames (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/A06-bet1-details-after-rotate.jpg",
+     "public_sha256": "221d915c8996c7538e94f6590dd1ab3197ac052348be97d1977ef8366a9e98c1",
+     "original_path": "session-2026-10-09/shots/A06-bet1-details-after-rotate.jpg",
+     "original_sha256": "221d915c8996c7538e94f6590dd1ab3197ac052348be97d1977ef8366a9e98c1",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/F01-seedpair-before-final-rotate-hashed33.redacted.png",
+     "public_sha256": "4a9e1549b8b34045fc778fd2afb2dae72b43a7cd3a016f9603ebf7f668e0ee00",
+     "original_path": "session-2026-10-09/shots/F01-seedpair-before-final-rotate-hashed33.jpg",
+     "original_sha256": "9053be04bd0e35392fc35426c2aa5e4c6906b81e383abba3c7ee1332950cdf9b",
+     "transformations": "solid black rectangles (irreversible) at [[96, 600, 218, 677]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "High Wins rows behind the seed modal: other players' usernames (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/F02-seedpair-after-final-rotate.redacted.png",
+     "public_sha256": "da33119ddbb62f7b9fd29fea917ecc494876bde362fa3bc7f84639470222cd71",
+     "original_path": "session-2026-10-09/shots/F02-seedpair-after-final-rotate.jpg",
+     "original_sha256": "cd14db11a40656ebd4ecf70b629548df2cca9ee54746e93fb56f45534458c768",
+     "transformations": "solid black rectangles (irreversible) at [[96, 600, 218, 677]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "High Wins rows behind the seed modal: other players' usernames (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P1-try2-balance-99.64.png",
+     "public_sha256": "519a57d3fe242f6d0c6806b20b7fcd76ee616477deaca27785725fe94cd67ca4",
+     "original_path": "session-2026-10-09/shots/P1-try2-balance-99.64.png",
+     "original_sha256": "519a57d3fe242f6d0c6806b20b7fcd76ee616477deaca27785725fe94cd67ca4",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P1-try2-cashed-2.85.redacted.png",
+     "public_sha256": "2e07cda9fdc791a124fd21554b98c4199430463cd02f641476953aae3ea67416",
+     "original_path": "session-2026-10-09/shots/P1-try2-cashed-2.85.jpg",
+     "original_sha256": "449e9afec0e31f8339c028bda29ea6bbded1260a2312145be1c93082358e42a3",
+     "transformations": "solid black rectangles (irreversible) at [[28, 38, 638, 102]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "live-wins ticker band: other players' usernames and avatars (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P1-try3-balance-100.49.png",
+     "public_sha256": "e6695f1033b540fb6bacce0cd8506949f64f87bf4dfb5943200508ccc8c73466",
+     "original_path": "session-2026-10-09/shots/P1-try3-balance-100.49.png",
+     "original_sha256": "e6695f1033b540fb6bacce0cd8506949f64f87bf4dfb5943200508ccc8c73466",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P1-try3-cashed-2.85.redacted.png",
+     "public_sha256": "85e07c087573cb6d29925124b36c5a52ad8ced8a76ba6a489ee69aa36e17e479",
+     "original_path": "session-2026-10-09/shots/P1-try3-cashed-2.85.png",
+     "original_sha256": "e90d30fae3de24837b7751b1bae2e111b4d2f89fca337f40e66955ae24f09136",
+     "transformations": "solid black rectangles (irreversible) at [[28, 38, 638, 102]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "live-wins ticker band: other players' usernames and avatars (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P1-try4-balance-101.34.png",
+     "public_sha256": "6dcb5a136f15e0635d5ce1582ba7db77620300e8a07b78bf316756b3417d0c61",
+     "original_path": "session-2026-10-09/shots/P1-try4-balance-101.34.png",
+     "original_sha256": "6dcb5a136f15e0635d5ce1582ba7db77620300e8a07b78bf316756b3417d0c61",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P1-try4-cashed-2.85.redacted.png",
+     "public_sha256": "a76623fc17ec60e6ff237af66719a76ebc2819b6c0e440564be7de5cec2ea92f",
+     "original_path": "session-2026-10-09/shots/P1-try4-cashed-2.85.png",
+     "original_sha256": "bf7977b828e627bccd55c3d885924c08bf0d95be73515babe33dab53370e4685",
+     "transformations": "solid black rectangles (irreversible) at [[28, 38, 638, 102]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "live-wins ticker band: other players' usernames and avatars (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P2-try1-balance-102.89.png",
+     "public_sha256": "b1880eb6d49aab6f0758b7c1ee6889437dcbe31fa2027ef1daa9dcee1aa617c4",
+     "original_path": "session-2026-10-09/shots/P2-try1-balance-102.89.png",
+     "original_sha256": "b1880eb6d49aab6f0758b7c1ee6889437dcbe31fa2027ef1daa9dcee1aa617c4",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P2-try1-cashed-3.05.redacted.png",
+     "public_sha256": "023579ce01945d644e7299a1d748522c9cdc1728411db41cea5f6bae4811228f",
+     "original_path": "session-2026-10-09/shots/P2-try1-cashed-3.05.png",
+     "original_sha256": "e7cd06ad0bdfd3bb2411b2f9f062ce79acb9fd1f70d11ca3326dcfc77eab37c6",
+     "transformations": "solid black rectangles (irreversible) at [[28, 38, 638, 102]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "live-wins ticker band: other players' usernames and avatars (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P2-try3-balance-102.93.png",
+     "public_sha256": "b24561e8fcad791c5829a35d27eb3089365a94bc0216a2159a845d3e0efb8630",
+     "original_path": "session-2026-10-09/shots/P2-try3-balance-102.93.png",
+     "original_sha256": "b24561e8fcad791c5829a35d27eb3089365a94bc0216a2159a845d3e0efb8630",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P2-try3-cashed-3.05.redacted.png",
+     "public_sha256": "f22bc2be141d5f8e8deaf19575380fa3037ba3aeae6087444a2986d2ab980f71",
+     "original_path": "session-2026-10-09/shots/P2-try3-cashed-3.05.png",
+     "original_sha256": "293ce05f36a9a8ceebbc0dc936843739b1c8b705552517fd35c74393e8e54fe0",
+     "transformations": "solid black rectangles (irreversible) at [[28, 38, 638, 102]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "live-wins ticker band: other players' usernames and avatars (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P2-try4-balance-104.48.png",
+     "public_sha256": "443a3e302f9385025c215e172b314e674e91d5b1ffd0139558f1bafa5e59690b",
+     "original_path": "session-2026-10-09/shots/P2-try4-balance-104.48.png",
+     "original_sha256": "443a3e302f9385025c215e172b314e674e91d5b1ffd0139558f1bafa5e59690b",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/P2-try4-cashed-3.05.redacted.png",
+     "public_sha256": "f96914b423b2ab5c4bb1c70e405dd336230c2b7d5dfc142407431de98f6c8180",
+     "original_path": "session-2026-10-09/shots/P2-try4-cashed-3.05.png",
+     "original_sha256": "209947493ba7cfcbc5fe2e4b1d41148b876c16d572a6f00b1cbc9762214345b2",
+     "transformations": "solid black rectangles (irreversible) at [[28, 38, 638, 102]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "live-wins ticker band: other players' usernames and avatars (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/S01-towers-loggedin-balance-100.48.redacted.png",
+     "public_sha256": "1bcd1bfefa806ed05c5c049c0ac07a1980004ff00eb852c8129d6e06b24f9385",
+     "original_path": "session-2026-10-09/shots/S01-towers-loggedin-balance-100.48.jpg",
+     "original_sha256": "b0c4aa4fb16d2e7899b41eb740a16533052d280c2c60461c779580b3bf880898",
+     "transformations": "solid black rectangles (irreversible) at [[492, 44, 1242, 102]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "live-wins ticker band: other players' usernames and avatars (previously pixelated)",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/S02-seedpair-locked-devtools.png",
+     "public_sha256": "27918a17a4880173e1502e9359205d27c5ba1c4cd93574a0b4bd2576a6e55be5",
+     "original_path": "session-2026-10-09/shots/S02-seedpair-locked-devtools.png",
+     "original_sha256": "27918a17a4880173e1502e9359205d27c5ba1c4cd93574a0b4bd2576a6e55be5",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/S03-mines-seedpair-loads-hashed0.png",
+     "public_sha256": "421af77e7969241546e99ee5236a8d3410fbec74e1737096bf5076ff8ba5abb9",
+     "original_path": "session-2026-10-09/shots/S03-mines-seedpair-loads-hashed0.png",
+     "original_sha256": "421af77e7969241546e99ee5236a8d3410fbec74e1737096bf5076ff8ba5abb9",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/S04-towers-seedpair-stuck-loading.png",
+     "public_sha256": "209eeb51d86f6216069eebfaf0c020b80c06832d70863cfd0d9d4c9fed1ab08a",
+     "original_path": "session-2026-10-09/shots/S04-towers-seedpair-stuck-loading.png",
+     "original_sha256": "209eeb51d86f6216069eebfaf0c020b80c06832d70863cfd0d9d4c9fed1ab08a",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/S05-ladder-medium.jpg",
+     "public_sha256": "f9dc5690f976a63053e53775e19f7e4e22811cae1d73917e8549e2c88d03442d",
+     "original_path": "session-2026-10-09/shots/S05-ladder-medium.jpg",
+     "original_sha256": "f9dc5690f976a63053e53775e19f7e4e22811cae1d73917e8549e2c88d03442d",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "evidence/session-2026-10-09/shots/S06-ladder-hard.jpg",
+     "public_sha256": "c97fa0a2c184d6c3cf5b4fabe89f97f3685cac9956c9a35eb8ac6980b84571b6",
+     "original_path": "session-2026-10-09/shots/S06-ladder-hard.jpg",
+     "original_sha256": "c97fa0a2c184d6c3cf5b4fabe89f97f3685cac9956c9a35eb8ac6980b84571b6",
+     "transformations": "none (byte-identical copy)",
+     "notes": "visually reviewed 2026-10-28; no third-party identifier found; the account username was masked before assembly",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "session log written during play; screenshots taken during play; the account username was masked in the log and the screenshots before they were assembled for release"
+    },
+    {
+     "public_path": "data/session-2026-10-09.json",
+     "public_sha256": "561c2c7233494102760e786adcd7c919a77f4d2149965ecc8da5ea4a802c5232",
+     "original_path": "data/session-2026-10-09.json",
+     "original_sha256": "561c2c7233494102760e786adcd7c919a77f4d2149965ecc8da5ea4a802c5232",
+     "transformations": "authored normalization (no redaction): stakes, picks, logged results, seed values, start balance and balance readings transcribed from evidence/session-2026-10-09/log.redacted.txt and, where stated per value, from the screenshots in evidence/session-2026-10-09/shots/",
+     "notes": "input to analysis/session_verify.py; every value names its source; not an observation in its own right",
+     "source_event_or_snapshot_date": "2026-10-09 (session, times UTC in log.redacted.txt)",
+     "acquired_at_utc": null,
+     "acquisition_method": "transcribed from the retained session log and screenshots during the release build"
+    },
+    {
+     "public_path": "data/seed-panel-transcriptions.json",
+     "public_sha256": "64ea732bdb89bbbef10decd50bffbbe86f4d96d673d34ef1e0e66d5bfc32d840",
+     "original_path": "data/seed-panel-transcriptions.json",
+     "original_sha256": "64ea732bdb89bbbef10decd50bffbbe86f4d96d673d34ef1e0e66d5bfc32d840",
+     "transformations": "authored transcription (no redaction): full 64-character seed-panel values read visually from the retained screenshots",
+     "notes": "an observation channel separate from the log and the hash chain; the transcriber had already read the log values, so it is a re-reading, not a blind one; the images are retained for anyone to re-read",
+     "source_event_or_snapshot_date": "2026-10-09 (screenshots); transcribed 2026-10-28",
+     "acquired_at_utc": null,
+     "acquisition_method": "visual transcription of the retained screenshots during the release build"
+    }
+   ]
+  },
+  {
+   "source_id": "S08.F",
+   "title": "Passive public bet feed, 7-9 October 2026 (Towers entries only) - new to this repository",
+   "claim_ids": [
+    "C03.F"
+   ],
+   "status": "retained as sanitized derivative",
+   "source_url": "https://500.casino/towers (socket.io new_casino_bet frames, logged out)",
+   "scope": "record counts, payout matching and precision only; the feed leans heavily to wins (330 of 416) and is not a sample of play; no aggregate",
+   "public_files": [
+    {
+     "public_path": "data/feed/collection-gaps.jsonl",
+     "public_sha256": "b373d8429aa857bc9f891f2a59f4c18517cd766b5d9b690c1da49afd641aea68",
+     "original_path": "extra/public-feed-collector/data/gaps.ndjson",
+     "original_sha256": "8d792e44fcdd5bb223966e39f0c7ac448a35a7f8f70d5649ea365d75f9bee9ae",
+     "transformations": "every line kept in order; keys \"pid\" and \"headless\" removed; JSON re-serialised compactly",
+     "notes": "collector process ids and launch flags are not evidence",
+     "source_event_or_snapshot_date": "2026-10-07 to 2026-10-09 (receipt times in each record)",
+     "acquired_at_utc": null,
+     "acquisition_method": "passive logged-out collector (not distributed); see data/feed/collection-summary.json"
+    },
+    {
+     "public_path": "data/feed/collection-summary.json",
+     "public_sha256": "3adc4719a4af632fa3167394dcc8ffe32a17613271a7d8547a3fec0c1275e521",
+     "original_path": "extra/public-feed-collector/data/{feed-*.ndjson,status.json}",
+     "original_sha256": "see source_files inside",
+     "transformations": "authored summary of counts and window; no player field",
+     "notes": "",
+     "source_event_or_snapshot_date": "2026-10-07 to 2026-10-09 (receipt times in each record)",
+     "acquired_at_utc": null,
+     "acquisition_method": "passive logged-out collector (not distributed); see data/feed/collection-summary.json"
+    },
+    {
+     "public_path": "data/feed/towers-entries.sanitized.jsonl",
+     "public_sha256": "4c5aa58f5e553557c369c9ef728ecb958ee318d8c03c782f35b78cd765157064",
+     "original_path": "feed-2026-10-07.ndjson, feed-2026-10-08.ndjson, feed-2026-10-09.ndjson",
+     "original_sha256": "4520f400ea565eac96381e0581b92da9972cb3b97b346ed70a3ae15ca435dd20, b1d6e1e4fef8d822489305b57fed16435003f109ffe62fcaec27e420bb0fe45f, 7b4e65c31d5d0598dd9d6bc4aac6c7351f062bab74dfad05ca8cb48cb319b4f4",
+     "transformations": "selected bet.gameId==\"towers\" or bet.gameName==\"Towers\" from the de-duplicated corpus (first occurrence of each transactionId kept); kept rx, type, bet.date, bet.balance (currency label), bet.betAmount, bet.amount, bet.multiplier, bet.gameName; removed avatar, category, gameId, isHigh, isLucky, level, provider, role, transactionId, userId, username; added record number, source file/line and sha256 of the raw line",
+     "notes": "raw lines carry usernames, avatar URLs and stable account ids of other players; they stay private",
+     "source_event_or_snapshot_date": "2026-10-07 to 2026-10-09 (receipt times in each record)",
+     "acquired_at_utc": null,
+     "acquisition_method": "passive logged-out collector (not distributed); see data/feed/collection-summary.json"
+    }
+   ]
+  },
+  {
+   "source_id": "S09",
+   "title": "Client edge default",
+   "claim_ids": [
+    "C02"
+   ],
+   "status": "retained",
+   "scope": "client-store towersHouseEdge:.05 (app.3088e4a4.js byte 1363940) is a default, not a captured production getInfo response; roundMultiplier at byte 33117 of 1828.89aa27f6.js (that file is listed under S03)",
+   "public_files": [
+    {
+     "public_path": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+     "public_sha256": "aa0bcf7d520f42b187062e349593f52cb2692c904d92a3c091faf907764f0311",
+     "original_path": "statics-2026-10-07/towers-live/js/app.3088e4a4.js",
+     "original_sha256": "aa0bcf7d520f42b187062e349593f52cb2692c904d92a3c091faf907764f0311",
+     "transformations": "none (byte-identical copy)",
+     "notes": "S09: towersHouseEdge:.05 store default at byte offset 1363940",
+     "source_event_or_snapshot_date": "2026-10-07T13:49:23.317Z",
+     "acquired_at_utc": null,
+     "acquisition_method": "script loaded during the towers-live page capture (nav_started 2026-10-07T13:49:08.018Z, captured 2026-10-07T13:49:23.317Z per capture.json); per-file fetch time not logged"
+    }
+   ]
+  },
+  {
+   "source_id": "S10",
+   "title": "September 2026 redesign announcement (first-party X post)",
+   "claim_ids": [
+    "C04"
+   ],
+   "source_url": "https://x.com/500Casino/status/2099440442441871651",
+   "status": "retained; no third-party archive of the post was found (lookup log not distributed)",
+   "scope": "announcement date 2026-09-14T10:09:41Z; not proof of an unchanged backend",
+   "public_files": [
+    {
+     "public_path": "evidence/client/redesign-tweet-2026-10-07/oembed.json",
+     "public_sha256": "9737ec85d99afb355f8def5d2f90a7370e2a9d28f8162b2dd33ec3457a2d9295",
+     "original_path": "statics-2026-10-07/redesign-tweet/oembed.json",
+     "original_sha256": "9737ec85d99afb355f8def5d2f90a7370e2a9d28f8162b2dd33ec3457a2d9295",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "2026-09-14T10:09:41Z (created_at in syndication.json)",
+     "acquired_at_utc": null,
+     "acquisition_method": "GET of the public syndication/oEmbed endpoints and the media URL; the retained lookup log (not distributed) is headed utc=2026-10-07T13:45:52Z"
+    },
+    {
+     "public_path": "evidence/client/redesign-tweet-2026-10-07/syndication.json",
+     "public_sha256": "d08cd3ec9564196da40786d177d8b18e83571d62dcfb78e2b6c61a086fa942f7",
+     "original_path": "statics-2026-10-07/redesign-tweet/syndication.json",
+     "original_sha256": "d08cd3ec9564196da40786d177d8b18e83571d62dcfb78e2b6c61a086fa942f7",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "2026-09-14T10:09:41Z (created_at in syndication.json)",
+     "acquired_at_utc": null,
+     "acquisition_method": "GET of the public syndication/oEmbed endpoints and the media URL; the retained lookup log (not distributed) is headed utc=2026-10-07T13:45:52Z"
+    },
+    {
+     "public_path": "evidence/client/redesign-tweet-2026-10-07/tweet-photo-HSK0xysbQAAuixN.jpg",
+     "public_sha256": "62d4788659d4dd9d0d35792302d723d3821c5d4d7c4fdb13727a9b16d99fbc05",
+     "original_path": "statics-2026-10-07/redesign-tweet/tweet-photo-HSK0xysbQAAuixN.jpg",
+     "original_sha256": "62d4788659d4dd9d0d35792302d723d3821c5d4d7c4fdb13727a9b16d99fbc05",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "2026-09-14T10:09:41Z (created_at in syndication.json)",
+     "acquired_at_utc": null,
+     "acquisition_method": "GET of the public syndication/oEmbed endpoints and the media URL; the retained lookup log (not distributed) is headed utc=2026-10-07T13:45:52Z"
+    },
+    {
+     "public_path": "evidence/client/redesign-tweet-2026-10-07/x-page/capture.json",
+     "public_sha256": "c64963f3a2b22ab8d7b05b73a1b19d86899dc5878cd971b4d43444c995c04377",
+     "original_path": "statics-2026-10-07/redesign-tweet/x-page/capture.json",
+     "original_sha256": "c64963f3a2b22ab8d7b05b73a1b19d86899dc5878cd971b4d43444c995c04377",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "2026-09-14T10:09:41Z (created_at in syndication.json)",
+     "acquired_at_utc": "2026-10-07T13:49:55.998Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/client/redesign-tweet-2026-10-07/x-page/page.redacted.txt",
+     "public_sha256": "da2ef434bca655ad89d550c8f3be0b02ec36833cd4803dd4205549872fdce325",
+     "original_path": "statics-2026-10-07/redesign-tweet/x-page/page.txt",
+     "original_sha256": "d44fdc7034b07067ddb5ddfe07653d8d65d608eae51b4c74bfc4880526c3d7fa",
+     "transformations": "original lines 16-32 (1-based, inclusive; three third-party replies) replaced by one marker line: '[REDACTED IN PUBLIC COPY: three replies by third-party X accounts removed]'; all other bytes unchanged",
+     "notes": "replies by third-party accounts (handles, one reply containing what appears to be a 500 account id)",
+     "source_event_or_snapshot_date": "2026-09-14T10:09:41Z (created_at in syndication.json)",
+     "acquired_at_utc": "2026-10-07T13:49:55.998Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/client/redesign-tweet-2026-10-07/x-page/screenshot.redacted.png",
+     "public_sha256": "418e9aa6995aa74b049d8480921b3491ce11db0865a47c9550311f91435b7b56",
+     "original_path": "statics-2026-10-07/redesign-tweet/x-page/screenshot.png",
+     "original_sha256": "600816e83ee734afb40eab58e31309ef930016d01834ccc0e5cb779ecca946c3",
+     "transformations": "solid black rectangles (irreversible) at [[352, 985, 947, 1222]] (x0,y0,x1,y1 pixels, exclusive end); decoded to RGB and re-encoded as PNG; no other pixel changed",
+     "notes": "replies by third-party X accounts (names, handles, avatars, reply text)",
+     "source_event_or_snapshot_date": "2026-09-14T10:09:41Z (created_at in syndication.json)",
+     "acquired_at_utc": "2026-10-07T13:49:55.998Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    }
+   ]
+  },
+  {
+   "source_id": "S11",
+   "title": "Shuffle Tower Hard comparison (captured 2026-10-28)",
+   "claim_ids": [
+    "C05"
+   ],
+   "status": "retained (rendered text, screenshots, metadata; HTML hash only)",
+   "source_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart; https://help.shuffle.com/en/articles/9286069-provably-fair-game-events",
+   "scope": "official 9-row Hard chart (values visually truncated to 2 dp, as the page states) and one-in-two odds; not a live settlement audit",
+   "public_files": [
+    {
+     "public_path": "evidence/comparators/shuffle-tower-chart-2026-10-28/capture.json",
+     "public_sha256": "ff2faad36b5a7a11c6bc4200e1e0381524483b6ccb94a7cbf29a16cd1d0882ee",
+     "original_path": "03.meta.json",
+     "original_sha256": "3f5d00f202907842f1fb2f64b932ae6a27b7eade3ed470444a595bd03ab371e5",
+     "transformations": "derived metadata: URLs, title, acquisition time, language, hashes; the capture tool name and the full browser user agent omitted",
+     "notes": "original metadata kept private",
+     "source_event_or_snapshot_date": "page displays May 14, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:48:38.789Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart",
+     "final_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart"
+    },
+    {
+     "public_path": "evidence/comparators/shuffle-tower-chart-2026-10-28/page.txt",
+     "public_sha256": "d75df5f046faed0ba3675e7b5f42989d2e90434738e6a3426aac0aa730153818",
+     "original_path": "03.txt",
+     "original_sha256": "d75df5f046faed0ba3675e7b5f42989d2e90434738e6a3426aac0aa730153818",
+     "transformations": "none (byte-identical copy of the rendered text)",
+     "notes": "rendered page text (innerText) captured logged out",
+     "source_event_or_snapshot_date": "page displays May 14, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:48:38.789Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart",
+     "final_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart"
+    },
+    {
+     "public_path": "evidence/comparators/shuffle-tower-chart-2026-10-28/screenshot-table.jpg",
+     "public_sha256": "e2a830645da7b43df6818cc66c986c3666aaf2558a355118d121c9230467a386",
+     "original_path": "03-screenshot-table.jpg",
+     "original_sha256": "e2a830645da7b43df6818cc66c986c3666aaf2558a355118d121c9230467a386",
+     "transformations": "none (byte-identical copy)",
+     "notes": "viewport screenshot taken in the same session; not listed in the capture metadata - hash recorded at integration on 2026-10-28, save time not recorded",
+     "source_event_or_snapshot_date": "page displays May 14, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:48:38.789Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart",
+     "final_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart"
+    },
+    {
+     "public_path": "evidence/comparators/shuffle-tower-chart-2026-10-28/screenshot.jpg",
+     "public_sha256": "42bd33b8c6843a5fa5b53fbcd47506bcc880d173983312b8c2d4920c6981ccca",
+     "original_path": "03-screenshot.jpg",
+     "original_sha256": "42bd33b8c6843a5fa5b53fbcd47506bcc880d173983312b8c2d4920c6981ccca",
+     "transformations": "none (byte-identical copy)",
+     "notes": "viewport screenshot taken in the same session",
+     "source_event_or_snapshot_date": "page displays May 14, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:48:38.789Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart",
+     "final_url": "https://help.shuffle.com/en/articles/13019073-tower-shuffle-original-multiplier-chart"
+    },
+    {
+     "public_path": "evidence/comparators/shuffle-game-events-2026-10-28/capture.json",
+     "public_sha256": "4dd3c8af8700b954e59786d9c913ebc08ec3425deb67760538a757dd35359722",
+     "original_path": "04.meta.json",
+     "original_sha256": "5e9170a9594eab1bb1569a748bbcce4983b53f265c52f76213a60d98aa57962c",
+     "transformations": "derived metadata: URLs, title, acquisition time, language, hashes; the capture tool name and the full browser user agent omitted",
+     "notes": "original metadata kept private",
+     "source_event_or_snapshot_date": "page displays August 12, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:49:07.699Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.shuffle.com/en/articles/9286069-provably-fair-game-events",
+     "final_url": "https://help.shuffle.com/en/articles/9286069-provably-fair-game-events"
+    },
+    {
+     "public_path": "evidence/comparators/shuffle-game-events-2026-10-28/page.txt",
+     "public_sha256": "fa2345731eb97ba7222bf5c75bd585bfd9a8bcef4cb0c902e7296d5c61ca0afb",
+     "original_path": "04.txt",
+     "original_sha256": "fa2345731eb97ba7222bf5c75bd585bfd9a8bcef4cb0c902e7296d5c61ca0afb",
+     "transformations": "none (byte-identical copy of the rendered text)",
+     "notes": "rendered page text (innerText) captured logged out",
+     "source_event_or_snapshot_date": "page displays August 12, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:49:07.699Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.shuffle.com/en/articles/9286069-provably-fair-game-events",
+     "final_url": "https://help.shuffle.com/en/articles/9286069-provably-fair-game-events"
+    },
+    {
+     "public_path": "evidence/comparators/shuffle-game-events-2026-10-28/screenshot.jpg",
+     "public_sha256": "7c86a670812e821e17f2bc579c335625e81557b437838b185d70dc2e4a2c5fac",
+     "original_path": "04-screenshot.jpg",
+     "original_sha256": "7c86a670812e821e17f2bc579c335625e81557b437838b185d70dc2e4a2c5fac",
+     "transformations": "none (byte-identical copy)",
+     "notes": "viewport screenshot taken in the same session",
+     "source_event_or_snapshot_date": "page displays August 12, 2026 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:49:07.699Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+     "source_url": "https://help.shuffle.com/en/articles/9286069-provably-fair-game-events",
+     "final_url": "https://help.shuffle.com/en/articles/9286069-provably-fair-game-events"
+    }
+   ]
+  },
+  {
+   "source_id": "S12",
+   "title": "Stake Dragon Tower Master comparison",
+   "claim_ids": [
+    "C05"
+   ],
+   "source_url": "https://stake.com/blog/how-to-play-dragon-tower-on-stake (served as https://stake.com/pt/blog/how-to-play-dragon-tower-on-stake)",
+   "status": "guide (2026-10-07 and 2026-10-28), game page and game-event rules (2026-10-28) retained",
+   "scope": "guide and game page state 2% edge / 98% RTP; guide states Master first 3.92x and top 256,901.12x; rules state 9 game events and Master = 1 egg in 4 tiles; the nine-row ladder is calculated as 0.98 x 4^n (Stake does not publish each row in the retained pages)",
+   "public_files": [
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/capture.json",
+     "public_sha256": "b2f3267d285f83e7155cfa4e0d220494e1a9916edaf4bdd544d234a980026e19",
+     "original_path": "statics-2026-10-07/third-party-verifiers/stake-dragon-tower-blog/capture.json",
+     "original_sha256": "b2f3267d285f83e7155cfa4e0d220494e1a9916edaf4bdd544d234a980026e19",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays 17 de abril de 2024 (Portuguese locale; not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:49:40.008Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/links.json",
+     "public_sha256": "31e21bdd0b1a1e9b472fc89bc4d7481e19f8ab73a63e0f2a121933d63f61132c",
+     "original_path": "statics-2026-10-07/third-party-verifiers/stake-dragon-tower-blog/links.json",
+     "original_sha256": "31e21bdd0b1a1e9b472fc89bc4d7481e19f8ab73a63e0f2a121933d63f61132c",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays 17 de abril de 2024 (Portuguese locale; not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:49:40.008Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+     "public_sha256": "460269caaeb44989b6b9939e349487c94c15737b9abae0a00544c00014674828",
+     "original_path": "statics-2026-10-07/third-party-verifiers/stake-dragon-tower-blog/page.html",
+     "original_sha256": "460269caaeb44989b6b9939e349487c94c15737b9abae0a00544c00014674828",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays 17 de abril de 2024 (Portuguese locale; not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:49:40.008Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.txt",
+     "public_sha256": "3a0950da94daf4f1c50a86231b62c34263dcfb48894a9c93559fd933c0b7a2af",
+     "original_path": "statics-2026-10-07/third-party-verifiers/stake-dragon-tower-blog/page.txt",
+     "original_sha256": "3a0950da94daf4f1c50a86231b62c34263dcfb48894a9c93559fd933c0b7a2af",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays 17 de abril de 2024 (Portuguese locale; not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:49:40.008Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/screenshot.png",
+     "public_sha256": "df01cd3ee4397d92d4b4f5f6be0e637a77a2a9e85203e9d4451788cc2d6f9220",
+     "original_path": "statics-2026-10-07/third-party-verifiers/stake-dragon-tower-blog/screenshot.png",
+     "original_sha256": "df01cd3ee4397d92d4b4f5f6be0e637a77a2a9e85203e9d4451788cc2d6f9220",
+     "transformations": "none (byte-identical copy)",
+     "notes": "",
+     "source_event_or_snapshot_date": "page displays 17 de abril de 2024 (Portuguese locale; not authenticated)",
+     "acquired_at_utc": "2026-10-07T13:49:40.008Z",
+     "acquisition_method": "logged-out page capture in a real browser (page HTML, rendered text, screenshot, link list, loaded scripts); capture.json written by the capture tool"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-game-2026-10-28/capture.json",
+     "public_sha256": "c9a47b9b789f1d6f54409124a5164547ac970f7191c34053b2c244928ad30a10",
+     "original_path": "05.meta.json",
+     "original_sha256": "9b693cfece8fb36fd4e53887426e71a4ec08c2daf5d9ec06d3a5e0fe19d8d83c",
+     "transformations": "derived metadata: URLs, title, acquisition time, language, hashes; the capture tool name and the full browser user agent omitted",
+     "notes": "original metadata kept private",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": "2026-10-28T12:50:27.328Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted; stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+     "source_url": "https://stake.com/casino/games/dragon-tower",
+     "final_url": "https://stake.com/pt/casino/games/stake-dragon-tower"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-game-2026-10-28/page.redacted.txt",
+     "public_sha256": "abed6732406992b74cdadbb8deb1bfdb4a7a018166660ee208f3e5719f644fc7",
+     "original_path": "05.txt",
+     "original_sha256": "4eb0ad7d2112a0995de3409c527b986e64c88c5554a652950be44cd9947ce597",
+     "transformations": "original lines 352-471 (1-based, inclusive; the live \"Minhas Apostas / Todas as Apostas\" bets table) replaced by one marker line; all other bytes unchanged",
+     "notes": "rendered page text (innerText) captured logged out",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": "2026-10-28T12:50:27.328Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted; stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+     "source_url": "https://stake.com/casino/games/dragon-tower",
+     "final_url": "https://stake.com/pt/casino/games/stake-dragon-tower"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-game-2026-10-28/screenshot.png",
+     "public_sha256": "e16eaf235337b0520b0d0ff7ed4e3c3a215fb8480ec8ee25c016caa5ee686cab",
+     "original_path": "05-screenshot.png",
+     "original_sha256": "e16eaf235337b0520b0d0ff7ed4e3c3a215fb8480ec8ee25c016caa5ee686cab",
+     "transformations": "none (byte-identical copy)",
+     "notes": "viewport screenshot taken in the same session",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": "2026-10-28T12:50:27.328Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted; stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+     "source_url": "https://stake.com/casino/games/dragon-tower",
+     "final_url": "https://stake.com/pt/casino/games/stake-dragon-tower"
+    },
+    {
+     "public_path": "evidence/comparators/stake-game-events-2026-10-28/capture.json",
+     "public_sha256": "628dd481d7e5d62195a8bedfdfcd1f03c2dbbb170199e6a68eace24cd74a3993",
+     "original_path": "06.meta.json",
+     "original_sha256": "29e0c5290e20791dd2f24864a57e0e4202f0b9eba157b6c82bd3cf5bc3668986",
+     "transformations": "derived metadata: URLs, title, acquisition time, language, hashes; the capture tool name and the full browser user agent omitted",
+     "notes": "original metadata kept private",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": "2026-10-28T12:50:50.312Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted; stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+     "source_url": "https://stake.com/provably-fair/game-events",
+     "final_url": "https://stake.com/pt/provably-fair/game-events"
+    },
+    {
+     "public_path": "evidence/comparators/stake-game-events-2026-10-28/page.txt",
+     "public_sha256": "4dd2d8b1c7f124c30f687c8ec570757cdc5b6d00ab2630f83863482997eea87e",
+     "original_path": "06.txt",
+     "original_sha256": "4dd2d8b1c7f124c30f687c8ec570757cdc5b6d00ab2630f83863482997eea87e",
+     "transformations": "none (byte-identical copy of the rendered text)",
+     "notes": "rendered page text (innerText) captured logged out",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": "2026-10-28T12:50:50.312Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted; stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+     "source_url": "https://stake.com/provably-fair/game-events",
+     "final_url": "https://stake.com/pt/provably-fair/game-events"
+    },
+    {
+     "public_path": "evidence/comparators/stake-game-events-2026-10-28/screenshot.png",
+     "public_sha256": "24ec752705c5329568f445b0791d5b16885ce563e5332640ee4e8badc287e032",
+     "original_path": "06-screenshot.png",
+     "original_sha256": "24ec752705c5329568f445b0791d5b16885ce563e5332640ee4e8badc287e032",
+     "transformations": "none (byte-identical copy)",
+     "notes": "viewport screenshot taken in the same session",
+     "source_event_or_snapshot_date": null,
+     "acquired_at_utc": "2026-10-28T12:50:50.312Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted; stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+     "source_url": "https://stake.com/provably-fair/game-events",
+     "final_url": "https://stake.com/pt/provably-fair/game-events"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-blog-2026-10-28/capture.json",
+     "public_sha256": "0d712fc03a82cc8a1569be2167bb0b720ae7b3b5641836941749f9ccc1ebc539",
+     "original_path": "07.meta.json",
+     "original_sha256": "8fbc96f99a1ad335b03fe75b56c2a1322cf408a8bfd8b4fc72684e0b95e217d6",
+     "transformations": "derived metadata: URLs, title, acquisition time, language, hashes; the capture tool name and the full browser user agent omitted",
+     "notes": "original metadata kept private",
+     "source_event_or_snapshot_date": "page displays 17 de abril de 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:51:02.314Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted; stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+     "source_url": "https://stake.com/blog/how-to-play-dragon-tower-on-stake",
+     "final_url": "https://stake.com/pt/blog/how-to-play-dragon-tower-on-stake"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-blog-2026-10-28/page.txt",
+     "public_sha256": "23546c13b9be17f8dd5a8294f8a5cd79017c6dc1717a414ed27724ae30900dfb",
+     "original_path": "07.txt",
+     "original_sha256": "23546c13b9be17f8dd5a8294f8a5cd79017c6dc1717a414ed27724ae30900dfb",
+     "transformations": "none (byte-identical copy of the rendered text)",
+     "notes": "rendered page text (innerText) captured logged out",
+     "source_event_or_snapshot_date": "page displays 17 de abril de 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:51:02.314Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted; stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+     "source_url": "https://stake.com/blog/how-to-play-dragon-tower-on-stake",
+     "final_url": "https://stake.com/pt/blog/how-to-play-dragon-tower-on-stake"
+    },
+    {
+     "public_path": "evidence/comparators/stake-dragon-tower-blog-2026-10-28/screenshot.png",
+     "public_sha256": "1ca0439415aa537508dda22fcd4cb2e6c8f4694c4e04b76743494945b0387e0a",
+     "original_path": "07-screenshot.png",
+     "original_sha256": "1ca0439415aa537508dda22fcd4cb2e6c8f4694c4e04b76743494945b0387e0a",
+     "transformations": "none (byte-identical copy)",
+     "notes": "viewport screenshot taken in the same session",
+     "source_event_or_snapshot_date": "page displays 17 de abril de 2024 (not authenticated)",
+     "acquired_at_utc": "2026-10-28T12:51:02.314Z",
+     "acquisition_method": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted; stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+     "source_url": "https://stake.com/blog/how-to-play-dragon-tower-on-stake",
+     "final_url": "https://stake.com/pt/blog/how-to-play-dragon-tower-on-stake"
+    }
+   ]
+  },
+  {
+   "source_id": "S14",
+   "title": "Release integrity",
+   "claim_ids": [
+    "C08"
+   ],
+   "status": "root SHA256SUMS covers every distributed file",
+   "scope": "the input hash and member hashes identify bytes; they do not prove acquisition dates",
+   "public_files": []
+  }
+ ],
+ "capture_files_not_distributed": [
+  {
+   "capture": "evidence/client/help-house-edge-2026-10-28",
+   "page_html_sha256": "ec2b9cbf7aba12d340b69a869c837180a1ae984f13bd0b093721d16d0a518fc0",
+   "reason": "page HTML withheld; only its sha256 is published. It contains markup injected by an extension of the capturing browser."
+  },
+  {
+   "capture": "evidence/client/help-odds-of-towers-2026-10-28",
+   "page_html_sha256": "4f0118138ab5f5a7bcc114d124e60e0c7d3b5e09e106dd3b93b23678fd282846",
+   "reason": "page HTML withheld; only its sha256 is published. It contains markup injected by an extension of the capturing browser; Cloudflare per-request parameters (ray id and timestamp)."
+  },
+  {
+   "capture": "evidence/comparators/shuffle-game-events-2026-10-28",
+   "page_html_sha256": "9c3a219ecb5a53cb917245d85b9dded1add5d995821a5e9c766c64bad60d6a2d",
+   "reason": "page HTML withheld; only its sha256 is published. It contains markup injected by an extension of the capturing browser."
+  },
+  {
+   "capture": "evidence/comparators/shuffle-tower-chart-2026-10-28",
+   "page_html_sha256": "dc746b79f394a14f2ec8c6cd7dd62e7d811dc701a4e9211e3f970503befef864",
+   "reason": "page HTML withheld; only its sha256 is published. It contains markup injected by an extension of the capturing browser; Cloudflare per-request parameters (ray id and timestamp)."
+  },
+  {
+   "capture": "evidence/comparators/stake-dragon-tower-blog-2026-10-28",
+   "page_html_sha256": "092b18be2a8d69b0b2f8542d2f3d2bcd742807a94e9c38a0201d9e753d92aaf4",
+   "reason": "page HTML withheld under the same rule as the other captures (none of the capture-side markers checked for was found in it); rendered text and screenshot are published."
+  },
+  {
+   "capture": "evidence/comparators/stake-dragon-tower-game-2026-10-28",
+   "page_html_sha256": "6966ce29e277f5cfad35f728770b16d296d5a5ac96a2d466cb4c55d6b4df866a",
+   "reason": "page HTML withheld; only its sha256 is published. It contains Cloudflare per-request parameters (ray id and timestamp); a live bets table with other players' usernames."
+  },
+  {
+   "capture": "evidence/comparators/stake-game-events-2026-10-28",
+   "page_html_sha256": "6649537378c9db4839ee1f6860faf8517c8be712dbf6ab52968756e9721c3b90",
+   "reason": "page HTML withheld under the same rule as the other captures (none of the capture-side markers checked for was found in it); rendered text and screenshot are published."
+  },
+  {
+   "capture": "original capture metadata (*.meta.json)",
+   "reason": "names the capture tooling and the full browser user agent; derived capture.json published; sha256 in each capture.json"
+  },
+  {
+   "capture": "command-line fetches of the same URLs, 2026-10-28",
+   "reason": "Cloudflare challenge pages for 500 Casino and Stake; not receipts, not used"
+  }
+ ],
+ "captured_files_not_distributed": [
+  {
+   "original_member": "extra/public-feed-collector/lib.mjs",
+   "original_sha256": "063e1eb16f7c92df84d33465fd8bf89fe853c2ce9b662e30a6a43fd0ec9bbf49",
+   "reason": "raw cross-game feed, collector code/log and status: private (usernames, avatar URLs, stable account ids, local paths); sanitized Towers derivative distributed"
+  },
+  {
+   "original_member": "extra/public-feed-collector/collector.log",
+   "original_sha256": "6bb60e1c5a6154d4c5fcd37133673b3ad72b2925b7cb51431b516ce0cd0b975f",
+   "reason": "raw cross-game feed, collector code/log and status: private (usernames, avatar URLs, stable account ids, local paths); sanitized Towers derivative distributed"
+  },
+  {
+   "original_member": "extra/public-feed-collector/collector.mjs",
+   "original_sha256": "a510974d6917cad5c20fb96ad048f85dccb11cdcbc402eee638068e46802a72b",
+   "reason": "raw cross-game feed, collector code/log and status: private (usernames, avatar URLs, stable account ids, local paths); sanitized Towers derivative distributed"
+  },
+  {
+   "original_member": "extra/public-feed-collector/data/status.json",
+   "original_sha256": "dde31e3c4e05f935451bf2b78d37c85b968e1ef62a710ffc79933e2fd77901e8",
+   "reason": "raw cross-game feed, collector code/log and status: private (usernames, avatar URLs, stable account ids, local paths); sanitized Towers derivative distributed"
+  },
+  {
+   "original_member": "statics-2026-10-07/home-500/page.html",
+   "original_sha256": "1603e3790f8126c065ae7dbb8eb008cebf5fa45fbd9baf3b790497b236039683",
+   "reason": "not needed by any retained claim (no source id); contains live feed/chat of other players"
+  },
+  {
+   "original_member": "statics-2026-10-07/home-500/links.json",
+   "original_sha256": "289c2dd89416be4da27873a7875d50bb79c7ffed8273317139d8a9fa4f30eb2d",
+   "reason": "not needed by any retained claim (no source id); contains live feed/chat of other players"
+  },
+  {
+   "original_member": "statics-2026-10-07/home-500/screenshot.png",
+   "original_sha256": "207bc6c61812bd8af7fb003f3647293888a80271b9d2272612792749ee73ddf9",
+   "reason": "not needed by any retained claim (no source id); contains live feed/chat of other players"
+  },
+  {
+   "original_member": "statics-2026-10-07/home-500/capture.json",
+   "original_sha256": "390f7327b583eae5521d3dac06ed55d46f1c5ef2342c2697d8981a425723ab7f",
+   "reason": "not needed by any retained claim (no source id); contains live feed/chat of other players"
+  },
+  {
+   "original_member": "statics-2026-10-07/home-500/page.txt",
+   "original_sha256": "2b18286b3cd3fcdbf3984d96c2559a3e26ea917cc15ca4595ab03c02cb2e8579",
+   "reason": "not needed by any retained claim (no source id); contains live feed/chat of other players"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/npm-view.json",
+   "original_sha256": "86f17ac6163f90f6a18c22415c482001f88660c938da891a77b0e0ce1f6fc0a4",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/betorigami-game-calculations-10.1.0.tgz",
+   "original_sha256": "93b77c1cfd30905c99b6a34ccf765e8e2463275767a4116e9d6deb7ae5bb6d79",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/npm-pack.json",
+   "original_sha256": "c8d7053c85f5d0a78d94ff729f1228b5c62d80a477d665473755229c4547c2c6",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/mines-extract.txt",
+   "original_sha256": "16367b9371f1082aff02217b25360c4e65a1f6a8539d7e4a22793d63499faa78",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/fetched-utc.txt",
+   "original_sha256": "79d8919a3d8c8b9d75c1f4633f78241e8181c51c377da5e3d05362432d7138d1",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/extracted/package/dist/index.d.cts",
+   "original_sha256": "07adc0bad594f3b74e9f114922af24037547f5073a72945adad508df078052d5",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/extracted/package/dist/index.cjs",
+   "original_sha256": "d2ed291a21573e174fdcb4e54be204f86ef134578f429fa225504db1f92a3f3f",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/extracted/package/dist/index.mjs",
+   "original_sha256": "dc365b02762a6cdfb6d84027e06660a62b82e2ad45006d37b9339d2b47cb63d9",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/extracted/package/dist/index.d.ts",
+   "original_sha256": "07adc0bad594f3b74e9f114922af24037547f5073a72945adad508df078052d5",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/extracted/package/package.json",
+   "original_sha256": "001409ebb7b7e0b9cd8e3d9686d85c47b75e729d74be9cb96c6abff647ae6fdc",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/origami-npm/npm-view.err",
+   "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "reason": "third-party npm package capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/page.html",
+   "original_sha256": "e21a3507f6fc661e243eaee0df383c9bb8cf73a8f28e296d08ef9807561d590f",
+   "reason": "contains public chat, live-wins ticker, High Wins and All Bets usernames of other players; verbatim excerpt of page.txt distributed instead"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/20378.ea421801.js",
+   "original_sha256": "c78c39fb4e9efd9185e494d6eeedc27ea3271225f34ad3763686d59de7522e5f",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/towers.af02258b.js",
+   "original_sha256": "3bc516b48f7ba67923cc8d967bd6ea40ca481a9adba63a9a20beeb9e69b66baf",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/recaptcha__pt_br.js",
+   "original_sha256": "347805c53e57be2970993503133966ebeda6b663633b82994c1537f856c60db9",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/34668.96842b58.js",
+   "original_sha256": "24f3994676eb0ca12fb44f2c6e2428c031b2b08932525ae0037e86ea55e1cb97",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/80052.a794a002.js",
+   "original_sha256": "3724857f51bffd71e4060932d20f1da663e3d1686bb50db5a25eddb6b9fee3ca",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/45013.5579b457.js",
+   "original_sha256": "da500ee7b84f358a73f2d033076da8b40f7100fa6221bd4552b94f543e67b145",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/chunk-vendors.7f6abaa4.js",
+   "original_sha256": "d9d2e4b028a4ed56775cb6e1f82290698cb4c639252e5b0c46d66a69b62287d9",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/1828.89aa27f6.js",
+   "original_sha256": "44638cd5e3834a78de1a7efc592fee4368dcd0f5cee5b01b43d99b410bc082cb",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/frame-modern.592819c3.js",
+   "original_sha256": "fa0c661651af709a4c3a49ed4faa877fd48dacd64736d32ca5d0f8f1b7057d85",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/28322.f2ab9bdc.js",
+   "original_sha256": "965a412375ec434f692a84e7f54e9971573840eb8c4c1a32a1ad622f1066c1ca",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/593.5b09f1e9.js",
+   "original_sha256": "0bfa635d5da35102fbb859fb74cababd31a26654fc443457b7ff686636c0fc61",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/js",
+   "original_sha256": "6eac3269ff51cf7da3395df6892dce875082de088fcae1cb5a3eead208f0898d",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/clarity.js",
+   "original_sha256": "c82e4487807045a289dc8d5627b7769569f59854a224f1e24cd8a1084aace2cb",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/agent.umd.js",
+   "original_sha256": "d49b9683709d1e8efc0e1c805a706843b9411566e10bf54a9dab9e53e7c6cc41",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/35624.52266378.js",
+   "original_sha256": "adbc520a83d1b14103ee140585e16b7362d048a24146c0f381d82e78cd8de3e1",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/n3rorevq",
+   "original_sha256": "c20e9bc946a5b4c5416792380b62ded0c5689dc3501d023f16c6c3ee27a4308d",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/oydpsv8nip",
+   "original_sha256": "50323a040f89f15439d26d7c140238a5a303f959b475ba853250de64cc445af2",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/webworker.js",
+   "original_sha256": "77846da2badf95f48d18d1ea6db23252e4eb75ac6d0a44ff008955d855d8e6dc",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/xcm-seal.js",
+   "original_sha256": "e67933d89b1053990e2f62c24cbb5281d82b4cab7e9d766bf51f18bd240a3dfc",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/spine.c0afc95f.js",
+   "original_sha256": "121f82d0a943d276d3411b32106f0e9c1649909bc34f519d734a7b7c07ed66f0",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/73150.1c13deb0.js",
+   "original_sha256": "4ff33599516214397beed16b8326b487ac8f83e3a36e21f25f37fac49be88f60",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/72893.313b2295.js",
+   "original_sha256": "7c11374f35b73eff771312dd371e427ec0b5120383168e43ee98d86a0dc2f477",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/16015.c079750d.js",
+   "original_sha256": "0a9a784d7ac44d53c46f316774a8609aae2cd7352223d3ee9d5907ec1e90ef12",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/api.js",
+   "original_sha256": "7f48bd08ac037097258f3a4ae94d9492df318f6239cc89318c65e22c1be0d0b5",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/37179.9d65be83.js",
+   "original_sha256": "ef3d8583eda2ba687e87f9fab969f65d14587d69433ba5a754b868bec9a5537c",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/51830.87d4522d.js",
+   "original_sha256": "88ca66cce1187118e9de640a62a4be835bc0b7a1c3ca3569c3fc139baca641d6",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/29737.c3981025.js",
+   "original_sha256": "9d3443358d19baa0623bc4c8134fe851dd17071d784665171d09883d119cb6e5",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/vendor-modern.dd7bebc7.js",
+   "original_sha256": "50a56fddab65f301e12fa39901a558c2a8a168c63efa273ec59d9b39f2b31a7e",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/js/86466.54f20ef6.js",
+   "original_sha256": "b6ef9fa206b9877bc463a5d158b0529f2a0d780bc51e221fcff25c5bfdc42165",
+   "reason": "third-party or unrelated scripts loaded by the page (analytics, captcha, vendor bundles, other chunks); listed with sizes in js-index.json"
+  },
+  {
+   "original_member": "statics-2026-10-07/towers-live/links.json",
+   "original_sha256": "e6d9d1f7c4cb722f3ff9153b4cc4676e8e2727bba0a662c8d5147a8a1e613fdf",
+   "reason": "link list of a page containing other players’ profiles/shares; not needed"
+  },
+  {
+   "original_member": "statics-2026-10-07/third-party-verifiers/bcgame-verify/bc-tower.html",
+   "original_sha256": "5e1226c842b177124d9b58ec2719f31ee21d8c5ea8aa0e9fb0d7fd85ab15ff9a",
+   "reason": "third-party verifier capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/third-party-verifiers/bcgame-verify/bc-mines.html",
+   "original_sha256": "2ab3a18383a6fdd8a25ca4634195186c017ef86aa9647b6d8d0ebf708a05bcdb",
+   "reason": "third-party verifier capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/third-party-verifiers/bcgame-verify/SOURCE.txt",
+   "original_sha256": "05c3b342fe5cc4364dfccc94ac65d2f79e8a2b840414a8c23de01920ebf1cef9",
+   "reason": "third-party verifier capture; not needed by any retained technical claim"
+  },
+  {
+   "original_member": "statics-2026-10-07/redesign-tweet/x-page/page.html",
+   "original_sha256": "4cae23757dffee9399471a78445cb357d0679e57a73bf32b5ac1d6be0208d04e",
+   "reason": "contains replies by third-party X accounts; redacted text and screenshot distributed instead"
+  },
+  {
+   "original_member": "statics-2026-10-07/redesign-tweet/x-page/links.json",
+   "original_sha256": "ebc6e36e3f2c9f55762f5210b643de85438c2e75c9c671c061c36a7aae0d3ee0",
+   "reason": "contains third-party X account links"
+  },
+  {
+   "original_member": "statics-2026-10-07/redesign-tweet/lookups.txt",
+   "original_sha256": "d3aaeb43ad2ea3550ecd28646b72826c59993c3d4a7f12134a6c942d3fc9bcb1",
+   "reason": "failed archive lookup log; not needed"
+  }
+ ],
+ "archive_ph_copies": {
+  "description": "Independent archive.ph copies of sources (archive.ph does not act on site-owner exclusion requests). An automated GET of each on 2026-10-28 returned HTTP 429 with a challenge page. The publisher then opened every copy in a normal browser and confirmed that it loads and shows the stated snapshot and wording; the time of that check was not recorded. The bytes of the sources themselves are in this repository.",
+  "copies": [
+   {
+    "url": "https://archive.ph/IUz62",
+    "source_id": "S04",
+    "automated_check_utc": "2026-10-28T15:24:29Z",
+    "automated_http_status": 429,
+    "confirmed": true,
+    "confirmed_by": "publisher, in a normal browser before publication; time of check not recorded",
+    "shows": "limits article, Wayback snapshot of 2023-09-25: '~613x', '~35,354x', maximum Medium bet '~$163.10'"
+   },
+   {
+    "url": "https://archive.ph/59RqE",
+    "source_id": "S04",
+    "automated_check_utc": "2026-10-28T15:24:36Z",
+    "automated_http_status": 429,
+    "confirmed": true,
+    "confirmed_by": "publisher, in a normal browser before publication; time of check not recorded",
+    "shows": "odds article, snapshot of 2023-09-25: 'Towes has a fixed house edge set at 5% for all 3 difficulty modes.'"
+   },
+   {
+    "url": "https://archive.ph/LJP4L",
+    "source_id": "S06",
+    "automated_check_utc": "2026-10-28T15:24:42Z",
+    "automated_http_status": 429,
+    "confirmed": true,
+    "confirmed_by": "publisher, in a normal browser before publication; time of check not recorded",
+    "shows": "house-edge article, snapshot of 2023-09-25: Towers 'functions similar to as of Duels' and is set at 5%'"
+   },
+   {
+    "url": "https://archive.ph/T48aj",
+    "source_id": "S04",
+    "automated_check_utc": "2026-10-28T15:24:48Z",
+    "automated_http_status": 429,
+    "confirmed": true,
+    "confirmed_by": "publisher, in a normal browser before publication; time of check not recorded",
+    "shows": "limits article, snapshot of 2024-04-19: win limit $200,000, maximum Medium bet '~$326.20'"
+   },
+   {
+    "url": "https://archive.ph/CTOa2",
+    "source_id": "S04",
+    "automated_check_utc": "2026-10-28T15:24:55Z",
+    "automated_http_status": 429,
+    "confirmed": true,
+    "confirmed_by": "publisher, in a normal browser before publication; time of check not recorded",
+    "shows": "limits article, snapshot of 2024-12-08: win limit $200,000, maximum Medium bet '~$326.20', minimum bet '0.10 USD'"
+   },
+   {
+    "url": "https://archive.ph/uAhyA",
+    "source_id": "S03",
+    "automated_check_utc": "2026-10-28T15:25:01Z",
+    "automated_http_status": 429,
+    "confirmed": true,
+    "confirmed_by": "publisher, in a normal browser before publication; time of check not recorded",
+    "shows": "towers.55a86d17.js from the Wayback memento of 2025-11-01 (roundMultiplier construction); a copy retrieved on 2026-10-07 is in evidence/client/towers-chunk-2026-10-07/ (archive.ph-uAhyA.*)"
+   }
+  ]
+ }
+}

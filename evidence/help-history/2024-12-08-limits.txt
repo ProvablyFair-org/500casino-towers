@@ -1,0 +1,55 @@
+Browser tab: 3, Title: "What Are the Limits of Towers? | Welcome to 500 Casino Knowledge Base", URL: "https://web.archive.org/web/20241208062049/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers".
+1 AXWebArea What Are the Limits of Towers? | Welcome to 500 Casino Knowledge Base, URL: web.archive.org/web/20241208062049/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers
+	2 container
+		3 link Description: Skip to main content, Value: web.archive.org/web/20241208062049/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers#main-content
+		4 container
+			5 link Description: Welcome to 500 Casino Knowledge Base, Value: web.archive.org/web/20241208062049/https://help.500.casino/en/
+			6 container
+				7 pop up button (collapsed, settable) Value: English, Secondary Actions: Expand
+					8 menu
+						9 (selected) English
+						10 text ;
+				11 text English
+				12 button Description: Change language, ID: locale-picker-arrow
+			13 container
+				14 text field (settable)
+		15 container
+			16 link Description: All Collections, Value: web.archive.org/web/20241208062049/https://help.500.casino/en/
+			17 link Description: Casino & Classics, Value: web.archive.org/web/20241208062049/https://help.500.casino/en/collections/3318233-casino-classics
+			18 link Description: Towers, Value: web.archive.org/web/20241208062049/https://help.500.casino/en/collections/6146614-towers
+			19 text What Are the Limits of Towers? What Are the Limits of Towers?
+			20 image NSGDX avatar
+			21 container
+				22 text Written by  NSGDX
+			23 text Updated over 7 months ago
+			24 container
+				25 text Towers has a global win limit of  $200,000  per round. The maximum allowed bet is thus adjusted and limited based on the the difficulty mode chosen by the user. The minimum bet is set at 0.10 USD. 
+			26 content list
+				27 container
+					28 AXListMarker • 
+					29 text The maximum multiplier for Easy is ~34,5x. 
+				30 container
+					31 AXListMarker • 
+					32 text The maximum multiplier for Medium is ~613x. 
+				33 container
+					34 AXListMarker • 
+					35 text The maximum multiplier for Difficult is ~35,354x.
+			36 container
+				37 text The maximum bet allowed is thus based on the above multipliers. For medium difficulty, the maximum bet is up to ~$326.20 per round.
+			38 text Did this answer your question?
+			39 checkbox Description: Disappointed Reaction, Value: 0
+				40 text 😞
+			41 checkbox Description: Neutral Reaction, Value: 0
+				42 text 😐
+			43 checkbox Description: Smiley Reaction, Value: 0
+				44 text 😃
+		45 container footer
+			46 link Description: Welcome to 500 Casino Knowledge Base, Value: web.archive.org/web/20241208062049/https://help.500.casino/en/
+			47 content list custom-links
+				48 link Description: 500 Casino Blog, Value: web.archive.org/web/20241208062049/https://blog.500.casino/
+			49 content list social-links
+				50 link web.archive.org/web/20241208062049/https://www.facebook.com/officialcsgo500
+				51 link web.archive.org/web/20241208062049/https://www.twitter.com/500casino
+				52 link web.archive.org/web/20241208062049/https://www.instagram.com/500.casino
+
+The focused UI element is 1 AXWebArea What Are the Limits of Towers? | Welcome to 500 Casino Knowledge Base, URL: web.archive.org/web/20241208062049/https://help.500.casino/en/articles/8383528-what-are-the-limits-of-towers

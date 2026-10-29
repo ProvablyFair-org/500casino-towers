@@ -1,0 +1,18 @@
+{
+ "requested_url": "https://stake.com/blog/how-to-play-dragon-tower-on-stake",
+ "final_url": "https://stake.com/pt/blog/how-to-play-dragon-tower-on-stake",
+ "title": "How to Play Dragon Tower on Stake Casino - Strategy & Tips",
+ "acquired_at_utc": "2026-10-28T12:51:02.314Z",
+ "page_language": "pt",
+ "logged_in": false,
+ "acquisition": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+ "locale_note": "stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+ "text_sha256": "23546c13b9be17f8dd5a8294f8a5cd79017c6dc1717a414ed27724ae30900dfb",
+ "html_sha256_withheld": "092b18be2a8d69b0b2f8542d2f3d2bcd742807a94e9c38a0201d9e753d92aaf4",
+ "html_withheld_reason": "page HTML withheld under the same rule as the other captures (none of the capture-side markers checked for was found in it); rendered text and screenshot are published.",
+ "screenshot_sha256": {
+  "screenshot.png": "1ca0439415aa537508dda22fcd4cb2e6c8f4694c4e04b76743494945b0387e0a"
+ },
+ "original_capture_metadata_sha256": "8fbc96f99a1ad335b03fe75b56c2a1322cf408a8bfd8b4fc72684e0b95e217d6",
+ "not_receipts": "command-line fetches of these URLs made the same day returned Cloudflare challenge pages for 500 Casino and Stake; they are not used"
+}

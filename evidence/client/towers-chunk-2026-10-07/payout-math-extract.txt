@@ -1,0 +1,32 @@
+## archived 2025-11-01 towers.55a86d17.js (Wayback 20251101025405, decompressed)
+sha256 820b02bb582d9cf19d7c2f55ce0c46bd9b26cbbacb475a428a27f6e1dc987f74  bytes 21708
+- roundMultiplier: 1 match(es)
+    roundMultiplier(){const e=this.difficultyData.choices/(this.difficultyData.choices-this.difficultyData.bombs),t=1-this.game.houseEdge;return new o.a(e).times(t).toNumber()}
+- ladder (winningsByRound push): 1 match(es)
+    .push({value:parseInt(i*this.roundMultiplier**a),multiplier:Math.floor(this.roundMultiplier**a*1e3)/1e3}
+- houseEdge source (getInfo): 1 match(es)
+    houseEdge:i,minBet:a}=e.data
+- tile display multiplierText: 0 match(es)
+- resultMultiplierText: 0 match(es)
+
+## current 2026-10-07 1828.89aa27f6.js (loaded by https://500.casino/towers)
+sha256 44638cd5e3834a78de1a7efc592fee4368dcd0f5cee5b01b43d99b410bc082cb  bytes 50730
+- roundMultiplier: 1 match(es)
+    roundMultiplier:function(){var t=this.difficultyData.choices/(this.difficultyData.choices-this.difficultyData.bombs),e=1-this.game.houseEdge;return new l.A(t).times(e).toNumber()}
+- ladder (winningsByRound push): 1 match(es)
+    .push({value:parseInt(i*Math.pow(this.roundMultiplier,a)),multiplier:Math.floor(1e3*Math.pow(this.roundMultiplier,a))/1e3}
+- houseEdge source (getInfo): 1 match(es)
+    r=i.houseEdge
+- tile display multiplierText: 1 match(es)
+    multiplierText:function(){var t=Math.floor(100*this.multiplier)/100;return"".concat(t.toFixed(2),"x")}
+- resultMultiplierText: 1 match(es)
+    resultMultiplierText:function(){var t=Math.floor(this.game.wonAmount/this.game.betAmount*100)/100;return"".concat(t.toFixed(2),"x")}
+
+## current 2026-10-07 towers.af02258b.js (loaded by https://500.casino/towers)
+sha256 3bc516b48f7ba67923cc8d967bd6ea40ca481a9adba63a9a20beeb9e69b66baf  bytes 13880
+- roundMultiplier: 0 match(es)
+- ladder (winningsByRound push): 0 match(es)
+- houseEdge source (getInfo): 0 match(es)
+- tile display multiplierText: 0 match(es)
+- resultMultiplierText: 0 match(es)
+

@@ -1,0 +1,673 @@
+{
+ "scope": "Pattern scan of every distributed file (text patterns, image metadata segments, player fields in data/results, synthetic-fixture boundary). Not a substitute for the manual image review recorded in REDACTIONS.md.",
+ "files_scanned": 192,
+ "images_checked": 49,
+ "findings_total": 40,
+ "findings_allowed": 40,
+ "unexpected": [],
+ "findings": [
+  {
+   "file": "README.md",
+   "kind": "email",
+   "text": "audit@provablyfair.org",
+   "allowed_because": "the publisher's corrections contact"
+  },
+  {
+   "file": "RESPONSE.md",
+   "kind": "email",
+   "text": "audit@provablyfair.org",
+   "allowed_because": "the publisher's corrections contact"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "email",
+   "text": "audit@provablyfair.org",
+   "allowed_because": "the publisher's corrections contact"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "email",
+   "text": "legal@intercom.io",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "email",
+   "text": "support@stake.com",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "1.04.61.83",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "1.1.3.4",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "1.16.8.8",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "1.21.69.69",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "1.21.87.47",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "1.6.2.1",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "1.61.72.72",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "11.84.86.5",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "2.87.71.71",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "2.87.72.72",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "3.2.81.81",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "4.41.07.06",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "analysis/privacy_scan.py",
+   "kind": "ipv4",
+   "text": "7.7.7.7",
+   "allowed_because": "this scanner"
+  },
+  {
+   "file": "evidence/client/limits-article-2026-10-07/page.html",
+   "kind": "email",
+   "text": "legal@intercom.io",
+   "allowed_because": "help-centre vendor address inside the captured operator page"
+  },
+  {
+   "file": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "email",
+   "text": "marketing@500.casino",
+   "allowed_because": "operator/vendor addresses compiled into the captured operator JavaScript"
+  },
+  {
+   "file": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "email",
+   "text": "your@email.com",
+   "allowed_because": "operator/vendor addresses compiled into the captured operator JavaScript"
+  },
+  {
+   "file": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "1.1.3.4",
+   "allowed_because": "SVG path coordinates in icon markup, not an address"
+  },
+  {
+   "file": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "1.21.69.69",
+   "allowed_because": "SVG path coordinates in icon markup, not an address"
+  },
+  {
+   "file": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "1.6.2.1",
+   "allowed_because": "SVG path coordinates in icon markup, not an address"
+  },
+  {
+   "file": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "1.61.72.72",
+   "allowed_because": "SVG path coordinates in icon markup (context \",.88-1.61.72.72,0\"), not an address"
+  },
+  {
+   "file": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "7.7.7.7",
+   "allowed_because": "SVG path coordinates in icon markup (\"4.9.3 7.7.7.7 1.1\"), not an address"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "email",
+   "text": "support@stake.com",
+   "allowed_because": "Stake support address inside the captured Stake page"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "1.04.61.83",
+   "allowed_because": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "1.16.8.8",
+   "allowed_because": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "1.21.87.47",
+   "allowed_because": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "11.84.86.5",
+   "allowed_because": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "2.87.71.71",
+   "allowed_because": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "2.87.72.72",
+   "allowed_because": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "3.2.81.81",
+   "allowed_because": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "4.41.07.06",
+   "allowed_because": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.txt",
+   "kind": "email",
+   "text": "support@stake.com",
+   "allowed_because": "Stake support address inside the captured Stake page"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-28/page.txt",
+   "kind": "email",
+   "text": "support@stake.com",
+   "allowed_because": "Stake support address inside the captured Stake page"
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-game-2026-10-28/page.redacted.txt",
+   "kind": "email",
+   "text": "support@stake.com",
+   "allowed_because": "Stake support address inside the captured Stake page"
+  },
+  {
+   "file": "evidence/comparators/stake-game-events-2026-10-28/page.txt",
+   "kind": "email",
+   "text": "support@stake.com",
+   "allowed_because": "Stake support address inside the captured Stake page"
+  },
+  {
+   "file": "report-reference.json",
+   "kind": "email",
+   "text": "audit@provablyfair.org",
+   "allowed_because": "the publisher's corrections contact"
+  }
+ ],
+ "allow_rules": [
+  {
+   "path": "*",
+   "kind": "email",
+   "text": "audit@provablyfair.org",
+   "reason": "the publisher's corrections contact"
+  },
+  {
+   "path": "evidence/client/limits-article-2026-10-07/page.html",
+   "kind": "email",
+   "text": "legal@intercom.io",
+   "reason": "help-centre vendor address inside the captured operator page"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "email",
+   "text": "*",
+   "reason": "Stake support address inside the captured Stake page"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.txt",
+   "kind": "email",
+   "text": "*",
+   "reason": "Stake support address inside the captured Stake page"
+  },
+  {
+   "path": "evidence/comparators/stake-*-2026-10-28/page*.txt",
+   "kind": "email",
+   "text": "support@stake.com",
+   "reason": "Stake support address inside the captured Stake page"
+  },
+  {
+   "path": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "email",
+   "text": "*",
+   "reason": "operator/vendor addresses compiled into the captured operator JavaScript"
+  },
+  {
+   "path": "evidence/client/towers-chunk-2026-10-07/*.js",
+   "kind": "email",
+   "text": "*",
+   "reason": "strings compiled into captured operator JavaScript"
+  },
+  {
+   "path": "evidence/client/towers-chunk-2026-10-07/archive.ph-uAhyA.redacted.html",
+   "kind": "email",
+   "text": "*",
+   "reason": "archive.ph page markup (e.g. @archiveis, font-face rules)"
+  },
+  {
+   "path": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "1.61.72.72",
+   "reason": "SVG path coordinates in icon markup (context \",.88-1.61.72.72,0\"), not an address"
+  },
+  {
+   "path": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "1.21.69.69",
+   "reason": "SVG path coordinates in icon markup, not an address"
+  },
+  {
+   "path": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "7.7.7.7",
+   "reason": "SVG path coordinates in icon markup (\"4.9.3 7.7.7.7 1.1\"), not an address"
+  },
+  {
+   "path": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "1.6.2.1",
+   "reason": "SVG path coordinates in icon markup, not an address"
+  },
+  {
+   "path": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "kind": "ipv4",
+   "text": "1.1.3.4",
+   "reason": "SVG path coordinates in icon markup, not an address"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "1.04.61.83",
+   "reason": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "1.16.8.8",
+   "reason": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "1.21.87.47",
+   "reason": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "11.84.86.5",
+   "reason": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "2.87.71.71",
+   "reason": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "2.87.72.72",
+   "reason": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "3.2.81.81",
+   "reason": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "path": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.html",
+   "kind": "ipv4",
+   "text": "4.41.07.06",
+   "reason": "SVG path coordinates (d attribute), not an address"
+  },
+  {
+   "path": "analysis/privacy_scan.py",
+   "kind": "*",
+   "text": "*",
+   "reason": "this scanner"
+  }
+ ],
+ "images": [
+  {
+   "file": "evidence/client/help-house-edge-2026-10-28/screenshot.jpg",
+   "metadata_segments": [
+    "APP0:JFIF",
+    "APP2:ICC_P"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/client/help-odds-of-towers-2026-10-28/screenshot.jpg",
+   "metadata_segments": [
+    "APP0:JFIF",
+    "APP2:ICC_P"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/client/limits-article-2026-10-07/screenshot.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/client/redesign-tweet-2026-10-07/tweet-photo-HSK0xysbQAAuixN.jpg",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/client/redesign-tweet-2026-10-07/x-page/screenshot.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/client/towers-live-2026-10-07/screenshot.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/comparators/shuffle-game-events-2026-10-28/screenshot.jpg",
+   "metadata_segments": [
+    "APP0:JFIF",
+    "APP2:ICC_P"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/comparators/shuffle-tower-chart-2026-10-28/screenshot-table.jpg",
+   "metadata_segments": [
+    "APP0:JFIF",
+    "APP2:ICC_P"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/comparators/shuffle-tower-chart-2026-10-28/screenshot.jpg",
+   "metadata_segments": [
+    "APP0:JFIF",
+    "APP2:ICC_P"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/screenshot.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-28/screenshot.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-game-2026-10-28/screenshot.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/comparators/stake-game-events-2026-10-28/screenshot.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-limits.png",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-odds.png",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/help-history/2024-04-19-limits.png",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/help-history/2024-12-08-limits.png",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A01-bet1-cashed-layout.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A01-bet1-details-top.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A01-bet1-details-verify-secret-in-use.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A01-bet1-mybets-balance-100.52.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A02-bet2-medium-cashed-1.89x-badge.jpg",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A03-balance-100.79.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A03-bet3-details.jpg",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A03-bet3-hard-cashed-2.84x-badge.jpg",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A03-mybets-3-bets.jpg",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A04-seedpair-before-rotate-hashed3.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A05-seedpair-after-rotate.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/A06-bet1-details-after-rotate.jpg",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/F01-seedpair-before-final-rotate-hashed33.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/F02-seedpair-after-final-rotate.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P1-try2-balance-99.64.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P1-try2-cashed-2.85.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P1-try3-balance-100.49.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P1-try3-cashed-2.85.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P1-try4-balance-101.34.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P1-try4-cashed-2.85.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P2-try1-balance-102.89.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P2-try1-cashed-3.05.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P2-try3-balance-102.93.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P2-try3-cashed-3.05.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P2-try4-balance-104.48.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/P2-try4-cashed-3.05.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/S01-towers-loggedin-balance-100.48.redacted.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/S02-seedpair-locked-devtools.png",
+   "metadata_segments": [
+    "iCCP"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/S03-mines-seedpair-loads-hashed0.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/S04-towers-seedpair-stuck-loading.png",
+   "metadata_segments": [],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/S05-ladder-medium.jpg",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  },
+  {
+   "file": "evidence/session-2026-10-09/shots/S06-ladder-hard.jpg",
+   "metadata_segments": [
+    "APP0:JFIF"
+   ],
+   "flagged": []
+  }
+ ],
+ "fixtures_checked": 1
+}

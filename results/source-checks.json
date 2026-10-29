@@ -1,0 +1,284 @@
+{
+ "literals": [
+  {
+   "file": "evidence/client/towers-live-2026-10-07/js/app.3088e4a4.js",
+   "required_offset": 1363940,
+   "found_offset": 1363940,
+   "text": "towersHouseEdge:.05",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-chunk-2026-10-07/1828.89aa27f6.js",
+   "required_offset": 33117,
+   "found_offset": 33117,
+   "text": "roundMultiplier:function(){var t=this.difficultyData.choices/(this.difficultyData.choices-this.difficultyData.bombs),e=1-this.game.houseEdge;return new l.A(t).times(e).toNumber()}",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-chunk-2026-10-07/1828.89aa27f6.js",
+   "required_offset": null,
+   "found_offset": 33549,
+   "text": ".push({value:parseInt(i*Math.pow(this.roundMultiplier,a)),multiplier:Math.floor(1e3*Math.pow(this.roundMultiplier,a))/1e3}",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-chunk-2026-10-07/1828.89aa27f6.js",
+   "required_offset": null,
+   "found_offset": 3161,
+   "text": "multiplierText:function(){var t=Math.floor(100*this.multiplier)/100;return\"\".concat(t.toFixed(2),\"x\")}",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-chunk-2026-10-07/1828.89aa27f6.js",
+   "required_offset": null,
+   "found_offset": 34601,
+   "text": "r=i.houseEdge",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-chunk-2026-10-07/archived-towers.55a86d17.js",
+   "required_offset": null,
+   "found_offset": 16008,
+   "text": "roundMultiplier(){const e=this.difficultyData.choices/(this.difficultyData.choices-this.difficultyData.bombs),t=1-this.game.houseEdge;return new o.a(e).times(t).toNumber()}",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-chunk-2026-10-07/archived-towers.55a86d17.js",
+   "required_offset": null,
+   "found_offset": 16433,
+   "text": ".push({value:parseInt(i*this.roundMultiplier**a),multiplier:Math.floor(this.roundMultiplier**a*1e3)/1e3}",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-chunk-2026-10-07/archived-towers.55a86d17.js",
+   "required_offset": null,
+   "found_offset": 16919,
+   "text": "houseEdge:i,minBet:a}=e.data",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-chunk-2026-10-07/archived-headers.redacted.txt",
+   "required_offset": null,
+   "found_offset": 1463,
+   "text": "memento-datetime: Sat, 01 Nov 2025 02:54:05 GMT",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-chunk-2026-10-07/archived-headers.redacted.txt",
+   "required_offset": null,
+   "found_offset": 1512,
+   "text": "link: <https://500.casino/static/js/towers.55a86d17.js>; rel=\"original\"",
+   "ok": true
+  }
+ ],
+ "quotes": [
+  {
+   "file": "evidence/help-history/2023-09-25-odds.txt",
+   "quote": "Towes has a fixed house edge set at 5% for all 3 difficulty modes.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-odds.txt",
+   "quote": "The odds of Easy difficulty is 0.6666 per level.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-odds.txt",
+   "quote": "The odds of Medium difficulty is 0.5 per level.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-odds.txt",
+   "quote": "The odds of Hard difficulty is 0.3333 per level.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-house-edge.txt",
+   "quote": "The house edge on Towers functions similar to as of Duels' and is set at 5%.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-house-edge.txt",
+   "quote": "500 Casino takes a fixed 5% rake for every played duel.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-limits.txt",
+   "quote": "Towers has a global win limit of $100,000 per round.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-limits.txt",
+   "quote": "The maximum multiplier for Easy is ~345x.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2023-09-25-limits.txt",
+   "quote": "the maximum bet is up to ~$163.10 per round.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2024-04-19-limits.txt",
+   "quote": "Towers has a global win limit of $200,000 per round.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2024-04-19-limits.txt",
+   "quote": "The maximum multiplier for Easy is ~34,5x.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2024-04-19-limits.txt",
+   "quote": "the maximum bet is up to ~$326.20 per round.",
+   "ok": true
+  },
+  {
+   "file": "evidence/help-history/2024-12-08-limits.txt",
+   "quote": "the maximum bet is up to ~$326.20 per round.",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/limits-article-2026-10-07/page.txt",
+   "quote": "Towers has a global win limit of $200,000 per round.",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/limits-article-2026-10-07/page.txt",
+   "quote": "May 21, 2024",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/towers-live-2026-10-07/page-excerpt.txt",
+   "quote": "The game\u2019s RTP is typically around 95%",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.txt",
+   "quote": "for Dragon Tower is 2%, which means that the theoretical RTP is 98%.",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-07/page.txt",
+   "quote": "a correct prediction at the bottom of the tower will result in a payout of 3.92x your stake, and if you make it to the top, the payout will be a massive 256,901.12x.",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/redesign-tweet-2026-10-07/syndication.json",
+   "quote": "\"created_at\":\"2026-09-14T10:09:41.000Z\"",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/redesign-tweet-2026-10-07/syndication.json",
+   "quote": "TOWERS redesign is live",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/help-odds-of-towers-2026-10-28/page.txt",
+   "quote": "Towers has a fixed house edge set at 5% for all 3 difficulty modes.",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/help-odds-of-towers-2026-10-28/page.txt",
+   "quote": "The odds of Easy difficulty is 0.6666 per level.",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/help-odds-of-towers-2026-10-28/page.txt",
+   "quote": "The odds of Medium difficulty is 0.50 per level.",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/help-odds-of-towers-2026-10-28/page.txt",
+   "quote": "The odds of Hard difficulty is 0.3333 per level.",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/help-odds-of-towers-2026-10-28/page.txt",
+   "quote": "April 29, 2024",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/help-house-edge-2026-10-28/page.txt",
+   "quote": "The house edge on Towers functions similar to as of Duels' and is set at 5%.",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/help-house-edge-2026-10-28/page.txt",
+   "quote": "500 Casino takes a fixed 5% rake for every played duel.",
+   "ok": true
+  },
+  {
+   "file": "evidence/client/help-house-edge-2026-10-28/page.txt",
+   "quote": "June 6, 2026",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/shuffle-tower-chart-2026-10-28/page.txt",
+   "quote": "Please note that the multipliers have been visually truncated to 2 decimal points for readability.",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/shuffle-game-events-2026-10-28/page.txt",
+   "quote": "There are a total of 9 rows in the tower.",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/shuffle-game-events-2026-10-28/page.txt",
+   "quote": "Hard: 2 columns - 1 key and 1 poison apple per row",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/stake-game-events-2026-10-28/page.txt",
+   "quote": "A Dragon Tower game is generated with 9 separate game events",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/stake-game-events-2026-10-28/page.txt",
+   "quote": "master: { count: 1, size: 4 },",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-game-2026-10-28/page.redacted.txt",
+   "quote": "Retorno ao jogador:\u00a0\n98,00%",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-game-2026-10-28/page.redacted.txt",
+   "quote": "of 98%, meaning that the Dragon Tower \nhouse edge\n is just 2%.",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-28/page.txt",
+   "quote": "for Dragon Tower is 2%, which means that the theoretical RTP is 98%.",
+   "ok": true
+  },
+  {
+   "file": "evidence/comparators/stake-dragon-tower-blog-2026-10-28/page.txt",
+   "quote": "a correct prediction at the bottom of the tower will result in a payout of 3.92x your stake, and if you make it to the top, the payout will be a massive 256,901.12x.",
+   "ok": true
+  }
+ ],
+ "nested_manifests": [
+  {
+   "manifest": "evidence/help-history/SHA256SUMS.txt",
+   "entries": 11,
+   "entries_ok": 11,
+   "manifest_sha256": "601729ca29509445c38e98ba2e14c5996d2c837c5a9d25f4822f3f86348947b5",
+   "expected_manifest_sha256": null,
+   "manifest_hash_ok": true
+  }
+ ],
+ "sources_json": {
+  "public_files_listed": 161,
+  "mismatches": 0,
+  "evidence_and_data_files": 161,
+  "unlisted": []
+ },
+ "links": {
+  "relative_links_checked": 90,
+  "broken": 0
+ },
+ "archived_gzip_decompresses_to_js": true,
+ "js_index_lists_both_towers_files": true,
+ "failures": []
+}

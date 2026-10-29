@@ -1,0 +1,75 @@
+2026-10-09T11:47:00Z S-LOGIN balance 100.48 USD [account-username] (default Chrome, browser extension; no recorder)
+2026-10-09T12:0xZ My Bets (Towers): "There are no entries". Mines: no open game ("Start by placing a bet").
+Mines Fairness panel LOADS: game seed "your 500 ID hashed 0 times" 6a9ae61b8fb4004f64eae1e0; active server seed hash 93cfceb2b5f17ff55b527a960984d1d0e74d671b57789bc7e14d5fd28351c522; next 9eeda95c8a580536b9442c39af75872c9ec380b065afe850589c24c739da00ad; active client seed 97BCXlhqj6 (read off screenshot; misread, the verify link gives 97BCXIhqj6 with capital I, see the block at the end).
+Towers Fairness panel stays Loading (2nd try this tab). my DevTools earlier: rotateSeed?clientSeed=null&isUserSeed=true -> "Pair is locked for userId 6a9ae61b8fb4004f64eae1e0".
+2026-10-09T12:03:59Z A0 bet1 start: easy 0.10, bottom LEFT, cash out row 1. Balance 100.48
+2026-10-09T12:05:15Z A0 bet1 easy 0.10 LEFT row1 safe, cashed 0.14 (My Bets x1.42 +0.14). Balance 100.52 settled (= 100.48 - 0.10 + 0.14). Layout revealed on board after cashout.
+bet1 id 6ac8d84ee39e474a0dfaaab2, placed 09/10/2026 09:04:30 (site time), details: bet 0.10, x1.42, win 0.14, lower panel 'Multiplier 1.41x', correct rounds 1/10, Easy; 'Verify bet: Secret seed still in use'
+2026-10-09T12:06:50Z medium ladder displayed: 1.90 3.61 6.85 13.03 24.76 47.04 89.38 169.83 322.68 613.10. A0 bet2 start medium 0.10 LEFT. balance 100.52
+2026-10-09T12:07:28Z A0 bet2 medium 0.10 LEFT row1 safe, cashed 0.19; result badge shows 1.89x (ladder tile 1.90x); balance settled 100.61 (=100.52-0.10+0.19). A0 bet3 start hard 0.10 MIDDLE
+hard ladder displayed: 2.85 8.12 23.14 65.97 188.02 535.88 1527.26 4352.70 12405.19 35354.81
+2026-10-09T12:09:25Z A0 bet3 hard 0.10 MIDDLE row1 safe. Cash-out button showed 0.29; badge 2.84x; My Bets x2.84 +0.29. Balance 100.61 -> 100.79 settled (net +0.18 => credited 0.28 if display is exact cents; ladder 2.85 x 0.10 = 0.285). First cash-out click lost (extension disconnect), second click cashed. NOTE: 1 discrepancy to resolve: My Bets payout +0.29 vs balance delta implies 0.28.
+2026-10-09T12:09:25Z A0-REVEAL client seed issued: pf500radb9081b2d (openssl rand -hex 5, drawn now)
+bet3 id 6ac8d916d614d2fc51bf4dca placed 09/10/2026 09:07:49 site time; details: bet 0.10, Multiplier x2.84, Win 0.29, lower 'Multiplier 2.84x', 1/10, Hard. Hard ladder tile row1 shows 2.85x.
+bet2 id 6ac8d8de9c3c5480fc1b5271 medium x1.90 win 0.19
+2026-10-09T12:10:48Z Mines seed panel before rotate: hashed 3 times (was 0 before the 3 Towers bets); next game seed 4b6d7ecac5a2a895cca6d52df692b9cc4f3ae76d0c5f4e192476289f3afe06f3; active server hash 93cfceb2...c522 (unchanged); next server hash 9eeda95c...00ad; active client 97BCXlhqj6. Rotating with pf500radb9081b2d.
+2026-10-09T12:11:17Z ROTATED: active server hash now 9eeda95c...00ad (former next), next d41f5cf537837fa13180900acc2076e9ad2a03fcb0c6ef527901c041aa1e1661, active client pf500radb9081b2d; game seed still 'hashed 3 times' 4b6d7eca...06f3. Previous server seed (hash 93cfceb2...c522) should now be revealed.
+2026-10-09T12:12:10Z bet1 verify link: codepen.io/CSGO500/pen/OJrevKw?client_seed=97BCXIhqj6&game_seed=6a9ae61b8fb4004f64eae1e0&server_seed=c32b9c845d43157bc420cfbadb408d28802b81ca3e90dca34a3e52d87bd0770f&difficulty=easy ; sha256(server_seed)=93cfceb2...c522 MATCHES the committed active hash shown before the bets.
+A0 CHECKPOINT (offline, prereg/cleanroom_verifier.py game_layout, server c32b9c84...770f, client 97BCXIhqj6):
+- sha256(server_seed) = committed 93cfceb2...c522: MATCH
+- game seed chain: g1 = account id 6a9ae61b8fb4004f64eae1e0, g2 = sha256(g1) = 89bb2e59..., g3 = sha256(g2) = dcf57950..., sha256(g3) = 4b6d7eca... = the 'next game seed' the panel showed: MATCH x3
+- layouts vs screenshots (tile 0 = LEFT, row1 = bottom): bet1 easy rows1-5 bombs {2},{2},{0},{1},{1} = screenshot; bet2 medium rows1-3 {1},{0},{1} + top rows {0},{0},{1},{1} = screenshot; bet3 hard rows1-5 {0,2},{0,1},{0,1},{1,2},{1,2} = screenshot. Placement mapping M0 confirmed on 3 of 3.
+- payouts: bet1 easy row1 x1.42 win 0.14; bet2 medium row1 x1.90 win 0.19; bet3 hard row1 recorded x2.84 (ladder tile 2.85x) win shown 0.29, balance delta implies 0.28.
+VERDICT: GO (outcomes reproduce). Payout precision -> probes.
+2026-10-09T12:14:52Z P1 try1 easy 2.00 LEFT -> BOMB (lost 2.00). balance before 100.79
+2026-10-09T12:15:42Z P1 try2 easy 2.00 LEFT row1 SAFE, cash-out button 2.85, badge 1.42x 2.85 USD; balance 99.64 settled: 100.79 -2 -2 + X = 99.64 => X = 2.85 (3dp ladder 1.425; 2dp would give 2.84). P1 cash-outs: 1 of 3
+2026-10-09T12:16:41Z P1 try3 easy 2.00 RIGHT row1 SAFE, credited: 99.64 -2 + X = 100.49 => X = 2.85. P1 cash-outs 2 of 3. (account shows level 1 / '+0 USD Level Up Bonus' banner; nothing claimed)
+2026-10-09T12:17:34Z P1 try4 easy 2.00 LEFT row1 SAFE, 100.49 -2 + X = 101.34 => X = 2.85. P1 DONE: 3 of 3 cash-outs credited 2.85 (3dp), 4 tries (1 bomb). 2dp (2.84) ruled out. Note: cent resolution cannot separate 1.425 from the client float 1.424 (2.85 vs 2.848).
+2026-10-09T12:18:53Z P2 try1 easy 1.50 picks MIDDLE,RIGHT rows1-2 SAFE, badge 2.03x 3.05; 101.34 -1.50 + X = 102.89 => X = 3.05 (3dp 2.030x1.5=3.045; 2dp 2.02x1.5=3.03 ruled out). P2 1 of 3.
+2026-10-09T12:19:05Z P2 try2 easy 1.50 LEFT row1 -> BOMB (lost 1.50)
+2026-10-09T12:20:06Z P2 try3 easy 1.50 LEFT,RIGHT rows1-2 SAFE, badge 2.03x 3.05; 102.89 -1.50(try2) -1.50 + X = 102.93 => X = 3.04 at cent display. Two P2 cash-outs sum: 3.05+3.04 = 6.09 = 2 x 3.045 (consistent with sub-cent balance, 3dp 3.045 credited; 2dp would be 3.03 each = 6.06). P2 2 of 3.
+2026-10-09T12:21:10Z P2 try4 easy 1.50 LEFT,MIDDLE SAFE; 102.93 -1.50 + X = 104.48 => X = 3.05. P2 DONE 3 of 3 (4 tries, 1 bomb): 3.05+3.04+3.05 = 9.14 = 3 x 3.045 within sub-cent carry; 2dp (3.03 each = 9.09) ruled out.
+Block A (plan bets 4-25), easy unless noted, stakes per plan:
+ bet4 easy 0.33 R,M,L -> BOMB row3
+ bet5 easy 0.11 R -> safe, cashed row1 (first tile click did not register, clicked again)
+ bet6 easy 0.33 M,M,M -> safe, cashed row3, badge 2.89x 0.95
+ bet7 easy 0.11 L -> BOMB row1
+ bet8 hard 0.11 M -> BOMB row1 (first Place Bet click did not register)
+ bet9 medium 0.10 R -> BOMB row1
+ ~12:24Z extension tab group lost; extension reported another connected Chrome (picked it from the list). Balance last seen 104.57.
+ bet10 easy 0.10 R,L,M,M -> BOMB row4
+ bet11 medium 0.11 L,R,L -> BOMB row3 (Hard was selected by mistake first; no bet placed on it)
+ bet12 medium 0.10 L -> BOMB row1
+ bet13 hard 0.50 L -> BOMB row1
+ bet14 easy 0.11 M -> BOMB row1
+ bet15 easy 0.10 R,M -> BOMB row2
+ bet16 medium 0.11 L,L,R -> BOMB row3
+ bet17 hard 0.11 M -> BOMB row1
+ bet18 easy 0.10 M -> safe, cashed row1, badge 1.41x 0.14
+ bet19 medium 0.10 L -> BOMB row1
+ bet20 easy 0.10 M,L,R -> safe, cashed row3, badge 2.89x 0.29
+ bet21 medium 0.33 L -> BOMB row1
+ bet22 hard 0.11 M,R -> BOMB row2 (row1 safe, cash-out showed 0.31)
+ bet23 easy 0.11 M,R -> BOMB row2
+ bet24 easy 0.50 R,L -> BOMB row2
+ bet25 medium 0.11 R -> BOMB row1
+2026-10-09T13:11:29Z Block A to bet 25 done (sheet: stop before bet 26). Final rotation client seed issued: pf500r941933b51b
+2026-10-09T13:12:34Z FINAL ROTATE: before: hashed 33 times, next game seed 1005f5d5b5c4e393b4588562c8b02a0718d8ccca007b9929b20745cb4588bfa3, active server hash 9eeda95c...00ad, client pf500radb9081b2d. After: active d41f5cf5...1661, next 7454410269a118a23493bb9485e8d29107d75c5602e82afe580f2d573d0a0114, client pf500r941933b51b. Balance shown 102.23. 33 = 3 (A0) + 8 (P tries) + 22 (A bets 4-25).
+OFFLINE (analysis/check_session.py, analysis/reconcile.py):
+- sha256(server seed 1 c32b9c84...) = 93cfceb2... committed; sha256(server seed 2 a558bb39a66ab03aba9d14c7a5a02d91ea3b43e658b09b7dc53bb7aa5f28116e) = 9eeda95c... committed.
+- game seed chain sha256^n(account id): n=32 equals the verify link of the last bet; n=33 equals the panel's next game seed.
+- 33/33 games: logged pick-by-pick result reproduced from the revealed seeds (first run showed 3 mismatches = my encoding of Medium 'right' as tile 2; Medium has tiles 0-1; fixed, 33/33).
+- staked 18.09 over 33 games. End balance shown 102.23. Credit rule that fits every balance reading (display floors to the cent): payout = stake x 3-dp ladder value (1.425, 2.030, 2.893 easy; 1.9 medium; 2.85 hard), not rounded to cents: 100.48 + 19.84574 - 18.09 = 102.23574 -> 102.23. 2-dp ladder (end 102.20) and the client's float values (end 102.2293 -> floor 102.22) do not fit.
+- bet IDs captured: 6ac8d84ee39e474a0dfaaab2 (A1), 6ac8d8de9c3c5480fc1b5271 (A2), 6ac8d916d614d2fc51bf4dca (A3), 6ac8e7f2187fe1cef348549a (A25). Others not captured (My Bets shows the last 10 only).
+
+=== added 9 Oct after the session, from the session transcript (not written during play) ===
+Verify links read from 500's bet-detail panel ("Verify bet"), verbatim:
+ A1 (6ac8d84ee39e474a0dfaaab2): https://codepen.io/CSGO500/pen/OJrevKw?client_seed=97BCXIhqj6&game_seed=6a9ae61b8fb4004f64eae1e0&server_seed=c32b9c845d43157bc420cfbadb408d28802b81ca3e90dca34a3e52d87bd0770f&difficulty=easy
+ A2 (6ac8d8de9c3c5480fc1b5271): https://codepen.io/CSGO500/pen/OJrevKw?client_seed=97BCXIhqj6&game_seed=89bb2e592ed73bafcf543d02ac723e72b52004fb5d60f24fb9f5f654e009a03a&server_seed=c32b9c845d43157bc420cfbadb408d28802b81ca3e90dca34a3e52d87bd0770f&difficulty=medium
+ A3 (6ac8d916d614d2fc51bf4dca): https://codepen.io/CSGO500/pen/OJrevKw?client_seed=97BCXIhqj6&game_seed=dcf579506c2552c9db4933e90e3466f3f6e01ac92162939a3882bc5fcf11d5f5&server_seed=c32b9c845d43157bc420cfbadb408d28802b81ca3e90dca34a3e52d87bd0770f&difficulty=hard
+ A25 (6ac8e7f2187fe1cef348549a): https://codepen.io/CSGO500/pen/OJrevKw?client_seed=pf500radb9081b2d&game_seed=e9e2b67ace637ee3c297b2343531b8a8a07384d0c405a85bf91106cd0796cf03&server_seed=a558bb39a66ab03aba9d14c7a5a02d91ea3b43e658b09b7dc53bb7aa5f28116e&difficulty=medium
+Client seed of the first pair is 97BCXIhqj6 (capital I) per these links; line 3 above misread it from a screenshot.
+~11:48Z: a read-only websocket hook was tried in the page (JavaScript in the tab). The hook captured 0 frames, and an injected script for the page's own context did not run (blocked). No capture came of it.
+~12:24Z interruption: the browser tool lost its tab group; when play resumed the browser tool listed the same tab id ([REDACTED: browser tab id]) as before, logged in as the same account. Resume time not recorded.
+The "Balance last seen 104.57" reading at ~12:24Z was taken while the balance display was still animating (it animates for several seconds after each game; the other readings were taken after waits). It is not reconciled and is not used in readings.py.
+My Bets on Towers showed the last 10 games (seen at the end of the session; time not recorded).

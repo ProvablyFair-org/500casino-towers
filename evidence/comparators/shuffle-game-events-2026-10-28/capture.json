@@ -1,0 +1,18 @@
+{
+ "requested_url": "https://help.shuffle.com/en/articles/9286069-provably-fair-game-events",
+ "final_url": "https://help.shuffle.com/en/articles/9286069-provably-fair-game-events",
+ "title": "Provably Fair - Game Events | Shuffle Help Center",
+ "acquired_at_utc": "2026-10-28T12:49:07.699Z",
+ "page_language": null,
+ "logged_in": false,
+ "acquisition": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+ "locale_note": null,
+ "text_sha256": "fa2345731eb97ba7222bf5c75bd585bfd9a8bcef4cb0c902e7296d5c61ca0afb",
+ "html_sha256_withheld": "9c3a219ecb5a53cb917245d85b9dded1add5d995821a5e9c766c64bad60d6a2d",
+ "html_withheld_reason": "page HTML withheld; only its sha256 is published. It contains markup injected by an extension of the capturing browser.",
+ "screenshot_sha256": {
+  "screenshot.jpg": "7c86a670812e821e17f2bc579c335625e81557b437838b185d70dc2e4a2c5fac"
+ },
+ "original_capture_metadata_sha256": "5e9170a9594eab1bb1569a748bbcce4983b53f265c52f76213a60d98aa57962c",
+ "not_receipts": "command-line fetches of these URLs made the same day returned Cloudflare challenge pages for 500 Casino and Stake; they are not used"
+}

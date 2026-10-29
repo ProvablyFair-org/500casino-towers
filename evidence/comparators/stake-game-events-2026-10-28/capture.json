@@ -1,0 +1,18 @@
+{
+ "requested_url": "https://stake.com/provably-fair/game-events",
+ "final_url": "https://stake.com/pt/provably-fair/game-events",
+ "title": "Eventos de Jogos Comprovadamente Justos - Stake.com",
+ "acquired_at_utc": "2026-10-28T12:50:50.312Z",
+ "page_language": "pt",
+ "logged_in": false,
+ "acquisition": "logged-out browser session; rendered text and page HTML read from the loaded page at acquired_at_utc; viewport screenshot in the same session; cookie banners not accepted",
+ "locale_note": "stake.com redirected the request to its /pt/ locale (geolocated); the English article text is unchanged",
+ "text_sha256": "4dd2d8b1c7f124c30f687c8ec570757cdc5b6d00ab2630f83863482997eea87e",
+ "html_sha256_withheld": "6649537378c9db4839ee1f6860faf8517c8be712dbf6ab52968756e9721c3b90",
+ "html_withheld_reason": "page HTML withheld under the same rule as the other captures (none of the capture-side markers checked for was found in it); rendered text and screenshot are published.",
+ "screenshot_sha256": {
+  "screenshot.png": "24ec752705c5329568f445b0791d5b16885ce563e5332640ee4e8badc287e032"
+ },
+ "original_capture_metadata_sha256": "29e0c5290e20791dd2f24864a57e0e4202f0b9eba157b6c82bd3cf5bc3668986",
+ "not_receipts": "command-line fetches of these URLs made the same day returned Cloudflare challenge pages for 500 Casino and Stake; they are not used"
+}

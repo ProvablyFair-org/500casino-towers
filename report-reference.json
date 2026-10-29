@@ -1,0 +1,45 @@
+{
+ "version": "v1.0.0",
+ "report_url": "https://provablyfair.org/investigations/500casino-towers",
+ "publication_date": "2026-10-29",
+ "report_extract": null,
+ "report_extract_note": "No frozen extract is included in v1.0.0: the report page is published on the date above and an extract taken before publication would not match it. The figures the report takes from this repository are tied to generated results in claims-index.json and checked by analysis/run_all.py; hero_text_exact records the headline.",
+ "report_extract_sha256": null,
+ "hero_text_exact": "Actual: up to 40.13%.",
+ "corrections_contact": "audit@provablyfair.org",
+ "license": "MIT (code), CC BY 4.0 (data, results and text); third-party captures excluded",
+ "cite_as": "ProvablyFair.org, \"500 Casino Towers technical evidence\", version 1.0.0, October 2026.",
+ "technical_sections_supported": [
+  {
+   "claim": "C01",
+   "topic": "advertised fixed 5% and approximately 95% RTP (2023 wording, 7 Oct 2026 game page, current help pages captured 28 Oct 2026)"
+  },
+  {
+   "claim": "C02",
+   "topic": "compounded return and up to 40.13% edge, led by settlement observed in November 2024 and October 2026"
+  },
+  {
+   "claim": "C03",
+   "topic": "33-game replay and October 2026 credits; C03.F public-feed payout matching and precision"
+  },
+  {
+   "claim": "C04",
+   "topic": "historical documentation checkpoints and the raw November 2024 server records (replay, chain, payouts, units)"
+  },
+  {
+   "claim": "C05",
+   "topic": "fixed-return comparators (Stake edge, odds and endpoints retained, rows 2-8 calculated; Shuffle Hard official chart retained)"
+  },
+  {
+   "claim": "C06",
+   "topic": "per-bet winning-payout comparisons"
+  },
+  {
+   "claim": "C08",
+   "topic": "reproduction and integrity"
+  }
+ ],
+ "report_sections_not_supported_by_this_repository": [
+  "C07 aggregate financial analysis and source S13 (report only)"
+ ]
+}

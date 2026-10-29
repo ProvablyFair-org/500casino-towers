@@ -1,0 +1,46 @@
+{
+ "description": "Collection summary for the passive, logged-out public bet-feed capture of 7-9 October 2026. Figures over the whole corpus are computed from private raw files that are not distributed; they cannot be re-derived from this repository.",
+ "source_files": [
+  {
+   "file": "feed-2026-10-07.ndjson",
+   "sha256": "4520f400ea565eac96381e0581b92da9972cb3b97b346ed70a3ae15ca435dd20",
+   "lines": 58194
+  },
+  {
+   "file": "feed-2026-10-08.ndjson",
+   "sha256": "b1d6e1e4fef8d822489305b57fed16435003f109ffe62fcaec27e420bb0fe45f",
+   "lines": 113541
+  },
+  {
+   "file": "feed-2026-10-09.ndjson",
+   "sha256": "7b4e65c31d5d0598dd9d6bc4aac6c7351f062bab74dfad05ca8cb48cb319b4f4",
+   "lines": 64868
+  }
+ ],
+ "status_json_sha256": "dde31e3c4e05f935451bf2b78d37c85b968e1ef62a710ffc79933e2fd77901e8",
+ "status_json_fields_retained": {
+  "startedAt": "2026-10-08T10:17:19.977Z",
+  "updatedAt": "2026-10-09T18:34:26.104Z",
+  "url": "https://500.casino/towers",
+  "lastFrameAt": "2026-10-09T11:44:06.825Z",
+  "lastBetAt": "2026-10-09T11:44:06.395Z",
+  "counts": {
+   "written": 148942,
+   "dup": 3972,
+   "noId": 0
+  },
+  "idsKnown": 236603,
+  "openGap": {
+   "start": "2026-10-09T11:46:12.781Z",
+   "reason": "silence>120s"
+  }
+ },
+ "corpus_lines": 236603,
+ "distinct_transaction_ids_all_games": 236603,
+ "conflicting_duplicates": 0,
+ "towers_entries": 416,
+ "first_received_utc": "2026-10-07T14:02:34.984Z",
+ "last_received_utc": "2026-10-09T11:21:03.314Z",
+ "collector_note": "The collector (not distributed) opened https://500.casino/towers logged out in a browser, recorded the socket.io new_casino_bet frames the page received, and wrote each transactionId once. It placed no bets and sent no messages. Its own de-duplication counter (status.json counts.dup) is the number of repeated frames it skipped.",
+ "privacy": "Other players’ usernames, avatar URLs, account levels, roles and stable account ids are not distributed. Transaction ids are withheld because payout verification does not need them; raw_line_sha256 lets the holder of the private raw corpus prove lineage without revealing the line."
+}
